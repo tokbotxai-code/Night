@@ -100,10 +100,17 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Opis: 1 zdanie z pytaniem A/B i emoji, potem 4–6 hashtagów (`#horrortok #scarystories #creepy #horrorstory #fyp` i 1 tematyczny).
 - Po zaplanowaniu dopisz wiersz do `stories/LOG.md`: id, data i godzina publikacji, długość, link plannera.
 
-## 5. Repo
+## 5. Decyzje (ustalenie właściciela, 22.10.2026)
+
+- Rutynowe działania wykonuj **sam, bez pytania**: treść historii, sceny, poprawki, render
+  i publikację w Metricool według harmonogramu z sekcji 4. Opisz je w podsumowaniu.
+- Twarde zasady z sekcji 1 i 4 (tylko marka nightstories.tv, nigdy pepsafe.info, zero gore, oznaczenie AI) obowiązują zawsze.
+
+## 6. Repo
 
 - `tools/make_video.py`: renderer, `tools/sfx.py`: syntezator efektów.
 - `stories/<id>/story.json`: scenariusze, `stories/LOG.md`: log publikacji i bank pomysłów (nie powtarzaj motywu z ostatnich 10 filmów).
 - `published/<id>/`: wideo i okładki do publikacji (publiczny URL dla Metricool).
+- Autopilot pracuje na branchu `night-autopilot` (stan kanału: log i filmy).
 - `AUTOPILOT.md`: polecenie dla zadania cyklicznego.
 - Fonty: Anton (OFL) w `assets/fonts/`.
