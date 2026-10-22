@@ -84,7 +84,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 
 ## 4. Publikacja (Metricool)
 
-- **Tylko marka z `channel.json` → `metricool.brand_label`.** Marka `pepsafe.info` (blogId 7506075) to inny projekt: **nigdy** tam nie publikuj.
+- **Tylko marka `nightstories.tv` (blogId 7593858, TikTok @nightstories.tv, strefa marki Europe/London)**, zgodnie z `channel.json`. Marka `pepsafe.info` (blogId 7506075) to inny projekt: **nigdy** tam nie publikuj.
   Jeśli marki kanału nie ma albo nie ma podpiętego TikToka (`networksData.tiktokData`), zatrzymaj się i zgłoś to. Nie publikuj gdzie indziej.
 - Plik wideo musi mieć publiczny URL. Po commicie skopiuj `final.mp4` i `cover.jpg` do `published/<id>/` i użyj
   `https://raw.githubusercontent.com/tokbotxai-code/Night/<branch>/published/<id>/final.mp4`. Przed planowaniem sprawdź, że URL zwraca 200.
@@ -92,6 +92,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   `{"title": tiktok_title, "privacyOption": "PUBLIC_TO_EVERYONE", "isAigc": true, "autoAddMusic": false}`
   (oznaczenie AI jest obowiązkowe), `videoCoverMilliseconds` = `post.cover_ms`.
 - Godziny: wieczór we wschodnich USA, **19:00–21:30 America/New_York** (w UK to 0:00–2:30, czyli nocny scroll).
+  `publicationDate` podawaj w strefie marki (Europe/London), więc przelicz godzinę z ET (zwykle +5 h, a +4 h w tygodniach, gdy w USA i UK obowiązuje inny czas).
   Gdy konto ma już dane, użyj `getBestTimeToPostByNetwork`. Na start 1 film dziennie, nie częściej niż co 20 h.
 - Opis: 1 zdanie z pytaniem A/B i emoji, potem 4–6 hashtagów (`#horrortok #scarystories #creepy #horrorstory #fyp` i 1 tematyczny).
 - Po zaplanowaniu dopisz wiersz do `stories/LOG.md`: id, data i godzina publikacji, długość, link plannera.

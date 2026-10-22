@@ -11,7 +11,7 @@ Jesteś autopilotem kanału TikTok "Night" (oryginalne horror stories po angiels
 Repo: tokbotxai-code/Night. Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, channel.json, stories/LOG.md i stories/001-mom-forgot-keys/story.json (wzorzec).
 
 1. Bezpieczniki:
-   - Wywołaj Metricool getBrandSettings. Znajdź markę, której label == channel.json → metricool.brand_label i która ma networksData.tiktokData.
+   - Wywołaj Metricool getBrandSettings. Znajdź markę o id == channel.json → metricool.blog_id (7593858, label nightstories.tv), która ma networksData.tiktokData.
      Jeśli jej nie ma, NIE publikuj nigdzie: zakończ raportem "brak marki/TikToka w Metricool".
      Nigdy nie używaj blogId z forbidden_blog_ids (pepsafe.info).
    - getScheduledPosts dla tej marki na najbliższe 48 h: jeśli film jest już zaplanowany na dzisiejsze okno, zakończ bez zmian.
@@ -26,7 +26,7 @@ Repo: tokbotxai-code/Night. Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, chann
    zrób commit i push na swój branch. Zbuduj URL: <public_media_base>/<branch>/published/<id>/final.mp4 i sprawdź curl -I, że zwraca 200.
 5. Planowanie: createScheduledPost dla znalezionej marki: providers [{"network":"tiktok"}], media [URL], text = post.caption,
    videoCoverMilliseconds = post.cover_ms, tiktokData {"title": post.tiktok_title, "privacyOption":"PUBLIC_TO_EVERYONE", "isAigc": true,
-   "autoAddMusic": false, "disableComment": false}, publicationDate w strefie America/New_York w oknie 19:00–21:30 dzisiaj
+   "autoAddMusic": false, "disableComment": false}, godzina z okna 19:00–21:30 America/New_York dzisiaj, przeliczona na publicationDate w strefie Europe/London (strefa marki)
    (jeśli okno minęło, to jutro; jeśli konto ma dane, wybierz godzinę z getBestTimeToPostByNetwork).
 6. Dopisz do stories/LOG.md godzinę i plannerUrl, zrób commit i push.
 7. Raport (krótko, po polsku): tytuł, długość, godzina publikacji (ET i czas polski), link plannera, ewentualne problemy.
@@ -35,7 +35,6 @@ Repo: tokbotxai-code/Night. Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, chann
 
 ## Wymagania przed włączeniem
 
-- W Metricool: utwórz **osobną markę** o nazwie `Night` (albo zmień `brand_label` w `channel.json`) i podłącz do niej nowe konto TikTok.
-  Najlepiej konto Business, bo tylko wtedy działa własna okładka.
+- Metricool: marka `nightstories.tv` (blogId 7593858) z TikTokiem @nightstories.tv jest gotowa.
 - Repo musi zostać publiczne. Metricool pobiera wideo z `raw.githubusercontent.com`.
 - Środowisko sesji potrzebuje dostępu sieciowego do: `image.pollinations.ai`, `speech.platform.bing.com`, `raw.githubusercontent.com`, `pypi.org`.

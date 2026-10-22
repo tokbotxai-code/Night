@@ -2,7 +2,7 @@
 
 | # | id | motyw | długość | publikacja (ET) | status | link |
 |---|---|---|---|---|---|---|
-| 1 | 001-mom-forgot-keys | SMS od „mamy”, sobowtór na kanapie | 64,7 s | — | wyrenderowany, czeka na markę w Metricool | — |
+| 1 | 001-mom-forgot-keys | SMS od „mamy”, sobowtór na kanapie | 64,7 s | 2026-10-22 20:00 ET (23.10 01:00 UK) | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3091701359057221012) |
 
 ## Bank pomysłów (oryginalne, do rozwinięcia)
 

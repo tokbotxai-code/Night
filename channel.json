@@ -1,16 +1,30 @@
 {
   "name": "Night",
   "language": "en-US",
-  "markets": ["US", "UK"],
+  "markets": [
+    "US",
+    "UK"
+  ],
   "voice": "en-US-ChristopherNeural",
-  "duration_s": [60, 75],
+  "duration_s": [
+    60,
+    75
+  ],
   "metricool": {
-    "brand_label": "Night",
-    "forbidden_blog_ids": [7506075],
+    "brand_label": "nightstories.tv",
+    "forbidden_blog_ids": [
+      7506075
+    ],
     "network": "tiktok",
     "timezone": "America/New_York",
-    "post_window_local": ["19:00", "21:30"],
-    "max_posts_per_day": 1
+    "post_window_local": [
+      "19:00",
+      "21:30"
+    ],
+    "max_posts_per_day": 1,
+    "blog_id": 7593858,
+    "brand_timezone": "Europe/London"
   },
-  "public_media_base": "https://raw.githubusercontent.com/tokbotxai-code/Night"
+  "public_media_base": "https://raw.githubusercontent.com/tokbotxai-code/Night",
+  "tiktok_handle": "@nightstories.tv"
 }
