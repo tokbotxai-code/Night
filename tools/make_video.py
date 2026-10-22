@@ -227,7 +227,7 @@ def heart(dr, x, y, size, fill):
     dr.polygon([(x + 0.2 * r, y + 1.45 * r), (x + 3.8 * r, y + 1.45 * r), (x + 2 * r, y + 3.6 * r)], fill=fill)
 
 
-def sms_img(sender, text, tm, s):
+def sms_img(sender, text, tm, s, app="MESSAGES", heart_icon=True):
     """iOS-style lock-screen notification banner."""
     cw = int(960 * s)
     pad = int(30 * s)
@@ -243,12 +243,13 @@ def sms_img(sender, text, tm, s):
     dr.polygon([(pad + ic * .3, pad + ic * .62), (pad + ic * .25, pad + ic * .8), (pad + ic * .45, pad + ic * .68)],
                fill=(255, 255, 255))
     tx = pad + ic + int(26 * s)
-    dr.text((tx, pad - int(2 * s)), "MESSAGES", font=f_small, fill=(160, 160, 168))
+    dr.text((tx, pad - int(2 * s)), app, font=f_small, fill=(160, 160, 168))
     tw = dr.textlength(tm, font=f_small)
     dr.text((cw - pad - tw, pad - int(2 * s)), tm, font=f_small, fill=(160, 160, 168))
     dr.text((tx, pad + int(38 * s)), sender, font=f_name, fill=(255, 255, 255))
     nw = dr.textlength(sender + " ", font=f_name)
-    heart(dr, tx + nw, pad + int(50 * s), int(34 * s), (255, 59, 48))
+    if heart_icon:
+        heart(dr, tx + nw, pad + int(50 * s), int(34 * s), (255, 59, 48))
     img.alpha_composite(body, (tx, pad + int(96 * s)))
     return img
 
@@ -403,7 +404,8 @@ def build(story_path, out_root, preview, offline, allow_any_length):
             if ov["kind"] == "sms":
                 slot = ov.get("slot")
                 y = int((330 + 235 * slot) * s) if slot is not None else int(470 * s)
-                add(sms_img(ov.get("sender", "Mom"), ov["text"], ov.get("time", "3:12 AM"), s), a, b, y=y)
+                add(sms_img(ov.get("sender", "Mom"), ov["text"], ov.get("time", "3:12 AM"), s,
+                            ov.get("app", "MESSAGES"), ov.get("heart", True)), a, b, y=y)
             elif ov["kind"] == "title":
                 im = title_img(ov["text"], s)
                 black = scn["cfg"]["shots"][0].get("black")

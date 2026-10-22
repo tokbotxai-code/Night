@@ -1,0 +1,245 @@
+{
+  "id": "003-baby-monitor",
+  "title": "The baby monitor started singing at 3 a.m.",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+4%",
+  "pitch": "-4Hz",
+  "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+  "hook_text": "The baby monitor started singing at 3 a.m.",
+  "hook_scenes": 2,
+  "scenes": [
+    {
+      "narration": "At 3:07 a.m., the baby monitor on my nightstand started humming a lullaby.",
+      "shots": [
+        {
+          "prompt": "baby monitor receiver glowing green on a nightstand in a pitch black bedroom, sound level lights lit, close up",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.3,
+      "post": 0.2,
+      "sfx": [
+        {
+          "type": "drone",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "NURSERY CAM",
+          "sender": "Sound detected",
+          "heart": false,
+          "text": "Nursery: someone is singing",
+          "time": "3:07 AM",
+          "at_word": "humming",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Problem is, my daughter was asleep in our bed. Right between us.",
+      "shots": [
+        {
+          "prompt": "dark bedroom seen from the foot of the bed, two adult shapes under a duvet with a small child-sized lump between them, moonlight through blinds, no faces visible",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.05,
+      "post": 0.8,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "between"
+        }
+      ]
+    },
+    {
+      "narration": "I turned the volume up. A woman's voice. Soft. Slow. The same lullaby my mother used to sing to me. Word for word.",
+      "shots": [
+        {
+          "prompt": "close up of an adult hand holding a white baby monitor receiver with a volume dial, green glowing sound lights, dark bedroom, no face",
+          "motion": "zoom_in"
+        },
+        {
+          "prompt": "empty dark nursery at night, wooden crib, mobile hanging still, faint window light",
+          "motion": "pan_right"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.3,
+      "sfx": [
+        {
+          "type": "tv",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.4
+        }
+      ]
+    },
+    {
+      "narration": "My mother died eight years ago.",
+      "shots": [
+        {
+          "prompt": "empty wooden rocking chair in a dark corner of an old bedroom, knitted shawl draped over it, single candle, dust in the air, no people",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 1.0,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "died",
+          "gain": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "She died eight years ago.",
+          "at_word": "died",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "I opened the camera app. The nursery was dark. The crib was empty. But the blanket inside was moving. Like someone was tucking it in.",
+      "shots": [
+        {
+          "prompt": "grainy black and white night vision security camera view of an empty crib in a nursery, top down angle",
+          "motion": "zoom_in"
+        },
+        {
+          "prompt": "night vision camera view of a baby blanket in a crib folding by itself, eerie, grainy black and white",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.4,
+      "sfx": [
+        {
+          "type": "heartbeat",
+          "at_word": "blanket",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Then the singing stopped. And a voice whispered, right into the monitor: I know she's not in here. Where did you put her?",
+      "shots": [
+        {
+          "prompt": "extreme close up of a baby monitor speaker grille glowing in darkness, cold light, horror",
+          "motion": "shake"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.6,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "know",
+          "gain": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "\"I know she's not in here.\"",
+          "at_word": "know",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Next to me, my daughter opened her eyes. She wasn't scared. She smiled, and said: Grandma wants me back in my room. She says you promised.",
+      "shots": [
+        {
+          "prompt": "extreme close up of a rumpled white blanket on a bed in a dark room, tiny fingers curled over its edge, cold moonlight, no person visible",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.6,
+      "sfx": [
+        {
+          "type": "riser",
+          "at_word": "smiled",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "And the bedroom door started to open.",
+      "shots": [
+        {
+          "prompt": "bedroom door slowly opening into a pitch black hallway, thin gap, darkness behind, horror film still",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.0,
+      "post": 0.9,
+      "sfx": [
+        {
+          "type": "creak",
+          "at_word": "open"
+        }
+      ]
+    },
+    {
+      "narration": "So tell me. Do you check the nursery, or lock the door?",
+      "shots": [
+        {
+          "black": true
+        }
+      ],
+      "pre": 0.4,
+      "post": 1.4,
+      "captions": false,
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "Check the nursery or lock the door?",
+          "at": 0.0,
+          "until": "end"
+        },
+        {
+          "kind": "choice",
+          "text": "CHECK  or  LOCK",
+          "at_word": "lock",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "",
+      "shots": [
+        {
+          "prompt": "baby monitor receiver glowing green on a nightstand in a pitch black bedroom, sound level lights lit, close up",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.0,
+      "post": 1.2,
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "NURSERY CAM",
+          "sender": "Sound detected",
+          "heart": false,
+          "text": "Nursery: someone is singing",
+          "time": "3:07 AM",
+          "at": 0.1,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "post": {
+    "caption": "Check the nursery or lock the door? 🍼 or 🔒 #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+    "tiktok_title": "The baby monitor started singing at 3 a.m.",
+    "cover_ms": 1500
+  }
+}
