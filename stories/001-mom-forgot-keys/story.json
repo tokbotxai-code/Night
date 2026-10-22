@@ -1,0 +1,375 @@
+{
+  "id": "001-mom-forgot-keys",
+  "title": "Mom texted: open up, I forgot my keys",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+4%",
+  "pitch": "-4Hz",
+  "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+  "hook_text": "Mom texted: \"Open up, I forgot my keys\"",
+  "scenes": [
+    {
+      "narration": "At 3:12 a.m., my mom texted me: open the door, I forgot my keys.",
+      "shots": [
+        {
+          "prompt": "close up of a smartphone glowing in complete darkness on a couch cushion, lock screen notification light, 3am",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.3,
+      "post": 0.15,
+      "sfx": [
+        {
+          "type": "vibrate",
+          "at": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "sender": "Mom",
+          "text": "Open the door, I forgot my keys",
+          "time": "3:12 AM",
+          "at_word": "Open",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Problem is, my mom was sitting right next to me.",
+      "shots": [
+        {
+          "prompt": "dark living room lit only by the blue glow of a television, silhouette of a middle aged woman seen from behind sitting on a couch",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.05,
+      "post": 0.7,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "next"
+        },
+        {
+          "type": "tv",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.5
+        }
+      ]
+    },
+    {
+      "narration": "She was staring at the TV. The channel had gone dead an hour ago. Just static.",
+      "shots": [
+        {
+          "prompt": "old television showing grey static noise in a pitch black living room, eerie blue light",
+          "motion": "pan_right"
+        },
+        {
+          "prompt": "back of a woman's head with dark hair, sitting perfectly still on a couch facing a glowing static television, dark room",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.3,
+      "flicker": true,
+      "sfx": [
+        {
+          "type": "tv",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.9
+        }
+      ]
+    },
+    {
+      "narration": "I showed her my phone. She didn't turn her head.",
+      "shots": [
+        {
+          "prompt": "trembling hand holding up a glowing smartphone toward a woman sitting in a dark living room, over the shoulder shot",
+          "motion": "zoom_out"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.5,
+      "flicker": true,
+      "sfx": [
+        {
+          "type": "tv",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "She didn't turn her head.",
+          "at_word": "didn't",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Then someone knocked. Three times. Slowly.",
+      "shots": [
+        {
+          "prompt": "front door of an American house seen from a dark hallway at night, thin strip of light under the door",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.15,
+      "post": 2.8,
+      "sfx": [
+        {
+          "type": "knock3",
+          "at": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "knock. knock. knock.",
+          "at": "end",
+          "until": 3.0
+        }
+      ]
+    },
+    {
+      "narration": "And Mom whispered: don't open it. That's not me.",
+      "shots": [
+        {
+          "prompt": "extreme close up of a pale woman's lips whispering in darkness, side profile, lit by cold blue television light, face mostly in shadow",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.05,
+      "post": 0.5,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "That's",
+          "gain": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "DON'T OPEN IT.",
+          "at_word": "don't",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Under the front door, I could see the shadows of two feet. Just waiting.",
+      "shots": [
+        {
+          "prompt": "dark hallway at night, view toward the front door, light under the door with the shadow of two feet standing outside",
+          "motion": "zoom_in"
+        },
+        {
+          "prompt": "close up of the gap under a front door at night, two dark shadows of feet blocking the porch light",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.3,
+      "sfx": [
+        {
+          "type": "creak",
+          "at": 0.2,
+          "gain": 0.6
+        },
+        {
+          "type": "heartbeat",
+          "at_word": "shadows",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "My phone buzzed. Honey, it's freezing out here. Please.",
+      "shots": [
+        {
+          "prompt": "close up of a smartphone screen glowing in a shaking hand in a dark hallway, text messages, cinematic",
+          "motion": "shake"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.4,
+      "sfx": [
+        {
+          "type": "vibrate",
+          "at": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "sender": "Mom",
+          "text": "Honey it's freezing out here. Please",
+          "time": "3:14 AM",
+          "at_word": "Honey",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Then: don't listen to her. The one on the couch isn't me. She's been sitting there for two days.",
+      "shots": [
+        {
+          "prompt": "extreme close up of a smartphone screen in a trembling hand in the dark, cold light on fingers, horror",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.3,
+      "sfx": [
+        {
+          "type": "vibrate",
+          "at": 0.0
+        },
+        {
+          "type": "drone",
+          "at": 0.0,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "sender": "Mom",
+          "text": "Don't listen to her",
+          "time": "3:15 AM",
+          "at_word": "don't",
+          "until": "end",
+          "slot": 0
+        },
+        {
+          "kind": "sms",
+          "sender": "Mom",
+          "text": "The one on the couch isn't me",
+          "time": "3:15 AM",
+          "at_word": "one",
+          "until": "end",
+          "slot": 1
+        },
+        {
+          "kind": "sms",
+          "sender": "Mom",
+          "text": "She's been sitting there for two days",
+          "time": "3:15 AM",
+          "at_word": "sitting",
+          "until": "end",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "narration": "Two days. I never saw her eat. Or blink.",
+      "shots": [
+        {
+          "prompt": "dark living room, woman silhouette sitting perfectly still on a couch in front of a static television, seen from the hallway doorway, ominous",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.0,
+      "post": 0.3,
+      "flicker": true,
+      "sfx": [
+        {
+          "type": "hit",
+          "at": 0.0,
+          "gain": 0.8
+        },
+        {
+          "type": "tv",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.4
+        }
+      ]
+    },
+    {
+      "narration": "Behind me, the couch creaked. And slowly, she started to turn her head.",
+      "shots": [
+        {
+          "prompt": "woman on a couch in a dark room slowly turning her head toward the camera, face hidden in deep shadow and motion blur, horror film still",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.7,
+      "flicker": true,
+      "sfx": [
+        {
+          "type": "creak",
+          "at_word": "creaked"
+        },
+        {
+          "type": "riser",
+          "at_word": "slowly",
+          "until": "end"
+        }
+      ],
+      "cut_to_black_at_end": true
+    },
+    {
+      "narration": "So tell me. Who do you open the door for?",
+      "shots": [
+        {
+          "black": true
+        }
+      ],
+      "pre": 0.3,
+      "post": 1.4,
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "Who do you open the door for?",
+          "at": 0.0,
+          "until": "end"
+        },
+        {
+          "kind": "choice",
+          "text": "DOOR  or  COUCH",
+          "at_word": "door",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "",
+      "shots": [
+        {
+          "prompt": "close up of a smartphone glowing in complete darkness on a couch cushion, lock screen notification light, 3am",
+          "motion": "zoom_in",
+          "reuse_shot": "0.0"
+        }
+      ],
+      "pre": 0.0,
+      "post": 1.2,
+      "sfx": [
+        {
+          "type": "vibrate",
+          "at": 0.05
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "sender": "Mom",
+          "text": "Open the door, I forgot my keys",
+          "time": "3:12 AM",
+          "at": 0.1,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "post": {
+    "caption": "Who would you open the door for? 🚪 or 🛋️ #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+    "tiktok_title": "Mom texted: open up, I forgot my keys",
+    "cover_ms": 1500
+  }
+}
