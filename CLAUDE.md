@@ -90,10 +90,11 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   `https://raw.githubusercontent.com/tokbotxai-code/Night/<branch>/published/<id>/final.mp4`. Przed planowaniem sprawdź, że URL zwraca 200.
 - `createScheduledPost`: `providers: [{"network":"tiktok"}]`, `text` = `post.caption`, `tiktokData`:
   `{"title": tiktok_title, "privacyOption": "PUBLIC_TO_EVERYONE", "isAigc": true, "autoAddMusic": false}`
-  (oznaczenie AI jest obowiązkowe), `videoCoverMilliseconds` = `post.cover_ms`.
-- Godziny: wieczór we wschodnich USA, **19:00–21:30 America/New_York** (w UK to 0:00–2:30, czyli nocny scroll).
-  `publicationDate` podawaj w strefie marki (Europe/London), więc przelicz godzinę z ET (zwykle +5 h, a +4 h w tygodniach, gdy w USA i UK obowiązuje inny czas).
-  Gdy konto ma już dane, użyj `getBestTimeToPostByNetwork`. Na start 1 film dziennie, nie częściej niż co 20 h.
+  (oznaczenie AI jest obowiązkowe).
+- **Czas planujemy wg USA (America/New_York)**: działamy na rynek USA. Sloty: **18:00 ET** i **21:00 ET** (max 2 filmy dziennie, min. 3 h odstępu). Gdy konto ma już dane, sloty koryguj wg `getBestTimeToPostByNetwork`.
+  `publicationDate` podawaj w strefie marki (Europe/London), więc przelicz godzinę z ET (zwykle +5 h; +4 h w tygodniach,
+  gdy USA i UK mają inną zmianę czasu, np. koniec października).
+- Konto TikTok jest **osobiste** (Creator Rewards), więc własna okładka nie działa: nie wysyłaj `videoThumbnailUrl`/`videoCoverMilliseconds`.
 - Opis: 1 zdanie z pytaniem A/B i emoji, potem 4–6 hashtagów (`#horrortok #scarystories #creepy #horrorstory #fyp` i 1 tematyczny).
 - Po zaplanowaniu dopisz wiersz do `stories/LOG.md`: id, data i godzina publikacji, długość, link plannera.
 

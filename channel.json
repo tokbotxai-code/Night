@@ -17,14 +17,15 @@
     ],
     "network": "tiktok",
     "timezone": "America/New_York",
-    "post_window_local": [
-      "19:00",
-      "21:30"
-    ],
-    "max_posts_per_day": 1,
+    "max_posts_per_day": 2,
     "blog_id": 7593858,
-    "brand_timezone": "Europe/London"
+    "brand_timezone": "Europe/London",
+    "post_slots_et": [
+      "18:00",
+      "21:00"
+    ]
   },
   "public_media_base": "https://raw.githubusercontent.com/tokbotxai-code/Night",
-  "tiktok_handle": "@nightstories.tv"
+  "tiktok_handle": "@nightstories.tv",
+  "tiktok_account_type": "personal"
 }
