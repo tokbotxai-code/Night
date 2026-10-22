@@ -1,8 +1,8 @@
 # Autopilot: polecenie dla zadania cyklicznego
 
 Zadanie cykliczne w Claude Code (nowa sesja przy każdym uruchomieniu, repo `tokbotxai-code/Night`).
-Proponowany harmonogram: codziennie o 10:47 czasu Europe/Warsaw (`CRON_TZ=Europe/Warsaw 47 10 * * *`).
-Film powstaje rano, a publikacja jest zaplanowana na wieczór w USA.
+Proponowany harmonogram: codziennie o 10:47 czasu Europe/Warsaw (`CRON_TZ=Europe/Warsaw 47 10 * * *`), a od 29.10 dwa razy dziennie (10:47 i 15:47).
+Każde uruchomienie robi jeden film i planuje go na pierwszy wolny slot (21:00 UK, a od 29.10 też 02:00 UK).
 
 ## Polecenie (wklej jako prompt zadania)
 
@@ -14,7 +14,7 @@ Repo: tokbotxai-code/Night. Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, chann
    - Wywołaj Metricool getBrandSettings. Znajdź markę o id == channel.json → metricool.blog_id (7593858, label nightstories.tv), która ma networksData.tiktokData.
      Jeśli jej nie ma, NIE publikuj nigdzie: zakończ raportem "brak marki/TikToka w Metricool".
      Nigdy nie używaj blogId z forbidden_blog_ids (pepsafe.info).
-   - getScheduledPosts dla tej marki na najbliższe 48 h: jeśli wszystkie dzisiejsze sloty (post_slots_et) są zajęte, zaplanuj na pierwszy wolny slot kolejnego dnia.
+   - getScheduledPosts dla tej marki na najbliższe 48 h: ustal sloty z channel.json → metricool.schedule (tydzień 1: 21:00 UK; od 29.10: 21:00 i 02:00 UK) i wybierz pierwszy wolny, przyszły slot. Jeśli w ciągu 48 h nie ma wolnego, zakończ bez zmian.
 2. Scenariusz: weź pierwszy pomysł z "Bank pomysłów" w stories/LOG.md (albo wymyśl nowy, oryginalny, niepowtarzający motywu z ostatnich 10 filmów).
    Napisz stories/<NNN>-<slug>/story.json według CLAUDE.md: hook w 1. zdaniu, twist w 35–55 s, pytanie A/B na końcu, ostatni kadr = pierwszy kadr,
    120–140 słów, US English, zero gore, żadnego "true story". Głos, rate, pitch i style_prompt skopiuj z 001.
@@ -26,8 +26,7 @@ Repo: tokbotxai-code/Night. Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, chann
    zrób commit i push na swój branch. Zbuduj URL: <public_media_base>/<branch>/published/<id>/final.mp4 i sprawdź curl -I, że zwraca 200.
 5. Planowanie: createScheduledPost dla znalezionej marki: providers [{"network":"tiktok"}], media [URL], text = post.caption,
    tiktokData {"title": post.tiktok_title, "privacyOption":"PUBLIC_TO_EVERYONE", "isAigc": true,
-   "autoAddMusic": false, "disableComment": false}, pierwszy wolny slot z channel.json → post_slots_et (18:00 / 21:00 America/New_York), przeliczony na publicationDate w strefie Europe/London (strefa marki)
-   (jeśli oba sloty dziś są zajęte lub minęły, to jutro; jeśli konto ma dane, wybierz godzinę z getBestTimeToPostByNetwork).
+   "autoAddMusic": false, "disableComment": false}, publicationDate = wybrany slot w strefie Europe/London (podany wprost, bez przeliczania). Godzin nie zmieniaj na podstawie getBestTimeToPostByNetwork, tylko je raportuj.
 6. Dopisz do stories/LOG.md godzinę i plannerUrl, zrób commit i push.
 7. Raport (krótko, po polsku): tytuł, długość, godzina publikacji (ET i czas polski), link plannera, ewentualne problemy.
    Jeśli którykolwiek krok się nie udał, nie planuj posta. Opisz, co blokuje.

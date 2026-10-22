@@ -91,9 +91,11 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - `createScheduledPost`: `providers: [{"network":"tiktok"}]`, `text` = `post.caption`, `tiktokData`:
   `{"title": tiktok_title, "privacyOption": "PUBLIC_TO_EVERYONE", "isAigc": true, "autoAddMusic": false}`
   (oznaczenie AI jest obowiązkowe).
-- **Czas planujemy wg USA (America/New_York)**: działamy na rynek USA. Sloty: **18:00 ET** i **21:00 ET** (max 2 filmy dziennie, min. 3 h odstępu). Gdy konto ma już dane, sloty koryguj wg `getBestTimeToPostByNetwork`.
-  `publicationDate` podawaj w strefie marki (Europe/London), więc przelicz godzinę z ET (zwykle +5 h; +4 h w tygodniach,
-  gdy USA i UK mają inną zmianę czasu, np. koniec października).
+- **Harmonogram (czas UK, Europe/London, czyli strefa marki, więc `publicationDate` podajesz wprost):**
+  - pierwszy tydzień (23–28.10.2026): **1 film dziennie o 21:00 UK**,
+  - od 29.10.2026: **2 filmy dziennie: 21:00 UK i 02:00 UK** (02:00 to wieczór w USA; slot 02:00 należy do nocy po danym dniu).
+  - Wyjątek: 22.10.2026 poszły 2 filmy w czasie USA (18:00 i 21:00 ET). Nie traktuj go jako wzoru.
+  - Godzin nie zmieniaj na własną rękę. Zmiany wprowadza tylko właściciel.
 - Konto TikTok jest **osobiste** (Creator Rewards), więc własna okładka nie działa: nie wysyłaj `videoThumbnailUrl`/`videoCoverMilliseconds`.
 - Opis: 1 zdanie z pytaniem A/B i emoji, potem 4–6 hashtagów (`#horrortok #scarystories #creepy #horrorstory #fyp` i 1 tematyczny).
 - Po zaplanowaniu dopisz wiersz do `stories/LOG.md`: id, data i godzina publikacji, długość, link plannera.

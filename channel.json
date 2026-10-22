@@ -16,14 +16,27 @@
       7506075
     ],
     "network": "tiktok",
-    "timezone": "America/New_York",
     "max_posts_per_day": 2,
     "blog_id": 7593858,
     "brand_timezone": "Europe/London",
-    "post_slots_et": [
-      "18:00",
-      "21:00"
-    ]
+    "schedule": {
+      "timezone": "Europe/London",
+      "week1": {
+        "from": "2026-10-23",
+        "to": "2026-10-28",
+        "slots": [
+          "21:00"
+        ]
+      },
+      "from_week2": {
+        "from": "2026-10-29",
+        "slots": [
+          "21:00",
+          "02:00"
+        ]
+      },
+      "exception": "2026-10-22: dwa posty w czasie USA (18:00 i 21:00 ET), jednorazowo"
+    }
   },
   "public_media_base": "https://raw.githubusercontent.com/tokbotxai-code/Night",
   "tiktok_handle": "@nightstories.tv",
