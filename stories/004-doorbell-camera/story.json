@@ -1,0 +1,275 @@
+{
+  "id": "004-doorbell-camera",
+  "title": "My doorbell cam showed a man outside for 6 hours",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+4%",
+  "pitch": "-4Hz",
+  "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+  "hook_text": "My doorbell app said someone had been on my porch for six hours",
+  "hook_scenes": 2,
+  "scenes": [
+    {
+      "narration": "My doorbell app said someone had been standing on my porch for six hours.",
+      "shots": [
+        {
+          "prompt": "smart doorbell app notification glowing on a phone screen held in a dark bedroom, close up, no faces",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.3,
+      "post": 0.2,
+      "sfx": [
+        {
+          "type": "vibrate",
+          "at": 0.0
+        },
+        {
+          "type": "drone",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "DOORBELL",
+          "sender": "Motion detected",
+          "heart": false,
+          "text": "Person at Front Door: 6 hrs",
+          "time": "3:07 AM",
+          "at_word": "six",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Problem is, I'd been home all day. Nobody rang.",
+      "shots": [
+        {
+          "prompt": "quiet suburban living room in the evening, closed front door at the end of a hallway, lamp glow, nobody visible",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.05,
+      "post": 0.8,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "home"
+        }
+      ]
+    },
+    {
+      "narration": "I opened the live feed. Snow everywhere. A man stood facing my door. His breath didn't fog in the freezing air.",
+      "shots": [
+        {
+          "prompt": "grainy night vision doorbell camera view of a snowy front porch, fisheye lens, empty steps",
+          "motion": "pan_right"
+        },
+        {
+          "prompt": "grainy doorbell camera fisheye view of a tall man standing on a snowy porch seen from behind, facing the door, dark silhouette, no face",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.3,
+      "sfx": [
+        {
+          "type": "tv",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.4
+        }
+      ]
+    },
+    {
+      "narration": "He wasn't wearing a coat. Or shoes. He hadn't moved since noon. I pressed the talk button. Hello? Can I help you?",
+      "shots": [
+        {
+          "prompt": "close up of a thumb pressing a glowing microphone button on a smartphone screen in a dark room, no face",
+          "motion": "zoom_in"
+        },
+        {
+          "prompt": "grainy doorbell camera view of a barefoot man in thin clothes standing motionless in snow on a porch, seen from behind",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.5,
+      "sfx": [
+        {
+          "type": "heartbeat",
+          "at_word": "talk",
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "No coat. No shoes.",
+          "at_word": "coat",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Slowly, he lifted his head to the camera. And whispered through the speaker: don't look behind you. I've been trying to warn you since noon.",
+      "shots": [
+        {
+          "prompt": "extreme close up of a doorbell camera lens glowing blue in the dark, snow falling, reflections",
+          "motion": "zoom_in"
+        },
+        {
+          "prompt": "smartphone speaker waveform glowing in a dark hand, cold light, no face",
+          "motion": "shake"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.6,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "don't",
+          "gain": 0.8
+        },
+        {
+          "type": "riser",
+          "at_word": "warn",
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "\"Don't look behind you.\"",
+          "at_word": "don't",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Then my phone buzzed. Person detected. Living room.",
+      "shots": [
+        {
+          "prompt": "smartphone lit with an alert in a trembling hand in a pitch black bedroom, no face",
+          "motion": "shake"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.7,
+      "sfx": [
+        {
+          "type": "vibrate",
+          "at_word": "buzzed"
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "DOORBELL",
+          "sender": "Motion detected",
+          "heart": false,
+          "text": "Person detected: Living room",
+          "time": "3:09 AM",
+          "at_word": "detected",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "On the feed, the man pressed his palms against my door. Please. Open up. It's already in here with you.",
+      "shots": [
+        {
+          "prompt": "grainy doorbell camera view, close up of two pale bare hands pressed flat against a wooden front door, dark sleeves, falling snow, frame cut off above the shoulders, no face",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.5,
+      "sfx": [
+        {
+          "type": "knock3",
+          "at": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Behind me, the floorboards creaked. And something exhaled, right against my neck.",
+      "shots": [
+        {
+          "prompt": "dark hallway seen from inside a bedroom doorway, long shadow stretching across wooden floor, horror film still",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.8,
+      "flicker": true,
+      "sfx": [
+        {
+          "type": "creak",
+          "at_word": "creaked"
+        },
+        {
+          "type": "riser",
+          "at_word": "exhaled",
+          "until": "end"
+        }
+      ],
+      "cut_to_black_at_end": true
+    },
+    {
+      "narration": "So tell me. Do you open the door, or hide?",
+      "shots": [
+        {
+          "black": true
+        }
+      ],
+      "pre": 0.4,
+      "post": 1.4,
+      "captions": false,
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "Open the door or hide?",
+          "at": 0.0,
+          "until": "end"
+        },
+        {
+          "kind": "choice",
+          "text": "OPEN  or  HIDE",
+          "at_word": "hide",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "",
+      "shots": [
+        {
+          "prompt": "smart doorbell app notification glowing on a phone screen held in a dark bedroom, close up, no faces",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.0,
+      "post": 1.2,
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "DOORBELL",
+          "sender": "Motion detected",
+          "heart": false,
+          "text": "Person at Front Door: 6 hrs",
+          "time": "3:07 AM",
+          "at": 0.1,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "post": {
+    "caption": "Open the door or hide? \ud83d\udeaa or \ud83e\udee3 #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+    "tiktok_title": "My doorbell cam showed a man outside for 6 hours",
+    "cover_ms": 1500
+  }
+}
