@@ -3,6 +3,7 @@
 | # | id | motyw | długość | publikacja (ET) | status | link |
 |---|---|---|---|---|---|---|
 | 1 | 001-mom-forgot-keys | SMS od „mamy”, sobowtór na kanapie | 64,7 s | 2026-10-22 20:00 ET (23.10 01:00 UK) | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3091701359057221012) |
+| 2 | 002-3am-kitchen-light | zasada babci: światło w kuchni o 3:00, lodówka | 64,3 s | 2026-10-23 20:00 ET (24.10 01:00 UK) | zaplanowany (film dostarczony gotowy) | PLANNER |
 
 ## Bank pomysłów (oryginalne, do rozwinięcia)
 
