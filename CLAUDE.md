@@ -111,16 +111,32 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Gotowe pliki eksportuj do MP4/JPG, zapisuj w repo (`published/<id>/`) i planuj w Metricool (marka nightstories.tv, id 7593858, TikTok).
 - Obrazy lub wideo z AI → `tiktokData.isAigc: true`.
 - Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 1–3 min.
+- Praktyka (test 23.10): `generate-image` zwraca tylko miniaturę, a pełna rozdzielczość wymaga projektu i eksportu.
+  Dlatego Canvy używaj do 1–2 kluczowych kadrów na film (hook, twist) i do okładek serii. Eksport zapisz w `stories/<id>/`
+  i podaj w ujęciu jako `{"image_file": "hook.png", "motion": "zoom_in"}`. Pozostałe tła generuje Pollinations.
 - Planu konta Canva i liczby kredytów nie da się sprawdzić przez narzędzia. Gdy funkcja premium odmówi,
   napisz to w podsumowaniu i dokończ film zwykłym rendererem (`tools/make_video.py`).
 
-## 6. Decyzje (ustalenie właściciela, 22.10.2026)
+## 6. Rozwój kanału (rutyna autopilota)
+
+- **Przed pisaniem scenariusza** pobierz z Metricool statystyki TikToka z ostatnich 14 dni (views, likes, comments, shares,
+  średni czas oglądania, % obejrzeń do końca). Krótko porównaj filmy w raporcie.
+- **Co działa, rób więcej:** motyw lub format filmu, który ma najwięcej wyświetleń i najdłuższy czas oglądania, powtarzaj
+  (ten sam typ hooka i grozy), ale nigdy tej samej historii. Słabe motywy przesuń na koniec banku pomysłów.
+- **Serie:** gdy film ma co najmniej 2 razy więcej wyświetleń niż średnia kanału, zrób jego kontynuację „Part 2” jako następny film
+  (hook: „Part 2: …”, okładka z „PART 2”). Maksymalnie 3 części.
+- **Hook testy:** naprzemiennie hook-pytanie i hook-zdarzenie. W LOG.md zapisuj typ hooka, żeby dało się porównać.
+- **Komentarze:** pytanie A/B na końcu filmu i w opisie, plus `firstCommentText` z pytaniem rozszerzającym (np. „What would you text back? 👇”).
+- **Bank pomysłów:** gdy zostanie mniej niż 5 pomysłów, dopisz 10 nowych, oryginalnych.
+- W raporcie dodaj 1 zdanie: czego się nauczyliśmy i co zmieniasz w najbliższym filmie.
+
+## 7. Decyzje (ustalenie właściciela, 22.10.2026)
 
 - Rutynowe działania wykonuj **sam, bez pytania**: treść historii, sceny, poprawki, render
   i publikację w Metricool według harmonogramu z sekcji 4. Opisz je w podsumowaniu.
 - Twarde zasady z sekcji 1 i 4 (tylko marka nightstories.tv, nigdy pepsafe.info, zero gore, oznaczenie AI) obowiązują zawsze.
 
-## 7. Repo
+## 8. Repo
 
 - `tools/make_video.py`: renderer, `tools/sfx.py`: syntezator efektów.
 - `stories/<id>/story.json`: scenariusze, `stories/LOG.md`: log publikacji i bank pomysłów (nie powtarzaj motywu z ostatnich 10 filmów).

@@ -381,7 +381,10 @@ def build(story_path, out_root, preview, offline, allow_any_length):
         for k, sh in enumerate(cfg_shots):
             a = scn["start"] + k * span
             img = None
-            if not sh.get("black"):
+            if sh.get("image_file"):  # e.g. a Canva export saved in the story folder
+                src = Image.open(Path(story_path).parent / sh["image_file"]).convert("RGB")
+                img = np.asarray(grade(src, (int(fw * margin), int(fh * margin))))
+            elif not sh.get("black"):
                 src = fetch_image(sh["prompt"] + ", " + story.get("style_prompt", ""), cache, offline)
                 img = np.asarray(grade(src, (int(fw * margin), int(fh * margin))))
             shots.append(dict(a=a, b=a + span, img=img, motion=sh.get("motion", "zoom_in"),
