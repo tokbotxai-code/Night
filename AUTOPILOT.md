@@ -52,6 +52,7 @@ night-autopilot ≠ main, wpisy w LOG.md bez statusu. Napraw, co się da.
 puste foldery i duplikaty. Obrazy w stories/<id>/ kasuj tylko wtedy, gdy story.json się do nich nie odwołuje.
 Nigdy nie kasuj: stories/<id>/story.json, published/<id>/, tools/, assets/, CLAUDE.md, AUTOPILOT.md, channel.json, README.md, requirements.txt, stories/LOG.md.
 Bez usuwania branchy, bez przepisywania historii i force-push. Na branchu media kasuj tylko pliki testowe (zz-test*). Brak pewności → zostaw i wypisz.
+Stare gałęzie (media-test, claude/*): ignoruj, nie zgłaszaj w raporcie.
 
 KROK 5 – RAPORT
 Sekcja „Kontrola i porządki”: każdy błąd (co, gdzie, dlaczego, co zrobiono) i każdy usunięty plik (ścieżka, rozmiar, powód); gdy nic: „bez błędów, nic do usunięcia”.
