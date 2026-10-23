@@ -142,5 +142,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - `stories/<id>/story.json`: scenariusze, `stories/LOG.md`: log publikacji i bank pomysłów (nie powtarzaj motywu z ostatnich 10 filmów).
 - `published/<id>/`: wideo i okładki do publikacji (publiczny URL dla Metricool).
 - Autopilot pracuje na branchu `night-autopilot` (stan kanału: log i filmy).
+- Po każdym pushu na `night-autopilot` wypchnij ten sam commit na `main` (`git push origin HEAD:main`), żeby `main` był zawsze aktualny.
+  Gdy push zostanie odrzucony, bo inna sesja coś dopisała: `git fetch` + `git merge --no-edit origin/night-autopilot`, potem push. Nigdy force-push.
 - `AUTOPILOT.md`: polecenie dla zadania cyklicznego.
 - Fonty: Anton (OFL) w `assets/fonts/`.
