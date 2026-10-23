@@ -45,6 +45,15 @@ Film się nie udał → nie planuj go, spróbuj następny. Bank pomysłów < 5 �
 KROK 3 – KONTROLA KOŃCOWA
 getScheduledPosts na 48 h: każdy slot ma dokładnie 1 film, nic na blogId 7506075, brak ERROR. git status czysty, night-autopilot i main = ten sam commit.
 
-KROK 4 – RAPORT
+KROK 4 – KONTROLA I PORZĄDKI (codziennie, przed raportem)
+Błędy: posty ERROR w Metricool (24 h wstecz i 3 dni naprzód; ponów), puste i zdublowane sloty, posty na złym blogId, URL-e media ≠ 200,
+night-autopilot ≠ main, wpisy w LOG.md bez statusu. Napraw, co się da.
+Śmieci: kasuj od razu (git rm, commit, push na oba branche) pliki tymczasowe i testowe (*.tmp, *.log, test-*, zz-test*), MP4 w repo poza branchem media,
+puste foldery i duplikaty. Obrazy w stories/<id>/ kasuj tylko wtedy, gdy story.json się do nich nie odwołuje.
+Nigdy nie kasuj: stories/<id>/story.json, published/<id>/, tools/, assets/, CLAUDE.md, AUTOPILOT.md, channel.json, README.md, requirements.txt, stories/LOG.md.
+Bez usuwania branchy, bez przepisywania historii i force-push. Na branchu media kasuj tylko pliki testowe (zz-test*). Brak pewności → zostaw i wypisz.
+
+KROK 5 – RAPORT
+Sekcja „Kontrola i porządki”: każdy błąd (co, gdzie, dlaczego, co zrobiono) i każdy usunięty plik (ścieżka, rozmiar, powód); gdy nic: „bez błędów, nic do usunięcia”.
 Dla każdego filmu: tytuł, długość, godzina (ET i czas polski), link plannera, typ hooka, problemy. Plus statystyki i 1 zdanie: czego się nauczyliśmy i co zmieniasz.
 ```
