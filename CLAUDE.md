@@ -106,7 +106,8 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Właściciel ma **Canva Business**, podłączoną przez narzędzia `mcp__Canva__*`. Używaj jej do warstwy wizualnej:
   sceny i tła (obrazy AI, zdjęcia i filmy premium), animacje (powolne przybliżanie, glitch, winieta),
   czołówka, styl napisów, okładki serii („Part 1/3”), zmiana formatu na 9:16.
-- Osobny zestaw marki **„Night Stories”** (kolory, czcionki, logo). Nigdy nie mieszaj z PepSafe.
+- Styl marki „Night Stories” jest w `assets/brand.json` (kolory, czcionki, styl). W Canvie **nie zakładamy zestawu marki**
+  (konto Business jest współdzielone). Podawaj styl z pliku w każdym projekcie i nigdy nie używaj materiałów PepSafe.
 - Gotowe pliki eksportuj do MP4/JPG, zapisuj w repo (`published/<id>/`) i planuj w Metricool (marka nightstories.tv, id 7593858, TikTok).
 - Obrazy lub wideo z AI → `tiktokData.isAigc: true`.
 - Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 1–3 min.

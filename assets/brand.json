@@ -1,0 +1,8 @@
+{
+  "name": "Night Stories",
+  "colors": {"background": "#0B0B0D", "accent": "#FFD600", "warning": "#FF3B30", "text": "#FFFFFF"},
+  "fonts": {"display": "Anton", "ui": "Liberation Sans / Arial"},
+  "style": "dark, desaturated, cold blue cast, film grain, vignette; no faces, no gore",
+  "captions": "Anton, uppercase, white with black outline, active word yellow #FFD600",
+  "series_cover": "black background, title in Anton white, \"PART 1/3\" in #FFD600 at the bottom"
+}
