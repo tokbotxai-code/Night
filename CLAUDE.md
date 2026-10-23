@@ -13,7 +13,7 @@ Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczn
 - **Bez naruszeń zasad TikToka:** bez gore, krwi w kadrze, samookaleczeń, broni wymierzonej w ludzi, przemocy wobec dzieci i zwierząt
   oraz treści seksualnych. Strach budujemy sugestią: cień, dźwięk, wiadomość, ktoś, kto się nie odwraca.
 - **Język:** amerykański angielski (US spelling, „mom”, „a.m.”), zrozumiały też w UK. Bez slangu tylko z jednego kraju.
-- Narracja w 1. osobie, czas przeszły, krótkie zdania (najlepiej poniżej 12 słów). **135–155 słów na film** (Kokoro czyta ok. 8% szybciej niż dawny głos: 001 przy 120–140 słowach dał 59,4 s, czyli poniżej limitu).
+- Narracja w 1. osobie, czas przeszły, krótkie zdania (najlepiej poniżej 12 słów). **160–200 słów na film** (Kokoro: zmierzone na 005, 160 słów + 8,5 s pauz = 63,5 s). Jeśli polecenie zadania podaje mniej słów, obowiązuje ta reguła.
 
 ### Struktura (sprawdzona na filmie #1)
 
@@ -36,7 +36,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 
 - Wynik trafia do `output/<id>/`: `final.mp4`, `cover.jpg`, `captions.srt`, `post.json` (katalog w `.gitignore`).
 - Cel: **65–90 s**. Film powyżej 90 s skróć tekstem. Skrypt przerywa pracę dopiero poniżej 61 s lub powyżej 180 s (bezpiecznik). Długość koryguj tekstem i pauzami `pre`/`post`, nie flagą.
-  Orientacyjnie (Kokoro, speed 0.9): 1 słowo ≈ 0,4 s plus pauzy. Celuj w ≥ 65 s, żeby mieć zapas nad limitem 61 s.
+  Orientacyjnie (Kokoro, speed 0.9): 1 słowo ≈ 0,34 s plus pauzy (zwykle ok. 8 s). Celuj w ≥ 65 s, żeby mieć zapas nad limitem 61 s.
 - Lektor (od odcinka 005): **Kokoro** (licencja Apache 2.0, bezpieczna przy zarabianiu), głos **am_michael**, `speed 0.9`.
   W story.json: `"tts": "kokoro", "voice": "am_michael", "speed": 0.9` (skopiuj z 001). Modele (~350 MB) skrypt pobiera sam do `~/.cache/kokoro`.
   **Nie używaj edge-tts** w nowych filmach (niejasna licencja komercyjna). Odcinki 001–004 zostały nagrane edge-tts i zostają bez zmian.
