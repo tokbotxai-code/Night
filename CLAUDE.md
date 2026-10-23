@@ -1,7 +1,7 @@
 # Night: zasady kanału
 
 Kanał TikTok z **oryginalnymi** horror stories po angielsku, rynek **USA/UK**.
-Format: faceless, 9:16, 60–75 s. Lektor AI, tła AI, napisy słowo po słowie, efekty dźwiękowe.
+Format: faceless, 9:16, 61 s – 3 min (Creator Rewards płaci za filmy powyżej 1 min). Lektor AI, tła AI, napisy słowo po słowie, efekty dźwiękowe.
 Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczne są w `channel.json`.
 
 ## 1. Treść (najważniejsze)
@@ -35,7 +35,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 ```
 
 - Wynik trafia do `output/<id>/`: `final.mp4`, `cover.jpg`, `captions.srt`, `post.json` (katalog w `.gitignore`).
-- Skrypt **przerywa pracę**, gdy film ma mniej niż 60 s lub więcej niż 75 s. Długość koryguj tekstem i pauzami `pre`/`post`, nie flagą.
+- Skrypt **przerywa pracę**, gdy film ma 60 s lub mniej albo więcej niż 180 s (cel: 65–90 s). Długość koryguj tekstem i pauzami `pre`/`post`, nie flagą.
   Orientacyjnie: 1 słowo ≈ 0,42 s przy `rate: +4%`.
 - Lektor: `edge-tts`, głos kanału **en-US-ChristopherNeural**, `rate +4%`, `pitch -4Hz`. Nie zmieniaj głosu między filmami (rozpoznawalność).
 - Tła: Pollinations (darmowe, bez klucza). Darmowy limit zwraca błąd 402 lub 429, a skrypt sam ponawia z odstępem.
@@ -47,7 +47,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 
 ### Kontrola jakości przed publikacją (obowiązkowa)
 
-1. Długość 60–75 s (skrypt to pilnuje).
+1. Długość 61–180 s (skrypt to pilnuje).
 2. Zrób arkusz klatek (`ffmpeg ... -vf tile=5x3`) i obejrzyj go: żadnych napisów, logo ani zniekształconych twarzy w tłach, nic nie zasłania napisów.
    Złe tło wymień: zmień prompt i wyrenderuj ponownie.
 3. Napisy nie mogą wchodzić w dolne 20% ekranu ani w prawy pas 120 px (tam jest interfejs TikToka). Skrypt trzyma się tych stref.
@@ -101,13 +101,25 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Opis: 1 zdanie z pytaniem A/B i emoji, potem 4–6 hashtagów (`#horrortok #scarystories #creepy #horrorstory #fyp` i 1 tematyczny).
 - Po zaplanowaniu dopisz wiersz do `stories/LOG.md`: id, data i godzina publikacji, długość, link plannera.
 
-## 5. Decyzje (ustalenie właściciela, 22.10.2026)
+## 5. Canva Business (od 23.10.2026)
+
+- Właściciel ma **Canva Business**, podłączoną przez narzędzia `mcp__Canva__*`. Używaj jej do warstwy wizualnej:
+  sceny i tła (obrazy AI, zdjęcia i filmy premium), animacje (powolne przybliżanie, glitch, winieta),
+  czołówka, styl napisów, okładki serii („Part 1/3”), zmiana formatu na 9:16.
+- Osobny zestaw marki **„Night Stories”** (kolory, czcionki, logo). Nigdy nie mieszaj z PepSafe.
+- Gotowe pliki eksportuj do MP4/JPG, zapisuj w repo (`published/<id>/`) i planuj w Metricool (marka nightstories.tv, id 7593858, TikTok).
+- Obrazy lub wideo z AI → `tiktokData.isAigc: true`.
+- Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 1–3 min.
+- Planu konta Canva i liczby kredytów nie da się sprawdzić przez narzędzia. Gdy funkcja premium odmówi,
+  napisz to w podsumowaniu i dokończ film zwykłym rendererem (`tools/make_video.py`).
+
+## 6. Decyzje (ustalenie właściciela, 22.10.2026)
 
 - Rutynowe działania wykonuj **sam, bez pytania**: treść historii, sceny, poprawki, render
   i publikację w Metricool według harmonogramu z sekcji 4. Opisz je w podsumowaniu.
 - Twarde zasady z sekcji 1 i 4 (tylko marka nightstories.tv, nigdy pepsafe.info, zero gore, oznaczenie AI) obowiązują zawsze.
 
-## 6. Repo
+## 7. Repo
 
 - `tools/make_video.py`: renderer, `tools/sfx.py`: syntezator efektów.
 - `stories/<id>/story.json`: scenariusze, `stories/LOG.md`: log publikacji i bank pomysłów (nie powtarzaj motywu z ostatnich 10 filmów).

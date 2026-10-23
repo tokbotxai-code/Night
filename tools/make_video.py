@@ -35,7 +35,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FONT_DIR = ROOT / "assets" / "fonts"
 W, H, FPS = 1080, 1920, 30
 SR = sfx.SR
-MIN_LEN, MAX_LEN = 60.0, 75.0
+MIN_LEN, MAX_LEN = 61.0, 180.0
 
 CA_FILE = next((p for p in (os.environ.get("SSL_CERT_FILE"), os.environ.get("REQUESTS_CA_BUNDLE"),
                             "/root/.ccr/ca-bundle.crt") if p and os.path.exists(p)), None)

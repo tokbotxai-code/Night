@@ -18,7 +18,7 @@ Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, channel.json, stories/LOG.md i st
        Napisz stories/<NNN>-<slug>/story.json według CLAUDE.md: hook w 1. zdaniu, twist w 35–55 s, pytanie A/B na końcu, ostatni kadr = pierwszy kadr,
        120–140 słów, US English, zero gore, żadnego "true story". Głos, rate, pitch i style_prompt skopiuj z 001.
    2b. Render: pip install -r requirements.txt; python3 tools/make_video.py <story.json> --preview.
-       Jeśli skrypt zgłosi długość spoza 60–75 s, popraw tekst lub pauzy i powtórz.
+       Jeśli skrypt zgłosi długość spoza 61–180 s, popraw tekst lub pauzy i powtórz.
        Wygeneruj arkusz 15 klatek (ffmpeg -vf tile=5x3) i obejrzyj go. Wymień tła z tekstem, logo, twarzami albo niepasujące do zdania (zmień prompt).
        Następnie render finalny bez --preview.
    2c. Plik: skopiuj output/<id>/final.mp4 i cover.jpg do published/<id>/, uzupełnij stories/LOG.md (przenieś pomysł z banku do tabeli),
