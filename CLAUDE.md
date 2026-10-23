@@ -1,7 +1,7 @@
 # Night: zasady kanału
 
 Kanał TikTok z **oryginalnymi** horror stories po angielsku, rynek **USA/UK**.
-Format: faceless, 9:16, 61 s – 3 min (Creator Rewards płaci za filmy powyżej 1 min). Lektor AI, tła AI, napisy słowo po słowie, efekty dźwiękowe.
+Format: faceless, 9:16, **61–90 s** (Creator Rewards płaci od 61 s, a krótsze filmy mają wyższy % obejrzeń do końca). Lektor AI, tła AI, napisy słowo po słowie, efekty dźwiękowe.
 Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczne są w `channel.json`.
 
 ## 1. Treść (najważniejsze)
@@ -35,7 +35,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 ```
 
 - Wynik trafia do `output/<id>/`: `final.mp4`, `cover.jpg`, `captions.srt`, `post.json` (katalog w `.gitignore`).
-- Skrypt **przerywa pracę**, gdy film ma 60 s lub mniej albo więcej niż 180 s (cel: 65–90 s). Długość koryguj tekstem i pauzami `pre`/`post`, nie flagą.
+- Cel: **65–90 s**. Film powyżej 90 s skróć tekstem. Skrypt przerywa pracę dopiero poniżej 61 s lub powyżej 180 s (bezpiecznik). Długość koryguj tekstem i pauzami `pre`/`post`, nie flagą.
   Orientacyjnie: 1 słowo ≈ 0,42 s przy `rate: +4%`.
 - Lektor: `edge-tts`, głos kanału **en-US-ChristopherNeural**, `rate +4%`, `pitch -4Hz`. Nie zmieniaj głosu między filmami (rozpoznawalność).
 - Tła: Pollinations (darmowe, bez klucza). Darmowy limit zwraca błąd 402 lub 429, a skrypt sam ponawia z odstępem.
@@ -47,7 +47,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 
 ### Kontrola jakości przed publikacją (obowiązkowa)
 
-1. Długość 61–180 s (skrypt to pilnuje).
+1. Długość 61–90 s (cel 65–90 s; skrypt blokuje tylko <61 s i >180 s).
 2. Zrób arkusz klatek (`ffmpeg ... -vf tile=5x3`) i obejrzyj go: żadnych napisów, logo ani zniekształconych twarzy w tłach, nic nie zasłania napisów.
    Złe tło wymień: zmień prompt i wyrenderuj ponownie.
 3. Napisy nie mogą wchodzić w dolne 20% ekranu ani w prawy pas 120 px (tam jest interfejs TikToka). Skrypt trzyma się tych stref.
@@ -110,7 +110,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   (konto Business jest współdzielone). Podawaj styl z pliku w każdym projekcie i nigdy nie używaj materiałów PepSafe.
 - Gotowe pliki eksportuj do MP4/JPG, zapisuj w repo (`published/<id>/`) i planuj w Metricool (marka nightstories.tv, id 7593858, TikTok).
 - Obrazy lub wideo z AI → `tiktokData.isAigc: true`.
-- Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 1–3 min.
+- Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 61–90 s.
 - Praktyka (test 23.10): `generate-image` zwraca tylko miniaturę, a pełna rozdzielczość wymaga projektu i eksportu.
   Dlatego Canvy używaj do 1–2 kluczowych kadrów na film (hook, twist) i do okładek serii. Eksport zapisz w `stories/<id>/`
   i podaj w ujęciu jako `{"image_file": "hook.png", "motion": "zoom_in"}`. Pozostałe tła generuje Pollinations.
