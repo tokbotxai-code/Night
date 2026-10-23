@@ -12,7 +12,6 @@
 
 - 23.10: 002 (hook i tytuł z „3 a.m.”, 18:00 ET) — 221 wyśw., 8 polub.; 001 (bez „3 a.m.”, 21:00 ET) — 86 wyśw., 0 polub.
   Za mało danych na wniosek. Hipoteza: „3 a.m.” w pierwszym zdaniu i tytule pomaga. Porównać po 003 (ma „3 a.m.”) i 004 (nie ma).
-
 - 23.10 (decyzja właściciela): wnioski o hookach i motywach wyciągamy dopiero po 10–14 filmach. Do tego czasu tylko notujemy.
 - Od 005: głos Kokoro am_michael (wcześniej edge-tts Christopher). Przy porównaniach statystyk pamiętaj o zmianie głosu.
 

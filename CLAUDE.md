@@ -116,7 +116,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   czołówka, styl napisów, okładki serii („Part 1/3”), zmiana formatu na 9:16.
 - Styl marki „Night Stories” jest w `assets/brand.json` (kolory, czcionki, styl). W Canvie **nie zakładamy zestawu marki**
   (konto Business jest współdzielone). Podawaj styl z pliku w każdym projekcie i nigdy nie używaj materiałów PepSafe.
-- Gotowe pliki eksportuj do MP4/JPG, zapisuj w repo (`published/<id>/`) i planuj w Metricool (marka nightstories.tv, id 7593858, TikTok).
+- Eksporty z Canvy (JPG/PNG) zapisuj w `stories/<id>/`. Gotowy film idzie przez `tools/upload_media.py` (branch `media`, sekcja 4), nigdy do repo.
 - Obrazy lub wideo z AI → `tiktokData.isAigc: true`.
 - Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 61–90 s.
 - Praktyka (test 23.10): `generate-image` zwraca tylko miniaturę, a pełna rozdzielczość wymaga projektu i eksportu.
