@@ -61,7 +61,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 {
   "id": "002-krotki-slug",             // numer kolejny + slug, taki sam jak nazwa katalogu
   "title": "...",                      // roboczy tytuł (tytuł TikToka)
-  "voice": "en-US-ChristopherNeural", "rate": "+4%", "pitch": "-4Hz",
+  "tts": "kokoro", "voice": "am_michael", "speed": 0.9,  // skopiuj z 001 (odcinki 001–004 były na edge-tts)
   "style_prompt": "...",               // skopiuj z 001 bez zmian
   "hook_text": "...",                  // tekst hooka na górze ekranu
   "hook_scenes": 2,                    // przez ile pierwszych scen widać hook
@@ -148,7 +148,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 
 - `tools/make_video.py`: renderer, `tools/sfx.py`: syntezator efektów.
 - `stories/<id>/story.json`: scenariusze, `stories/LOG.md`: log publikacji i bank pomysłów (nie powtarzaj motywu z ostatnich 10 filmów).
-- `published/<id>/`: wideo i okładki do publikacji (publiczny URL dla Metricool).
+- `published/<id>/`: okładka, napisy i post.json (bez MP4). Wideo: branch `media` przez `tools/upload_media.py`.
 - Autopilot pracuje na branchu `night-autopilot` (stan kanału: log i filmy).
 - Po każdym pushu na `night-autopilot` wypchnij ten sam commit na `main` (`git push origin HEAD:main`), żeby `main` był zawsze aktualny.
   Gdy push zostanie odrzucony, bo inna sesja coś dopisała: `git fetch` + `git merge --no-edit origin/night-autopilot`, potem push. Nigdy force-push.
