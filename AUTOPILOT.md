@@ -25,7 +25,7 @@ Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, channel.json, stories/LOG.md i st
 2. Dla KAŻDEGO wybranego slotu po kolei (osobny film, osobny pomysł) wykonaj kroki 2a–2e:
    2a. Scenariusz: weź pierwszy pomysł z "Bank pomysłów" w stories/LOG.md (albo wymyśl nowy, oryginalny, niepowtarzający motywu z ostatnich 10 filmów).
        Napisz stories/<NNN>-<slug>/story.json według CLAUDE.md: hook w 1. zdaniu, twist w 35–55 s, pytanie A/B na końcu, ostatni kadr = pierwszy kadr,
-       120–140 słów, US English, zero gore, żadnego "true story". Głos, rate, pitch i style_prompt skopiuj z 001.
+       160–200 słów, US English, zero gore, żadnego "true story". Głos, rate, pitch i style_prompt skopiuj z 001.
    2b. Render: pip install -r requirements.txt; python3 tools/make_video.py <story.json> --preview.
        Jeśli skrypt zgłosi długość spoza 61–180 s, popraw tekst lub pauzy i powtórz.
        Wygeneruj arkusz 15 klatek (ffmpeg -vf tile=5x3) i obejrzyj go. Wymień tła z tekstem, logo, twarzami albo niepasujące do zdania (zmień prompt).
