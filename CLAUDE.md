@@ -39,7 +39,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
   Orientacyjnie (Kokoro, speed 0.9): 1 słowo ≈ 0,34 s plus pauzy (zwykle ok. 8 s). Celuj w ≥ 65 s, żeby mieć zapas nad limitem 61 s.
 - Lektor (od odcinka 005): **Kokoro** (licencja Apache 2.0, bezpieczna przy zarabianiu), głos **am_michael**, `speed 0.9`.
   W story.json: `"tts": "kokoro", "voice": "am_michael", "speed": 0.9` (skopiuj z 001). Modele (~350 MB) skrypt pobiera sam do `~/.cache/kokoro`.
-  **Nie używaj edge-tts** w nowych filmach (niejasna licencja komercyjna). Odcinki 001–004 zostały nagrane edge-tts i zostają bez zmian.
+  **Nie używaj edge-tts** w nowych filmach (niejasna licencja komercyjna; nie ma go w requirements.txt, ponowny render 001–004 wymaga `pip install edge-tts`). Odcinki 001–004 zostały nagrane edge-tts i zostają bez zmian.
   Kokoro nie podaje czasu słów: skrypt nagrywa każde zdanie osobno (dokładny początek zdania, pauza 0,28 s) i szacuje słowa tylko wewnątrz zdania. Krótkie zdania = najlepsza synchronizacja.
 - Tła: Pollinations (darmowe, bez klucza). Darmowy limit zwraca błąd 402 lub 429, a skrypt sam ponawia z odstępem.
   Obrazy są cache'owane po prompcie, więc ten sam prompt daje ten sam kadr (tak robimy pętlę).
