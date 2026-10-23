@@ -91,10 +91,11 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - `createScheduledPost`: `providers: [{"network":"tiktok"}]`, `text` = `post.caption`, `tiktokData`:
   `{"title": tiktok_title, "privacyOption": "PUBLIC_TO_EVERYONE", "isAigc": true, "autoAddMusic": false}`
   (oznaczenie AI jest obowiązkowe).
-- **Harmonogram (czas UK, Europe/London, czyli strefa marki, więc `publicationDate` podajesz wprost):**
-  - pierwszy tydzień (23–28.10.2026): **1 film dziennie o 21:00 UK**,
-  - od 29.10.2026: **2 filmy dziennie: 21:00 UK i 02:00 UK** (02:00 to wieczór w USA; slot 02:00 należy do nocy po danym dniu).
-  - Wyjątek: 22.10.2026 poszły 2 filmy w czasie USA (18:00 i 21:00 ET). Nie traktuj go jako wzoru.
+- **Harmonogram w czasie USA (America/New_York, ET), czyli wieczór w USA (decyzja właściciela z 23.10.2026):**
+  - do 28.10.2026: **1 film dziennie o 20:00 ET**,
+  - od 29.10.2026: **2 filmy dziennie: 19:00 ET i 22:00 ET**.
+  - Strefa marki w Metricool to Europe/London. Godzinę ET przelicz w Pythonie (`zoneinfo`) na Europe/London i taką wyślij w `publicationDate`.
+    Gdy wynik wypada w nocy zmiany czasu w UK (ostatnia niedziela października, 01:00–02:00 UK), przesuń slot o 1 h wcześniej.
   - Godzin nie zmieniaj na własną rękę. Zmiany wprowadza tylko właściciel.
 - Konto TikTok jest **osobiste** (Creator Rewards), więc własna okładka nie działa: nie wysyłaj `videoThumbnailUrl`/`videoCoverMilliseconds`.
 - Opis: 1 zdanie z pytaniem A/B i emoji, potem 4–6 hashtagów (`#horrortok #scarystories #creepy #horrorstory #fyp` i 1 tematyczny).

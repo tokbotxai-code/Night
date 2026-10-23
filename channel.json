@@ -20,22 +20,22 @@
     "blog_id": 7593858,
     "brand_timezone": "Europe/London",
     "schedule": {
-      "timezone": "Europe/London",
+      "timezone": "America/New_York",
       "week1": {
         "from": "2026-10-23",
         "to": "2026-10-28",
         "slots": [
-          "21:00"
+          "20:00"
         ]
       },
       "from_week2": {
         "from": "2026-10-29",
         "slots": [
-          "21:00",
-          "02:00"
+          "19:00",
+          "22:00"
         ]
       },
-      "exception": "2026-10-22: dwa posty w czasie USA (18:00 i 21:00 ET), jednorazowo"
+      "note": "Sloty w czasie USA (ET). publicationDate wysyłaj w Europe/London, przeliczone przez zoneinfo."
     }
   },
   "public_media_base": "https://raw.githubusercontent.com/tokbotxai-code/Night",

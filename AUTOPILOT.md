@@ -2,7 +2,7 @@
 
 Zadanie cykliczne w Claude Code (nowa sesja przy każdym uruchomieniu, repo `tokbotxai-code/Night`).
 Harmonogram: **jedno zadanie**, codziennie rano (obecnie 9:28 Europe/London).
-Każde uruchomienie robi filmy na wszystkie wolne sloty w ciągu 48 h (maks. 2): do 28.10 zwykle 1 film, od 29.10 zwykle 2 (21:00 i 02:00 UK).
+Każde uruchomienie robi filmy na wszystkie wolne sloty w ciągu 48 h (maks. 2). Sloty są w czasie USA: do 28.10 20:00 ET, od 29.10 19:00 i 22:00 ET (szczegóły w channel.json).
 
 ## Polecenie (wklej jako prompt zadania)
 
@@ -19,7 +19,8 @@ Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, channel.json, stories/LOG.md i st
      Jeśli jej nie ma, NIE publikuj nigdzie: zakończ raportem "brak marki/TikToka w Metricool".
      Nigdy nie używaj blogId z forbidden_blog_ids (pepsafe.info).
    - getScheduledPosts dla tej marki na najbliższe 48 h. Ustal sloty z channel.json → metricool.schedule
-     (tydzień 1: 21:00 UK; od 29.10: 21:00 i 02:00 UK) i zrób listę WSZYSTKICH wolnych, przyszłych slotów w ciągu 48 h, od najbliższego.
+     (godziny w strefie schedule.timezone, czyli ET; które sloty obowiązują danego dnia, mówią week1/from_week2) i zrób listę WSZYSTKICH wolnych,
+     przyszłych slotów w ciągu 48 h, od najbliższego. Slot jest zajęty, jeśli w Metricool jest już post w ciągu ±60 min od niego.
      Weź z niej maksymalnie 2 sloty. Jeśli lista jest pusta, zakończ bez zmian (krótki raport).
 2. Dla KAŻDEGO wybranego slotu po kolei (osobny film, osobny pomysł) wykonaj kroki 2a–2e:
    2a. Scenariusz: weź pierwszy pomysł z "Bank pomysłów" w stories/LOG.md (albo wymyśl nowy, oryginalny, niepowtarzający motywu z ostatnich 10 filmów).
@@ -33,10 +34,11 @@ Zanim cokolwiek zrobisz, przeczytaj CLAUDE.md, channel.json, stories/LOG.md i st
        zrób commit i push na night-autopilot. URL: <public_media_base>/night-autopilot/published/<id>/final.mp4, sprawdź curl -I, że zwraca 200 (tuż po pushu odczekaj do 5 min).
    2d. Planowanie: createScheduledPost dla znalezionej marki: providers [{"network":"tiktok"}], media [URL], text = post.caption,
        tiktokData {"title": post.tiktok_title, "privacyOption":"PUBLIC_TO_EVERYONE", "isAigc": true, "autoAddMusic": false, "disableComment": false},
-       publicationDate = ten slot w strefie Europe/London (podany wprost, bez przeliczania). Godzin nie zmieniaj.
+       publicationDate = slot przeliczony z ET na Europe/London (python3 zoneinfo), z timezone "Europe/London". Godzin nie zmieniaj
+       (wyjątek z CLAUDE.md: noc zmiany czasu w UK, wtedy 1 h wcześniej).
    2e. Dopisz do stories/LOG.md godzinę i plannerUrl, zrób commit i push na night-autopilot.
    Jeśli któryś film się nie uda, nie planuj go, ale spróbuj zrobić następny.
-3. Raport (krótko, po polsku): dla każdego filmu tytuł, długość, godzina publikacji (UK i czas polski), link plannera; ewentualne problemy.
+3. Raport (krótko, po polsku): dla każdego filmu tytuł, długość, godzina publikacji (ET i czas polski), link plannera; ewentualne problemy.
 4. Rutynowe decyzje podejmuj sam według CLAUDE.md, bez pytania. W raporcie opisz, co wybrałeś.
 ```
 
