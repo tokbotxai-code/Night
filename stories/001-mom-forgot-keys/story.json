@@ -1,9 +1,9 @@
 {
   "id": "001-mom-forgot-keys",
   "title": "Mom texted: open up, I forgot my keys",
-  "voice": "en-US-ChristopherNeural",
-  "rate": "+4%",
-  "pitch": "-4Hz",
+  "tts": "kokoro",
+  "voice": "am_michael",
+  "speed": 0.9,
   "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
   "hook_text": "Mom texted: \"Open up, I forgot my keys\"",
   "scenes": [
@@ -371,5 +371,6 @@
     "caption": "Who would you open the door for? 🚪 or 🛋️ #horrortok #scarystories #creepy #3am #horrorstory #fyp",
     "tiktok_title": "Mom texted: open up, I forgot my keys",
     "cover_ms": 1500
-  }
+  },
+  "_note": "Wzorzec dla nowych odcinków (głos Kokoro). Sam odcinek 001 był wyrenderowany głosem edge-tts en-US-ChristopherNeural."
 }

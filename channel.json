@@ -5,7 +5,13 @@
     "US",
     "UK"
   ],
-  "voice": "en-US-ChristopherNeural",
+  "voice": {
+    "tts": "kokoro",
+    "name": "am_michael",
+    "speed": 0.9,
+    "license": "Apache-2.0",
+    "since": "2026-10-24"
+  },
   "duration_s": [
     61,
     90
@@ -40,5 +46,10 @@
   },
   "public_media_base": "https://raw.githubusercontent.com/tokbotxai-code/Night",
   "tiktok_handle": "@nightstories.tv",
-  "tiktok_account_type": "personal"
+  "tiktok_account_type": "personal",
+  "media": {
+    "branch": "media",
+    "url": "https://raw.githubusercontent.com/tokbotxai-code/Night/media/<id>/final.mp4",
+    "upload": "python3 tools/upload_media.py <id>"
+  }
 }

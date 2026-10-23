@@ -37,13 +37,16 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 - Wynik trafia do `output/<id>/`: `final.mp4`, `cover.jpg`, `captions.srt`, `post.json` (katalog w `.gitignore`).
 - Cel: **65–90 s**. Film powyżej 90 s skróć tekstem. Skrypt przerywa pracę dopiero poniżej 61 s lub powyżej 180 s (bezpiecznik). Długość koryguj tekstem i pauzami `pre`/`post`, nie flagą.
   Orientacyjnie: 1 słowo ≈ 0,42 s przy `rate: +4%`.
-- Lektor: `edge-tts`, głos kanału **en-US-ChristopherNeural**, `rate +4%`, `pitch -4Hz`. Nie zmieniaj głosu między filmami (rozpoznawalność).
+- Lektor (od odcinka 005): **Kokoro** (licencja Apache 2.0, bezpieczna przy zarabianiu), głos **am_michael**, `speed 0.9`.
+  W story.json: `"tts": "kokoro", "voice": "am_michael", "speed": 0.9` (skopiuj z 001). Modele (~350 MB) skrypt pobiera sam do `~/.cache/kokoro`.
+  **Nie używaj edge-tts** w nowych filmach (niejasna licencja komercyjna). Odcinki 001–004 zostały nagrane edge-tts i zostają bez zmian.
+  Kokoro nie podaje czasu słów, więc skrypt szacuje go z tekstu: krótkie zdania z interpunkcją dają najlepszą synchronizację napisów.
 - Tła: Pollinations (darmowe, bez klucza). Darmowy limit zwraca błąd 402 lub 429, a skrypt sam ponawia z odstępem.
   Obrazy są cache'owane po prompcie, więc ten sam prompt daje ten sam kadr (tak robimy pętlę).
 - Prompty obrazów: opis kadru po angielsku, bez tekstu w obrazie. **Nie pokazuj twarzy wprost** (cień, tył głowy, rozmycie).
   Styl dokleja `style_prompt` z pliku historii, więc trzymaj go identycznym między filmami.
 - Dźwięki są syntetyzowane w `tools/sfx.py` (bez licencji zewnętrznych): `vibrate`, `hit`, `knock3`, `creak`, `tv`, `drone`, `riser`, `heartbeat`.
-- Głośność: loudnorm −14 LUFS. Bitrate ograniczony do 4 Mb/s, więc plik ma około 30–40 MB (mieści się w GitHubie i Metricool).
+- Głośność: loudnorm −14 LUFS. Bitrate do 2 Mb/s: film ma ok. 7–20 MB.
 
 ### Kontrola jakości przed publikacją (obowiązkowa)
 
@@ -86,8 +89,13 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 
 - **Tylko marka `nightstories.tv` (blogId 7593858, TikTok @nightstories.tv, strefa marki Europe/London)**, zgodnie z `channel.json`. Marka `pepsafe.info` (blogId 7506075) to inny projekt: **nigdy** tam nie publikuj.
   Jeśli marki kanału nie ma albo nie ma podpiętego TikToka (`networksData.tiktokData`), zatrzymaj się i zgłoś to. Nie publikuj gdzie indziej.
-- Plik wideo musi mieć publiczny URL. Po commicie skopiuj `final.mp4` i `cover.jpg` do `published/<id>/` i użyj
-  `https://raw.githubusercontent.com/tokbotxai-code/Night/<branch>/published/<id>/final.mp4`. Przed planowaniem sprawdź, że URL zwraca 200.
+- **Wideo NIE trafia do historii repo** (od 23.10.2026, bo repo rosło o ~35 MB na film). Do `published/<id>/` kopiuj tylko
+  `cover.jpg`, `captions.srt` i `post.json` (`published/*/final.mp4` jest w `.gitignore`).
+  Wideo wysyłasz poleceniem `python3 tools/upload_media.py <id>`. Skrypt wrzuca je na osobny branch `media` (nie mieszaj go z night-autopilot)
+  i wypisuje publiczny URL `https://raw.githubusercontent.com/tokbotxai-code/Night/media/<id>/final.mp4`, gdy ten już zwraca 200.
+  Ten URL podajesz w `createScheduledPost` (Metricool kopiuje plik do siebie przy planowaniu).
+  Jeśli polecenie zadania mówi o URL `.../night-autopilot/published/<id>/final.mp4`, ta reguła je zastępuje.
+  Starych MP4 z historii nie usuwaj ani nie przepisuj (żadnego force-push).
 - `createScheduledPost`: `providers: [{"network":"tiktok"}]`, `text` = `post.caption`, `tiktokData`:
   `{"title": tiktok_title, "privacyOption": "PUBLIC_TO_EVERYONE", "isAigc": true, "autoAddMusic": false}`
   (oznaczenie AI jest obowiązkowe).

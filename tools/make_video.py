@@ -71,6 +71,46 @@ def font(name, size):
 
 # ------------------------------------------------------------------ TTS
 
+KOKORO_DIR = Path(os.environ.get("KOKORO_DIR", Path.home() / ".cache" / "kokoro"))
+KOKORO_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
+_kokoro = None
+
+
+def kokoro_tts(text, voice, speed, cache):
+    """Kokoro (Apache-2.0) narration; word times estimated from text (no native boundaries)."""
+    global _kokoro
+    key = h(f"kokoro|{text}|{voice}|{speed}")
+    wav, meta = cache / f"tts_{key}.wav", cache / f"tts_{key}.json"
+    if not (wav.exists() and meta.exists()):
+        import soundfile as sf
+        if _kokoro is None:
+            from kokoro_onnx import Kokoro
+            KOKORO_DIR.mkdir(parents=True, exist_ok=True)
+            for f in ("kokoro-v1.0.onnx", "voices-v1.0.bin"):
+                if not (KOKORO_DIR / f).exists():
+                    log(f"downloading {f}")
+                    subprocess.run(["curl", "-sSL", "--retry", "4", "-o", str(KOKORO_DIR / f), KOKORO_URL + f], check=True)
+            _kokoro = Kokoro(str(KOKORO_DIR / "kokoro-v1.0.onnx"), str(KOKORO_DIR / "voices-v1.0.bin"))
+        audio, sr = _kokoro.create(text, voice=voice, speed=speed, lang="en-us")
+        sf.write(str(wav), audio, sr)
+        # estimate word timing over the voiced span: weight = letters, plus pauses after punctuation
+        a = np.abs(audio)
+        nz = np.nonzero(a > 0.01)[0]
+        t0, t1 = (nz[0] / sr, nz[-1] / sr) if len(nz) else (0.0, len(audio) / sr)
+        toks = text.split()
+        weights = [max(2, sum(c.isalnum() for c in w)) + (6 if w[-1] in ".?!:" else 3 if w[-1] in ",;" else 0) for w in toks]
+        unit = (t1 - t0) / max(1, sum(weights))
+        words, cur = [], t0
+        for w, wt in zip(toks, weights):
+            letters = max(2, sum(c.isalnum() for c in w)) * unit
+            words.append((cur, letters, w.strip('.,!?:;"')))
+            cur += wt * unit
+        meta.write_text(json.dumps(words))
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", str(wav), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
+                         check=True, capture_output=True).stdout
+    return np.frombuffer(pcm, dtype=np.float32).copy(), [tuple(w) for w in json.loads(meta.read_text())]
+
+
 def tts(text, voice, rate, pitch, cache):
     """Return (mono float32 audio, [(start_s, dur_s, word)])."""
     key = h(f"{text}|{voice}|{rate}|{pitch}")
@@ -299,8 +339,11 @@ def build(story_path, out_root, preview, offline, allow_any_length):
         narr_start = start + sc.get("pre", 0.0)
         audio, words = (np.zeros(0, np.float32), [])
         if sc.get("narration"):
-            audio, words = tts(sc["narration"], story["voice"], story.get("rate", "+0%"),
-                               story.get("pitch", "+0Hz"), cache)
+            if story.get("tts") == "kokoro":
+                audio, words = kokoro_tts(sc["narration"], story["voice"], story.get("speed", 1.0), cache)
+            else:
+                audio, words = tts(sc["narration"], story["voice"], story.get("rate", "+0%"),
+                                   story.get("pitch", "+0Hz"), cache)
             # trim edge-tts leading/trailing silence so pacing is controlled by "post"
             nz = np.nonzero(np.abs(audio) > 0.01)[0]
             if len(nz):
@@ -465,7 +508,7 @@ def build(story_path, out_root, preview, offline, allow_any_length):
     enc = subprocess.Popen(
         ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{fw}x{fh}", "-r", str(FPS),
          "-i", "-", "-i", str(wav), "-c:v", "libx264", "-preset", "veryfast" if preview else "medium",
-         "-crf", "22", "-maxrate", "4M", "-bufsize", "8M", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest",
+         "-crf", "24", "-maxrate", "2M", "-bufsize", "4M", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest",
          "-movflags", "+faststart", str(mp4)], stdin=subprocess.PIPE)
     nframes = int(total * FPS)
     flick = np.convolve(rng.normal(0, 1, nframes + 20), np.ones(4) / 4, mode="same")
