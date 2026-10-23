@@ -91,20 +91,29 @@ def kokoro_tts(text, voice, speed, cache):
                     log(f"downloading {f}")
                     subprocess.run(["curl", "-sSL", "--retry", "4", "-o", str(KOKORO_DIR / f), KOKORO_URL + f], check=True)
             _kokoro = Kokoro(str(KOKORO_DIR / "kokoro-v1.0.onnx"), str(KOKORO_DIR / "voices-v1.0.bin"))
-        audio, sr = _kokoro.create(text, voice=voice, speed=speed, lang="en-us")
+        # one call per sentence: exact sentence starts, word timing only estimated inside a short sentence
+        import re
+        sentences = [x for x in re.split(r"(?<=[.!?:])\s+", text.strip()) if x]
+        chunks, words, cur = [], [], 0.0
+        for sent in sentences:
+            seg, sr = _kokoro.create(sent, voice=voice, speed=speed, lang="en-us")
+            a = np.abs(seg)
+            nz = np.nonzero(a > 0.01)[0]
+            if len(nz):
+                seg = seg[max(0, nz[0] - int(0.03 * sr)): nz[-1] + int(0.05 * sr)]
+            dur = len(seg) / sr
+            toks = sent.split()
+            weights = [max(2, sum(c.isalnum() for c in w)) + (3 if w[-1] in ",;" else 0) for w in toks]
+            unit = dur / max(1, sum(weights))
+            t = cur
+            for w, wt in zip(toks, weights):
+                words.append((t, max(2, sum(c.isalnum() for c in w)) * unit, w.strip('.,!?:;"')))
+                t += wt * unit
+            gap = np.zeros(int(0.28 * sr), dtype=np.float32)  # natural pause between sentences
+            chunks += [seg.astype(np.float32), gap]
+            cur += dur + len(gap) / sr
+        audio = np.concatenate(chunks[:-1]) if chunks else np.zeros(1, np.float32)
         sf.write(str(wav), audio, sr)
-        # estimate word timing over the voiced span: weight = letters, plus pauses after punctuation
-        a = np.abs(audio)
-        nz = np.nonzero(a > 0.01)[0]
-        t0, t1 = (nz[0] / sr, nz[-1] / sr) if len(nz) else (0.0, len(audio) / sr)
-        toks = text.split()
-        weights = [max(2, sum(c.isalnum() for c in w)) + (6 if w[-1] in ".?!:" else 3 if w[-1] in ",;" else 0) for w in toks]
-        unit = (t1 - t0) / max(1, sum(weights))
-        words, cur = [], t0
-        for w, wt in zip(toks, weights):
-            letters = max(2, sum(c.isalnum() for c in w)) * unit
-            words.append((cur, letters, w.strip('.,!?:;"')))
-            cur += wt * unit
         meta.write_text(json.dumps(words))
     pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", str(wav), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                          check=True, capture_output=True).stdout
