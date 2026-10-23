@@ -6,6 +6,7 @@
 | 2 | 002-3am-kitchen-light | zasada babci: światło w kuchni o 3:00, lodówka | 64,3 s | 2026-10-22 18:00 ET (23:00 UK) | opublikowany: 221 wyśw., 8 polub. (23.10 rano); film dostarczony gotowy, bez story.json i napisów | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=5437084779700700434) |
 | 3 | 003-baby-monitor | niania elektroniczna śpiewa kołysankę zmarłej babci | 64,9 s | 2026-10-23 20:00 ET (24.10 01:00 UK) | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5775893551606707764) |
 | 4 | 004-doorbell-camera | smart doorbell: mężczyzna bez oddechu na ganku ostrzega, że zagrożenie jest w środku | 65,4 s | 2026-10-24 19:00 ET (25.10 00:00 UK) | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3904342816040204045) |
+| 5 | 005-rideshare-passenger | przejazd o 3:00: w lusterku dwóch pasażerów, aplikacja kończy kurs w trakcie jazdy (hook: zdarzenie; głos Kokoro) | 63,5 s | 2026-10-25 20:00 ET (26.10 00:00 UK) | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-1875309153587019168) |
 
 ## Obserwacje (do sprawdzenia na kolejnych filmach)
 
@@ -19,7 +20,6 @@
 
 Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu z ostatnich 10 filmów.
 
-- Uber o 2:00: kierowca jedzie dobrą trasą, ale w lusterku na tylnym siedzeniu siedzi dwóch pasażerów.
 - Szkolny group chat: wiadomość od kolegi, który od tygodnia jest zaginiony („why did you leave me in the woods”).
 - Zakładka „Find My”: lokalizacja siostry pokazuje strych twojego domu.
 - Nocna zmiana na stacji benzynowej: klient płaci kartą z twoim imieniem i nazwiskiem.

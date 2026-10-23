@@ -1,0 +1,249 @@
+{
+  "id": "005-rideshare-passenger",
+  "title": "My 3 a.m. ride had one passenger. The mirror showed two.",
+  "tts": "kokoro",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+  "hook_text": "My 3 a.m. ride had one passenger. The mirror showed two.",
+  "hook_scenes": 2,
+  "hook_type": "event",
+  "scenes": [
+    {
+      "narration": "At 3 a.m., I picked up one passenger. A quiet guy in a gray hoodie. He didn't say a word. Just got in the back.",
+      "shots": [
+        {
+          "prompt": "inside a car at night, view from the driver seat through the windshield, empty wet suburban road lit by headlights, dashboard glow",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.3,
+      "post": 0.2,
+      "sfx": [
+        {
+          "type": "drone",
+          "at": 0.0,
+          "until": "end",
+          "gain": 0.35
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "RIDE APP",
+          "sender": "New trip",
+          "heart": false,
+          "text": "1 passenger · Pickup in 2 min",
+          "time": "3:02 AM",
+          "at_word": "picked",
+          "until": "end",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "narration": "Problem is, my rearview mirror showed two people in the back seat.",
+      "shots": [
+        {
+          "prompt": "close up of a car rearview mirror at night, the reflection shows the backs of two dark hooded heads in the back seat, no faces visible, cold blue light",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.05,
+      "post": 0.8,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "two"
+        }
+      ]
+    },
+    {
+      "narration": "I turned around. Just him. Earbuds in. Staring at his phone. The seat next to him was empty.",
+      "shots": [
+        {
+          "prompt": "dark back seat of a car at night seen from the front, one hooded figure from behind with the hood up covering the head, phone glow, empty seat beside, no face",
+          "motion": "zoom_out"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.4
+    },
+    {
+      "narration": "I looked back at the mirror. The second one was still there. Sitting right behind me. Perfectly still. Watching me drive.",
+      "shots": [
+        {
+          "prompt": "car rearview mirror at night reflecting a dark back seat with a vague black shadow shape behind the driver seat, no person details, no face, horror",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.6,
+      "sfx": [
+        {
+          "type": "heartbeat",
+          "at_word": "still",
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "Right behind me.",
+          "at_word": "behind",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Then my phone buzzed. A message from the app.",
+      "shots": [
+        {
+          "prompt": "smartphone mounted on a car dashboard at night glowing with a notification, rain on the windshield, dark",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.2,
+      "sfx": [
+        {
+          "type": "vibrate",
+          "at": 0.0
+        }
+      ]
+    },
+    {
+      "narration": "Your passenger has ended the trip. Please check the back seat for belongings.",
+      "shots": [
+        {
+          "prompt": "smartphone mounted on a car dashboard at night glowing with a notification, rain on the windshield, dark",
+          "motion": "shake"
+        }
+      ],
+      "pre": 0.05,
+      "post": 0.5,
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "RIDE APP",
+          "sender": "Trip ended",
+          "heart": false,
+          "text": "Please check the back seat for belongings",
+          "time": "3:11 AM",
+          "at_word": "ended",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "Trip ended? We were still on the highway. Doing seventy miles an hour.",
+      "shots": [
+        {
+          "prompt": "dark empty highway at night seen through a car windshield, street lights passing, eerie fog",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.5,
+      "sfx": [
+        {
+          "type": "hit",
+          "at_word": "highway",
+          "gain": 0.7
+        }
+      ]
+    },
+    {
+      "narration": "I checked the mirror. The guy in the hoodie was gone. His door was still locked.",
+      "shots": [
+        {
+          "prompt": "empty back seat of a car at night, door lock pressed down, phone left on the seat glowing, cold light",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.4,
+      "sfx": [
+        {
+          "type": "creak",
+          "at": 0.5,
+          "gain": 0.5
+        }
+      ]
+    },
+    {
+      "narration": "But the other one was still back there. I could hear it breathing. And slowly, it leaned forward. Right next to my ear.",
+      "shots": [
+        {
+          "prompt": "dark car interior at night, a shadowy shape leaning between the front seats toward the driver, no face visible, horror film still",
+          "motion": "slow_zoom_in"
+        }
+      ],
+      "pre": 0.1,
+      "post": 0.9,
+      "flicker": true,
+      "sfx": [
+        {
+          "type": "riser",
+          "at_word": "slowly",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "So tell me. Do you pull over, or keep driving?",
+      "shots": [
+        {
+          "black": true
+        }
+      ],
+      "pre": 0.4,
+      "post": 1.4,
+      "captions": false,
+      "overlays": [
+        {
+          "kind": "title",
+          "text": "Pull over or keep driving?",
+          "at": 0.0,
+          "until": "end"
+        },
+        {
+          "kind": "choice",
+          "text": "PULL OVER  or  DRIVE",
+          "at_word": "driving",
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "narration": "",
+      "shots": [
+        {
+          "prompt": "inside a car at night, view from the driver seat through the windshield, empty wet suburban road lit by headlights, dashboard glow",
+          "motion": "zoom_in"
+        }
+      ],
+      "pre": 0.0,
+      "post": 1.2,
+      "overlays": [
+        {
+          "kind": "sms",
+          "app": "RIDE APP",
+          "sender": "New trip",
+          "heart": false,
+          "text": "1 passenger · Pickup in 2 min",
+          "time": "3:02 AM",
+          "at": 0.1,
+          "until": "end",
+          "slot": 1
+        }
+      ]
+    }
+  ],
+  "post": {
+    "caption": "Pull over or keep driving? 🚗 or 🛑 #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+    "tiktok_title": "My 3 a.m. ride had one passenger. The mirror showed two.",
+    "first_comment": "What would you say to the one in the back seat? 👇",
+    "cover_ms": 1500
+  }
+}
