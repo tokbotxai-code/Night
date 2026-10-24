@@ -25,7 +25,7 @@ KROK 1 – BEZPIECZNIKI, STATYSTYKI I TERMINY
 - getBrandSettings: TYLKO blogId 7593858 (nightstories.tv) z podpiętym TikTokiem. Nigdy blogId 7506075 (pepsafe.info).
 - Statystyki TikToka z 14 dni (CLAUDE.md sekcja 6). Uzupełnij statusy i liczby w LOG.md, sprawdź „Obserwacje”, zdecyduj o „Part 2”.
 - Post ze statusem ERROR → ponów w najbliższym wolnym slocie.
-- Sloty w czasie USA wg channel.json → metricool.schedule (do 28.10.2026: 20:00 ET; od 29.10.2026: 19:00 i 22:00 ET).
+- Sloty w czasie USA wg channel.json → metricool.schedule (od 25.10.2026: 19:00 i 22:00 ET; już zaplanowany film na 20:00 ET liczy się jako slot 19:00).
 - getScheduledPosts na 48 h. Wolne, przyszłe sloty (zajęty = post w ciągu ±60 min), maksymalnie 2. Brak wolnych = raport ze statystykami i koniec.
 
 ZASADA ZATRZYMANIA (decyzja właściciela 24.10: filmy stoją na ~238 wyświetleniach = pierwsza pula testowa TikToka):
