@@ -17,6 +17,8 @@
 
 ## Bank pomysłów (oryginalne, do rozwinięcia)
 
+- **[UK, pierwszy na 25.10 20:00 UK, gotowy scenariusz od właściciela]** „Night bus”: ostatni nocny autobus, ktoś dzwoni dzwonkiem z pustego piętra; kierowca: "Don't go upstairs, love. Not on this route."; SMS od mamy: "Why are you whispering? I can hear you on the phone." / "Who's that with you? They keep saying your name."; kroki na schodach; kierowca: "That's your stop." – a to nie jej przystanek. Pytanie: Get off or stay on? 🚌. Pełny tekst w rozmowie „główna” (24.10 wieczorem). Lektor bm_george, brytyjski angielski.
+
 Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu z ostatnich 10 filmów.
 
 - Szkolny group chat: wiadomość od kolegi, który od tygodnia jest zaginiony („why did you leave me in the woods”).
