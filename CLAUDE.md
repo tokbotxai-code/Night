@@ -100,8 +100,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   `{"title": tiktok_title, "privacyOption": "PUBLIC_TO_EVERYONE", "isAigc": true, "autoAddMusic": false}`
   (oznaczenie AI jest obowiązkowe).
 - **Harmonogram w czasie USA (America/New_York, ET), czyli wieczór w USA (decyzja właściciela z 23.10.2026):**
-  - do 28.10.2026: **1 film dziennie o 20:00 ET**,
-  - od 29.10.2026: **2 filmy dziennie: 19:00 ET i 22:00 ET**.
+  - **od 25.10.2026 (decyzja właściciela 24.10, „pełna para”): 2 filmy dziennie: 19:00 ET i 22:00 ET.** Już zaplanowane filmy na 20:00 ET (004, 005) liczą się jako slot 19:00 tego dnia; dołóż tylko 22:00 ET.
   - Strefa marki w Metricool to Europe/London. Godzinę ET przelicz w Pythonie (`zoneinfo`) na Europe/London i taką wyślij w `publicationDate`.
     Gdy wynik wypada w nocy zmiany czasu w UK (ostatnia niedziela października, 01:00–02:00 UK), przesuń slot o 1 h wcześniej.
   - Godzin nie zmieniaj na własną rękę. Zmiany wprowadza tylko właściciel.
