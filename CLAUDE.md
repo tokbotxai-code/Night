@@ -142,6 +142,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 
 - **Zmiany w autopilocie wprowadzasz sam w `AUTOPILOT.md`** (push na oba branche). Zadanie w aplikacji ma tylko krótkie polecenie i czyta ten plik od nowa przy każdym uruchomieniu.
   Nigdy nie proś właściciela o edycję zadania. Wyjątki: godzina uruchomienia, connectory, sekrety. Numerów sesji ani kluczy nie wpisuj do repo — sesje wskazuj tytułem.
+- **Historia decyzji właściciela jest w rozmowie o tytule „główna”** (także gdy jest w archiwum). Gdy czegoś nie ma w tym pliku albo nie wiesz, czego chce właściciel: `list_sessions` (claude-code-remote) → sesja „główna” → `list_events` z `kinds: ["user","assistant"]`, czytaj od najnowszych. Decyzje stamtąd mają pierwszeństwo przed domysłami; ważne przenieś do tego pliku. Nie czytaj całej historii przy każdym uruchomieniu, tylko gdy brakuje kontekstu.
 
 - Rutynowe działania wykonuj **sam, bez pytania**: treść historii, sceny, poprawki, render
   i publikację w Metricool według harmonogramu z sekcji 4. Opisz je w podsumowaniu.
