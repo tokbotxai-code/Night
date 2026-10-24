@@ -28,6 +28,12 @@ KROK 1 – BEZPIECZNIKI, STATYSTYKI I TERMINY
 - Sloty w czasie USA wg channel.json → metricool.schedule (do 28.10.2026: 20:00 ET; od 29.10.2026: 19:00 i 22:00 ET).
 - getScheduledPosts na 48 h. Wolne, przyszłe sloty (zajęty = post w ciągu ±60 min), maksymalnie 2. Brak wolnych = raport ze statystykami i koniec.
 
+ZASADA ZATRZYMANIA (decyzja właściciela 24.10: filmy stoją na ~238 wyświetleniach = pierwsza pula testowa TikToka):
+- Pierwsza klatka to już scena grozy z dużym hook_text na ekranie i ruchem (shake albo szybki zoom_in), bez spokojnego wstępu. Pierwsze zdanie lektora ≤ 8 słów.
+- Do 3. sekundy pierwszy mocny dźwięk (hit albo vibrate) i SMS albo inny tekst na ekranie.
+- Cel długości bez zmian (61–90 s), ale bez pustych pauz dłuższych niż 0,6 s w pierwszych 15 s.
+- W raporcie: czy któryś film przekroczył 300 wyświetleń i jaki miał hook (zapisz w LOG.md).
+
 KROK 2 – DLA KAŻDEGO SLOTU OSOBNY FILM
 a) Scenariusz wg CLAUDE.md sekcja 6 albo pierwszy pomysł z "Bank pomysłów". stories/<NNN>-<slug>/story.json jak w 001:
    hook w 1. zdaniu, twist w 35–55 s, pytanie A/B na końcu, ostatni kadr = pierwszy, 160–200 słów, US English, zero gore, bez "true story", bez twarzy.
