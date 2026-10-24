@@ -140,6 +140,9 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 
 ## 7. Decyzje (ustalenie właściciela, 22.10.2026)
 
+- **Zmiany w autopilocie wprowadzasz sam w `AUTOPILOT.md`** (push na oba branche). Zadanie w aplikacji ma tylko krótkie polecenie i czyta ten plik od nowa przy każdym uruchomieniu.
+  Nigdy nie proś właściciela o edycję zadania. Wyjątki: godzina uruchomienia, connectory, sekrety. Numerów sesji ani kluczy nie wpisuj do repo — sesje wskazuj tytułem.
+
 - Rutynowe działania wykonuj **sam, bez pytania**: treść historii, sceny, poprawki, render
   i publikację w Metricool według harmonogramu z sekcji 4. Opisz je w podsumowaniu.
 - Twarde zasady z sekcji 1 i 4 (tylko marka nightstories.tv, nigdy pepsafe.info, zero gore, oznaczenie AI) obowiązują zawsze.
