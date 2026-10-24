@@ -24,7 +24,7 @@ Pomysły od właściciela; piszemy WŁASNE zdania, twist i szczegóły (bez kopi
 - **UK-6 „Flat 13”**: tani blok, mieszka w 12; sąsiedzi omijają windę po północy. Co noc 2:14 trzy powolne pukania, w wizjerze wysoki mężczyzna w czarnym płaszczu. Sąsiad: „Flat 13's been sealed for twenty years. The family just… vanished.” (BEZ morderstwa). SMS ze zdjęciem jego samego od tyłu we własnym przedpokoju. Mężczyzna na końcu korytarza: „You're in my flat.” Drzwi klikają, numer zmienia się z 12 na 13. Pytanie: Run for the door or hide? 🚪
 - **UK-2 „The line that isn't on the map”**: awaria sygnalizacji, ostatni pociąg uciekł; na peron wjeżdża stary pociąg spoza rozkładu (fikcyjna linia, bez nazw prawdziwych linii). Pasażerowie w ubraniach z lat 50. patrzą przed siebie bez mrugania; lampy migoczą. Komunikat: następna stacja to ta zamknięta „many years ago” (bez konkretnej daty i katastrofy); drzwi ryglują się od zewnątrz. Twist: w szybie odbija się, że on też ma płaszcz z lat 50. Pytanie: Pull the alarm or stay seated? 🚇
 
-- **[UK, pierwszy na 25.10 20:00 UK, gotowy scenariusz od właściciela]** „Night bus”: ostatni nocny autobus, ktoś dzwoni dzwonkiem z pustego piętra; kierowca: "Don't go upstairs, love. Not on this route."; SMS od mamy: "Why are you whispering? I can hear you on the phone." / "Who's that with you? They keep saying your name."; kroki na schodach; kierowca: "That's your stop." – a to nie jej przystanek. Pytanie: Get off or stay on? 🚌. Pełny tekst w rozmowie „główna” (24.10 wieczorem). Lektor bm_george, brytyjski angielski.
+- ~~[UK] „Night bus”~~ ZROBIONY: 006-night-bus. Opis był:: ostatni nocny autobus, ktoś dzwoni dzwonkiem z pustego piętra; kierowca: "Don't go upstairs, love. Not on this route."; SMS od mamy: "Why are you whispering? I can hear you on the phone." / "Who's that with you? They keep saying your name."; kroki na schodach; kierowca: "That's your stop." – a to nie jej przystanek. Pytanie: Get off or stay on? 🚌. Pełny tekst w rozmowie „główna” (24.10 wieczorem). Lektor bm_george, brytyjski angielski.
 
 Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu z ostatnich 10 filmów.
 
@@ -35,3 +35,5 @@ Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu
 - Sąsiad co noc o 3:33 kosi trawnik. Dziś przestał w połowie i patrzy w twoje okno.
 - Nowe mieszkanie: w szafie są drzwi, których nie ma na planie.
 - Dziecko mówi, że „pani z sufitu” zna hasło do wi-fi.
+
+| 006-night-bus | 24.10.2026 22:00 UK (UK, lektor bm_george) | 79,5 s | hook: zdarzenie | https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-2084198477140966725 |
