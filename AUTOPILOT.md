@@ -57,4 +57,8 @@ Stare gałęzie (media-test, claude/*): ignoruj, nie zgłaszaj w raporcie.
 KROK 5 – RAPORT
 Sekcja „Kontrola i porządki”: każdy błąd (co, gdzie, dlaczego, co zrobiono) i każdy usunięty plik (ścieżka, rozmiar, powód); gdy nic: „bez błędów, nic do usunięcia”.
 Dla każdego filmu: tytuł, długość, godzina (ET i czas polski), link plannera, typ hooka, problemy. Plus statystyki i 1 zdanie: czego się nauczyliśmy i co zmieniasz.
+
+KROK 6 – DOSTARCZENIE RAPORTU (decyzja właściciela 24.10)
+Po raporcie: list_sessions (claude-code-remote, w razie potrzeby przez ToolSearch), znajdź sesję właściciela o tytule dokładnie „task”
+i wyślij do niej pełny raport przez send_message, z nagłówkiem „🌙 Night – raport RRRR-MM-DD”. Zawsze, także gdy nic nie zrobiono (wtedy napisz dlaczego).
 ```
