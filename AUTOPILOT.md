@@ -34,6 +34,8 @@ ZASADA ZATRZYMANIA (decyzja właściciela 24.10: filmy stoją na ~238 wyświetle
 - Cel długości bez zmian (61–90 s), ale bez pustych pauz dłuższych niż 0,6 s w pierwszych 15 s.
 - W raporcie: czy któryś film przekroczył 300 wyświetleń i jaki miał hook (zapisz w LOG.md).
 
+CANVA OBOWIĄZKOWO (decyzja właściciela 24.10): w każdym filmie zrób w Canvie (narzędzia mcp__Canva__*) co najmniej 2 kluczowe kadry 9:16: hook (pierwsza klatka) i twist. Projekt → eksport PNG/JPG → stories/<id>/hook.png i twist.png → w story.json ujęcia {"image_file": "hook.png", ...}. Styl z assets/brand.json, bez twarzy wprost, bez krwi. Dopiero gdy Canva odmówi albo zwróci błąd, użyj Pollinations i napisz to w raporcie. W raporcie wypisz, które kadry są z Canvy.
+
 KROK 2 – DLA KAŻDEGO SLOTU OSOBNY FILM
 a) Scenariusz wg CLAUDE.md sekcja 6 albo pierwszy pomysł z "Bank pomysłów". stories/<NNN>-<slug>/story.json jak w 001:
    hook w 1. zdaniu, twist w 35–55 s, pytanie A/B na końcu, ostatni kadr = pierwszy, 160–200 słów, US English, zero gore, bez "true story", bez twarzy.
