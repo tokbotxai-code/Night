@@ -101,6 +101,9 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   (oznaczenie AI jest obowiązkowe).
 - **Harmonogram w czasie USA (America/New_York, ET), czyli wieczór w USA (decyzja właściciela z 23.10.2026):**
   - **od 25.10.2026 (decyzja właściciela 24.10, „pełna para”): 2 filmy dziennie: 19:00 ET i 22:00 ET.** Już zaplanowane filmy na 20:00 ET (004, 005) liczą się jako slot 19:00 tego dnia; dołóż tylko 22:00 ET.
+  - **Trzeci film dla UK (decyzja właściciela 24.10): codziennie o 20:00 czasu UK** (szczyt oglądania w Wielkiej Brytanii).
+    Lektor brytyjski: Kokoro **`bm_george`**, `speed 0.9` (skrypt sam przełącza wymowę na brytyjską dla głosów `bm_*`/`bf_*`).
+    Tekst po brytyjsku: „mum”, „flat”, „mobile”, „pavement”, „colour”, godziny „3 a.m.” zostają. Ta sama struktura i długość 61–90 s.
   - Strefa marki w Metricool to Europe/London. Godzinę ET przelicz w Pythonie (`zoneinfo`) na Europe/London i taką wyślij w `publicationDate`.
     Gdy wynik wypada w nocy zmiany czasu w UK (ostatnia niedziela października, 01:00–02:00 UK), przesuń slot o 1 h wcześniej.
   - Godzin nie zmieniaj na własną rękę. Zmiany wprowadza tylko właściciel.

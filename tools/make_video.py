@@ -96,7 +96,8 @@ def kokoro_tts(text, voice, speed, cache):
         sentences = [x for x in re.split(r"(?<=[.!?:])\s+", text.strip()) if x]
         chunks, words, cur = [], [], 0.0
         for sent in sentences:
-            seg, sr = _kokoro.create(sent, voice=voice, speed=speed, lang="en-us")
+            # British voices (bf_*/bm_*) need British pronunciation
+            seg, sr = _kokoro.create(sent, voice=voice, speed=speed, lang="en-gb" if voice[:2] in ("bf", "bm") else "en-us")
             a = np.abs(seg)
             nz = np.nonzero(a > 0.01)[0]
             if len(nz):

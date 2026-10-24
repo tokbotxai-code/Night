@@ -41,6 +41,13 @@
           "22:00"
         ]
       },
+      "uk_slot": {
+        "from": "2026-10-25",
+        "timezone": "Europe/London",
+        "slots": ["20:00"],
+        "voice": "bm_george",
+        "note": "Trzeci film dziennie dla widzow z UK: brytyjski lektor Kokoro, brytyjski angielski."
+      },
       "note": "Sloty w czasie USA (ET). publicationDate wysyłaj w Europe/London, przeliczone przez zoneinfo."
     }
   },
