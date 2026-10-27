@@ -20,6 +20,13 @@ cd /home/user/Night && git remote set-url origin https://github.com/tokbotxai-co
 Każdy push: git push origin HEAD:night-autopilot, zaraz potem git push origin HEAD:main. Odrzucony push: git fetch origin night-autopilot && git merge --no-edit origin/night-autopilot i ponów. Nigdy force-push.
 Przeczytaj w całości CLAUDE.md (ma pierwszeństwo przed tym plikiem), channel.json, assets/brand.json, stories/LOG.md i stories/001-mom-forgot-keys/story.json (wzorzec).
 
+TRYB OSZCZĘDNY (decyzja właściciela 27.10: tygodniowy limit planu musi starczyć na 7 dni dla Night i PepSafe):
+- Najpierw filmy do wolnych slotów, potem raport. Statystyki z 14 dni i porządki w LOG.md robisz pełne tylko w poniedziałki; w inne dni tylko liczby wczorajszych filmów.
+- Canva: 1 kadr na film (hook), nie 2. Twist i reszta teł z Pollinations.
+- Render: najpierw od razu wersja finalna (bez --preview), sprawdzasz arkusz klatek; ponowny render najwyżej raz.
+- Raport: maks. 10 linijek.
+- Gdy krok nie wyjdzie dwa razy, pomiń go i napisz to w jednej linijce.
+
 KROK 1 – BEZPIECZNIKI, STATYSTYKI I TERMINY
 - Załaduj narzędzia Metricool (ToolSearch "metricool"). Bez nich nic nie planuj, zakończ raportem.
 - getBrandSettings: TYLKO blogId 7593858 (nightstories.tv) z podpiętym TikTokiem. Nigdy blogId 7506075 (pepsafe.info).
