@@ -33,7 +33,7 @@ KROK 1 – BEZPIECZNIKI, STATYSTYKI I TERMINY
 - Statystyki TikToka z 14 dni (CLAUDE.md sekcja 6). Uzupełnij statusy i liczby w LOG.md, sprawdź „Obserwacje”, zdecyduj o „Part 2”.
 - Post ze statusem ERROR → ponów w najbliższym wolnym slocie.
 - Sloty w czasie USA wg channel.json → metricool.schedule (od 25.10.2026: 19:00 i 22:00 ET; już zaplanowany film na 20:00 ET liczy się jako slot 19:00) + 20:00 Europe/London: film dla UK z brytyjskim lektorem bm_george i brytyjskim angielskim (CLAUDE.md sekcja 4).
-- getScheduledPosts na 48 h. Wolne, przyszłe sloty (zajęty = post w ciągu ±60 min), maksymalnie 2. Brak wolnych = raport ze statystykami i koniec.
+- getScheduledPosts na 48 h. Wolne, przyszłe sloty (zajęty = post w ciągu ±60 min), maksymalnie 3 (decyzja właściciela 28.10: 19:00 ET, 22:00 ET i 20:00 UK; brakujący slot UK zawsze uzupełnij). Brak wolnych = raport ze statystykami i koniec.
 
 ZASADA ZATRZYMANIA (decyzja właściciela 24.10: filmy stoją na ~238 wyświetleniach = pierwsza pula testowa TikToka):
 - Pierwsza klatka to już scena grozy z dużym hook_text na ekranie i ruchem (shake albo szybki zoom_in), bez spokojnego wstępu. Pierwsze zdanie lektora ≤ 8 słów.
