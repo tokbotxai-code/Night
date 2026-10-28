@@ -1,0 +1,213 @@
+{
+ "id": "008-own-voicemail",
+ "title": "My voicemail came from my own number",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+ "hook_text": "My voicemail came from my own number.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "My voicemail came from my own number.",
+   "shots": [
+    {
+     "prompt": "close up of a smartphone on a bedside table at night showing a voicemail screen, glowing blue, dark bedroom",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Voicemail",
+     "text": "From: Me \u00b7 Received: tomorrow 3:07 AM",
+     "time": "3:06 AM",
+     "at_word": "voicemail",
+     "until": "end",
+     "app": "PHONE",
+     "slot": 1
+    }
+   ]
+  },
+  {
+   "narration": "It was 3:06 a.m. The timestamp said 3:07 tomorrow. I live alone. Nobody else has my phone.",
+   "shots": [
+    {
+     "prompt": "smartphone lock screen glowing in the dark, bedroom shadows",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I pressed play. It was my voice. Whispering. Terrified. I was breathing hard, like I was hiding.",
+   "shots": [
+    {
+     "prompt": "phone speaker glowing on a dark nightstand, soundwave light",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end",
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "narration": "Don't open the closet. Whatever you hear, it's not me. Please. Just listen to me. Get out of the house.",
+   "shots": [
+    {
+     "prompt": "dark bedroom closet door slightly ajar, blackness inside, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Don't open the closet.",
+     "at_word": "Don't",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then a knock. Soft. From inside the closet. Like someone tapping with one finger.",
+   "shots": [
+    {
+     "prompt": "closed wooden closet door in a dark bedroom, faint blue phone glow on it",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "knock3",
+     "at_word": "knock"
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "Soft",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "A whisper came through the crack. My voice again. Open it. It's freezing in here. It sounded warm and familiar and wrong. I wanted to believe it. My hand reached for the handle.",
+   "shots": [
+    {
+     "prompt": "narrow gap of a closet door in the dark, cold mist at the crack, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.3
+    }
+   ],
+   "flicker": true
+  },
+  {
+   "narration": "I checked the voicemail. It was still playing. In my hand. Whispering the same words. My thumb was shaking on the screen.",
+   "shots": [
+    {
+     "prompt": "smartphone in a hand in the dark, voicemail screen playing, blue glow",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "So who was talking in the closet? The voicemail stopped. The closet said it again. Only closer. The handle began to turn.",
+   "shots": [
+    {
+     "prompt": "closet door in the dark, the handle slowly turning, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.9,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "type": "hit",
+     "at_word": "closer",
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you open the closet, or run?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Do you open the closet, or run?",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "CLOSET  or  RUN",
+     "at_word": "run",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "close up of a smartphone on a bedside table at night showing a voicemail screen, glowing blue, dark bedroom",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Open the closet or run? \ud83d\udeaa or \ud83c\udfc3 #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+  "tiktok_title": "My voicemail came from my own number \ud83d\ude31",
+  "firstCommentText": "Would you press play? \ud83d\udc47",
+  "cover_ms": 1500
+ }
+}

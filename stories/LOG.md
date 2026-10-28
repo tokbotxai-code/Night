@@ -29,11 +29,11 @@ Pomysły od właściciela; piszemy WŁASNE zdania, twist i szczegóły (bez kopi
 Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu z ostatnich 10 filmów.
 
 - Szkolny group chat: wiadomość od kolegi, który od tygodnia jest zaginiony („why did you leave me in the woods”).
-- Zakładka „Find My”: lokalizacja siostry pokazuje strych twojego domu.
 - Nocna zmiana na stacji benzynowej: klient płaci kartą z twoim imieniem i nazwiskiem.
-- Voicemail z twojego numeru, nagrany jutro.
 - Sąsiad co noc o 3:33 kosi trawnik. Dziś przestał w połowie i patrzy w twoje okno.
 - Nowe mieszkanie: w szafie są drzwi, których nie ma na planie.
 - Dziecko mówi, że „pani z sufitu” zna hasło do wi-fi.
 
 | 006-night-bus | 24.10.2026 22:00 UK (UK, lektor bm_george) | 79,5 s | hook: zdarzenie | https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-2084198477140966725 |
+| 007-find-my-attic | 28.10.2026 19:00 ET (23:00 UK) | 72,5 s | hook: pytanie; Kokoro am_michael; ZRODLO: bank „Find My” | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=1580807447601300698) |
+| 008-own-voicemail | 28.10.2026 22:00 ET (29.10 02:00 UK) | 74,9 s | hook: zdarzenie; Kokoro am_michael | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=2600755232209191180) |
