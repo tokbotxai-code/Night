@@ -1,0 +1,242 @@
+{
+ "id": "007-find-my-attic",
+ "title": "Why is my sister's pin in my attic?",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+ "hook_text": "Why is my sister's pin in my attic?",
+ "hook_scenes": 2,
+ "hook_type": "question",
+ "scenes": [
+  {
+   "narration": "Why is my sister's pin in my attic?",
+   "shots": [
+    {
+     "prompt": "close up of a smartphone map in a dark bedroom, a glowing blue location dot, ceiling above, night",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Find My",
+     "text": "Sister's location: your house",
+     "time": "2:47 AM",
+     "at_word": "sister's",
+     "until": "end",
+     "app": "FIND MY",
+     "slot": 1
+    }
+   ]
+  },
+  {
+   "narration": "I opened Find My at 2:47 a.m. Her dot sat right above my bed. My stomach dropped. I live alone in a quiet house.",
+   "shots": [
+    {
+     "prompt": "dark bedroom ceiling with a square attic hatch, faint blue phone glow from below",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4
+  },
+  {
+   "narration": "But she lives four hours away. She'd texted goodnight from her bed at midnight. I texted her. Are you here? She didn't answer for a long minute. The dot never moved.",
+   "shots": [
+    {
+     "prompt": "smartphone on a nightstand glowing in a dark room, messages screen",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Then the ceiling creaked. One slow step. Then another. I held my breath. Dust drifted onto my pillow. Something up there was walking toward the hatch.",
+   "shots": [
+    {
+     "prompt": "dark ceiling with the attic hatch, dust falling in a weak beam of light",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.2
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "slow",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My phone buzzed. It was her.",
+   "shots": [
+    {
+     "prompt": "smartphone glowing on a bed in the dark, rain at the window",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I'm home in bed. Why does my phone say I'm at your house?",
+   "shots": [
+    {
+     "prompt": "smartphone glowing on a bed in the dark, rain at the window",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Sis",
+     "text": "I'm home in bed. Why does my phone say I'm at YOUR house?",
+     "time": "2:51 AM",
+     "at_word": "home",
+     "until": "end",
+     "slot": 0
+    }
+   ]
+  },
+  {
+   "narration": "The dot moved. Down the attic stairs. Into the hallway. Toward my door.",
+   "shots": [
+    {
+     "prompt": "phone map with a blue dot, dark hallway reflected in the glass",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at_word": "moved",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "A shadow stopped under my door. Two thin lines of darkness. It did not knock. I watched it lean closer to the crack. The handle shivered.",
+   "shots": [
+    {
+     "prompt": "bedroom door at night, a gap of light underneath, a shadow of feet in the gap, no person visible",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "shadow",
+     "gain": 0.7
+    }
+   ],
+   "flicker": true
+  },
+  {
+   "narration": "Then my phone lit up. Don't open it. I'm still four hours away.",
+   "shots": [
+    {
+     "prompt": "smartphone lit on a nightstand in a dark room, cold light",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.8,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    },
+    {
+     "type": "hit",
+     "at_word": "four"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Sis",
+     "text": "Don't open it. I'm still 4 hours away.",
+     "time": "2:53 AM",
+     "at_word": "Don't",
+     "until": "end",
+     "slot": 0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you open the door, or stay in bed?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Do you open the door, or stay in bed?",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "DOOR  or  BED",
+     "at_word": "bed",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "close up of a smartphone map in a dark bedroom, a glowing blue location dot, ceiling above, night",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Open the door or stay in bed? \ud83d\udeaa or \ud83d\udecf\ufe0f #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+  "tiktok_title": "Why is my sister's pin in my attic? \ud83d\ude31",
+  "firstCommentText": "What would you text back? \ud83d\udc47",
+  "cover_ms": 1500
+ }
+}
