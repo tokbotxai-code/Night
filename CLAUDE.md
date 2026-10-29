@@ -15,6 +15,15 @@ Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczn
 - **Język:** amerykański angielski (US spelling, „mom”, „a.m.”), zrozumiały też w UK. Bez slangu tylko z jednego kraju.
 - Narracja w 1. osobie, czas przeszły, krótkie zdania (najlepiej poniżej 12 słów). **160–200 słów na film** (Kokoro: zmierzone na 005, 160 słów + 8,5 s pauz = 63,5 s). Jeśli polecenie zadania podaje mniej słów, obowiązuje ta reguła.
 
+### Straszniej (decyzja właściciela 29.10): w ramach zasad TikToka, bez gore i krwi
+- **Zamiast tłumaczyć, zostaw niewiadomą.** Najstraszniejsze jest to, czego narrator nie rozumie. Bez wyjaśnienia, kto lub co to było.
+- **Zwykłe miejsce, jedna rzecz nie na swoim miejscu.** Kuchnia, klatka schodowa, samochód: zwykły dom z jednym szczegółem, który nie pasuje (drzwi, których nie było, głos o złej porze, telefon z własnym numerem).
+- **Eskalacja przez bliskość, nie przez potwora:** dźwięk za ścianą → w tym samym pokoju → ktoś już zna nasz plan. Co 4–7 s coś bliżej.
+- **Ciche cięcie przed końcem:** 1–2 s ciszy i czarnego kadru przed twistem, potem jedno zdanie. Cisza straszy bardziej niż efekt.
+- **Twist odwraca rolę narratora** (to ja byłem tym, kogo się bali; to nie on do mnie dzwonił), a nie dokłada straszaka.
+- **Koniec bez ulgi:** ostatnie zdanie nie zamyka historii. Bez „i wszystko się skończyło dobrze”.
+- Dalej obowiązuje: bez krwi w kadrze, samookaleczeń, przemocy wobec dzieci i zwierząt, bez prawdziwych miejsc i osób, oznaczenie AI. Straszymy sugestią.
+
 ### Struktura (sprawdzona na filmie #1)
 
 | Czas | Element | Zasada |
