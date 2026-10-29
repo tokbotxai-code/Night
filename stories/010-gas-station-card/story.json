@@ -1,0 +1,209 @@
+{
+ "id": "010-gas-station-card",
+ "title": "A customer paid with my own debit card",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+ "hook_text": "A customer just paid with my debit card.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "A customer just paid with my debit card.",
+   "shots": [
+    {
+     "prompt": "gas station convenience store counter at night, fluorescent light, empty aisle, a bank card lying on the counter, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Card reader",
+     "text": "APPROVED · card ending 4417",
+     "time": "2:40 AM",
+     "at_word": "debit",
+     "until": "end",
+     "app": "PAY"
+    }
+   ]
+  },
+  {
+   "narration": "It was 2:40 a.m. I knew that card. The scratch on the corner. My name. Even the bent edge from my wallet.",
+   "shots": [
+    {
+     "prompt": "close up of a bank card with a scratched corner under harsh fluorescent light, text not legible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "My card was in my back pocket. I checked. It was there. Two identical cards. Same scratch. Same bent edge.",
+   "shots": [
+    {
+     "prompt": "hand pulling a bank card from a back pocket, gas station counter, fluorescent light",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "The man wore a gray hoodie. He never looked up. He only said one word. Pump nine.",
+   "shots": [
+    {
+     "prompt": "man in a gray hoodie seen from behind at a gas station counter, hood up, fluorescent light, face hidden",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I glanced at the monitor. The security camera showed the counter. Empty. Nobody there. Just the hum of the freezer and the flickering lights.",
+   "shots": [
+    {
+     "prompt": "security camera monitor showing an empty gas station counter, grainy black and white",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "Empty",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "narration": "But he stood right in front of me. Close enough to smell the rain on him. His hands were shaking. Or maybe mine were.",
+   "shots": [
+    {
+     "prompt": "dark gas station window at night with rain, reflection of a hooded figure, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "The receipt printed itself. See you tomorrow, it said. Behind the register.",
+   "shots": [
+    {
+     "prompt": "thermal receipt paper curling out of a printer in a dim gas station, text blurred",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "riser",
+     "at_word": "receipt",
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "See you tomorrow. Behind the register.",
+     "at_word": "See",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I looked up at the monitor again. He was behind the register. And I was standing where he had stood.",
+   "shots": [
+    {
+     "prompt": "security camera monitor showing a hooded figure behind a gas station register and a second figure at the counter, grainy, no faces",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.9,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "register",
+     "gain": 0.8
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "And",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you keep the card, or run?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Keep the card, or run?",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "CARD  or  RUN",
+     "at_word": "run",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "gas station convenience store counter at night, fluorescent light, empty aisle, a bank card lying on the counter, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Keep the card or run? 💳 or 🏃 #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+  "tiktok_title": "A customer paid with my own debit card 😱",
+  "firstCommentText": "Would you take the card? 👇",
+  "cover_ms": 1500
+ }
+}

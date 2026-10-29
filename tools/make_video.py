@@ -401,7 +401,8 @@ def build(story_path, out_root, preview, offline, allow_any_length):
         if i < n:
             mix[i:e] += sig[: e - i] * gain
 
-    mix += sfx.room_tone(n / SR)[:n] * 0.035
+    rt = sfx.room_tone(n / SR + 1)[:n]
+    mix += rt * 0.035
     hits = []
     for scn in scenes:
         if len(scn["audio"]):

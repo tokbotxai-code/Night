@@ -1,0 +1,199 @@
+{
+ "id": "011-dont-answer-midnight",
+ "title": "Mum called my name. She was dead.",
+ "tts": "kokoro",
+ "voice": "bm_george",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, rainy British city at night, no text, no watermark",
+ "hook_text": "Mum called my name from downstairs. She'd been gone six months.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "Mum called my name from downstairs.",
+   "shots": [
+    {
+     "prompt": "dark old stairwell and hallway of a stone house at night, a faint light under a closed door, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Gran's notebook",
+     "text": "Don't answer after midnight",
+     "time": "12:41 AM",
+     "at_word": "Mum",
+     "until": "end",
+     "app": "NOTES"
+    }
+   ]
+  },
+  {
+   "narration": "She had been gone six months. I was alone in Gran's old house up north. The nearest neighbour was a mile away.",
+   "shots": [
+    {
+     "prompt": "empty bedroom in an old stone cottage at night, single bed, rain on the window",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Gran's notebook lay by the bed. The first page had one rule, underlined twice. If someone calls your name after midnight, don't answer.",
+   "shots": [
+    {
+     "prompt": "old leather notebook open on a wooden bedside table by candlelight, handwriting blurred and illegible",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "It called again. Mum's voice. Soft. Patient. Exactly how she used to wake me for school. Then it came from the other side of my bedroom door.",
+   "shots": [
+    {
+     "prompt": "closed wooden bedroom door in a dark old house, thin light under it, a shadow of feet",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "knock3",
+     "at_word": "door"
+    }
+   ]
+  },
+  {
+   "narration": "My mobile lit up. Unknown number. I answered without thinking. Gran whispered. Don't let it know you're awake.",
+   "shots": [
+    {
+     "prompt": "smartphone glowing in the dark on a quilt, unknown caller screen, blue light",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Unknown number",
+     "text": "Don't let it know you're awake",
+     "time": "12:44 AM",
+     "at_word": "Gran",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then I heard her again. Not through the phone. From the kitchen. Downstairs. Gran was down there, whispering to me. Alive. Somehow. In a house she never left.",
+   "shots": [
+    {
+     "prompt": "long dark hallway of an old house, a thin line of light from a kitchen door at the far end, no person",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So who had been standing behind my door? The handle moved. Slowly. And it started to laugh. Quietly. With Mum's voice. Like it had finally found me.",
+   "shots": [
+    {
+     "prompt": "bedroom door handle slowly turning in the dark, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.9,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "laugh",
+     "gain": 0.8
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "handle",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you answer it, or stay silent?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Answer it, or stay silent?",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "ANSWER  or  SILENT",
+     "at_word": "silent",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "dark old stairwell and hallway of a stone house at night, a faint light under a closed door, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Answer it or stay silent? 📞 or 🤫 #horrortok #scarystories #creepy #horrorstory #fyp #ukhorror",
+  "tiktok_title": "Mum called my name. She was gone six months 😱",
+  "firstCommentText": "What would you whisper back? 👇",
+  "cover_ms": 1500
+ }
+}

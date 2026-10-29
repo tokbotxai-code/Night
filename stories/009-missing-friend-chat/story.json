@@ -1,0 +1,225 @@
+{
+ "id": "009-missing-friend-chat",
+ "title": "Our missing friend texted the group chat",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American house at night, no text, no watermark",
+ "hook_text": "Our missing friend just texted the group chat.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "Our missing friend just texted the group chat.",
+   "shots": [
+    {
+     "prompt": "close up of a smartphone glowing on a dark bedroom desk showing a group chat, blue light, night",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Jake",
+     "text": "why did you all leave me out here",
+     "time": "2:48 AM",
+     "at_word": "missing",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Jake had been gone a week. His phone was dead. The police said so. His mom still left his porch light on every night.",
+   "shots": [
+    {
+     "prompt": "dark teenage bedroom wall covered in school photos, a phone glowing on the bed",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Eleven of us were in that chat. Nobody typed a word. We just watched the dots appear and vanish. Appear and vanish. Someone was trying to type.",
+   "shots": [
+    {
+     "prompt": "smartphone screen showing a typing indicator in a group chat, dark room, blue glow",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "flicker": true
+  },
+  {
+   "narration": "Then a photo came through. A dark road. Trees on both sides. A flashlight pointing at the ground.",
+   "shots": [
+    {
+     "prompt": "narrow dark country road at night with trees on both sides, a small flashlight beam on the asphalt, no people",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "photo",
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "narration": "I knew that road. It ran behind my house. I looked out my window. A small light glowed between the trees.",
+   "shots": [
+    {
+     "prompt": "bedroom window at night, curtains parted, a tiny light glowing far away between black trees",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Another message. Please come get me. I'm so cold. I almost went. I already had my shoes on. My hand was on the door.",
+   "shots": [
+    {
+     "prompt": "hand holding a glowing phone in a dark hallway, sneakers on the floor, front door in the background",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Jake",
+     "text": "please come get me. i'm so cold",
+     "time": "2:51 AM",
+     "at_word": "Please",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then one more. Don't come. It's using my phone. It wants you outside. Stay inside. Please.",
+   "shots": [
+    {
+     "prompt": "smartphone lock screen in the dark, notification glow on a wooden floor",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    },
+    {
+     "type": "riser",
+     "at_word": "outside",
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Jake",
+     "text": "DON'T COME. it's using my phone",
+     "time": "2:52 AM",
+     "at_word": "Don't",
+     "until": "end",
+     "slot": 1
+    }
+   ]
+  },
+  {
+   "narration": "The light between the trees went out. A moment later, it appeared in my yard. Right under my window.",
+   "shots": [
+    {
+     "prompt": "backyard lawn at night under a bedroom window, a small light glowing on the grass, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.9,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "yard",
+     "gain": 0.8
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "moment",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you go outside, or lock the door?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Go outside, or lock the door?",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "OUTSIDE  or  LOCK",
+     "at_word": "lock",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "close up of a smartphone glowing on a dark bedroom desk showing a group chat, blue light, night",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Go outside or lock the door? 🚪 or 🔒 #horrortok #scarystories #creepy #3am #horrorstory #fyp",
+  "tiktok_title": "Our missing friend just texted the group chat 😱",
+  "firstCommentText": "Would you reply to Jake? 👇",
+  "cover_ms": 1500
+ }
+}
