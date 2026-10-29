@@ -118,6 +118,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   - Godzin nie zmieniaj na własną rękę. Zmiany wprowadza tylko właściciel.
 - Konto TikTok jest **osobiste** (Creator Rewards), więc własna okładka nie działa: nie wysyłaj `videoThumbnailUrl`/`videoCoverMilliseconds`.
 - Opis: 1 zdanie z pytaniem A/B i emoji, potem 4–6 hashtagów (`#horrortok #scarystories #creepy #horrorstory #fyp` i 1 tematyczny).
+- **Zaproszenie do części 2 (decyzja właściciela 29.10):** w opisie każdego filmu, po pytaniu A/B, dodaj linijkę w stylu „Want a Part 2? Comment YES 👇” (zmieniaj sformułowania: „Part 2 soon? Let us know below”, „Should I tell you what happened next? Comment YES”). Na końcu filmu (ostatni napis, bez lektora) też może być „Part 2? Comment YES”. To pytanie do widzów, nie obietnica: **Part 2 robimy tylko wtedy, gdy film spełnia warunek z sekcji 6** (≥ 2× średnia kanału) albo ma wyraźnie dużo komentarzy „YES”. Liczbę komentarzy „YES” sprawdzaj przy raporcie. Nigdy nie pisz „Part 2 tomorrow” ani żadnej daty, której nie jesteśmy pewni.
 - Po zaplanowaniu dopisz wiersz do `stories/LOG.md`: id, data i godzina publikacji, długość, link plannera.
 
 ## 5. Canva Business (od 23.10.2026)
@@ -145,6 +146,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - **Serie:** gdy film ma co najmniej 2 razy więcej wyświetleń niż średnia kanału, zrób jego kontynuację „Part 2” jako następny film
   (hook: „Part 2: …”, okładka z „PART 2”). Maksymalnie 3 części.
 - **Hook testy:** naprzemiennie hook-pytanie i hook-zdarzenie. W LOG.md zapisuj typ hooka, żeby dało się porównać.
+- **Part 2 na życzenie:** w opisie pytamy „Want a Part 2?” (sekcja 4). Gdy film ma ≥ 5 komentarzy z „YES”, traktuj to jak spełnienie warunku serii, nawet jeśli wyświetlenia są poniżej 2× średniej.
 - **Komentarze:** pytanie A/B na końcu filmu i w opisie, plus `firstCommentText` z pytaniem rozszerzającym (np. „What would you text back? 👇”).
 - **Bank pomysłów:** gdy zostanie mniej niż 5 pomysłów, dopisz 10 nowych, oryginalnych.
 - W raporcie dodaj 1 zdanie: czego się nauczyliśmy i co zmieniasz w najbliższym filmie.
