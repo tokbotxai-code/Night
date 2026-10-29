@@ -19,7 +19,7 @@
 
 **Kolejka slotu UK (20:00 UK, lektor bm_george, brytyjski angielski) – kolejność od właściciela 24.10: Night bus → 5 → 1 → 6 → 2.**
 Pomysły od właściciela; piszemy WŁASNE zdania, twist i szczegóły (bez kopiowania), bez prawdziwych miejscowości, marek i zbrodni.
-- **UK-5 „Don't answer after midnight”**: dziewczyna dziedziczy dom babci „up north”; w notesie zasada: „If someone calls your name after midnight, don't answer.” Głos zmarłej mamy z dołu, potem zza drzwi sypialni. Telefon z nieznanego numeru: babcia szepcze „Don't let it know you're awake”. Twist: głos z telefonu słychać też z parteru, a to za drzwiami zaczyna się śmiać. Pytanie: Answer or stay silent? 📞
+- ~~UK-5 „Don't answer after midnight”~~ ZROBIONY: 011-dont-answer-midnight.
 - **UK-1 „The bells on the moor”**: pasterz zgania owce przed śnieżycą; o zmierzchu dzwony z ruin opactwa, które nie ma dzwonów; owce stają; we mgle wysokie blade sylwetki naśladują jego ruchy. Zamyka się w kamiennej chacie; drapanie w drzwi i głosy żony i syna (zaginionych) proszą o wpuszczenie. Twist: ostatni głos za drzwiami to JEGO głos: „Let me in. It's freezing out here.” Pytanie: Open the door or wait for dawn? 🔔
 - **UK-6 „Flat 13”**: tani blok, mieszka w 12; sąsiedzi omijają windę po północy. Co noc 2:14 trzy powolne pukania, w wizjerze wysoki mężczyzna w czarnym płaszczu. Sąsiad: „Flat 13's been sealed for twenty years. The family just… vanished.” (BEZ morderstwa). SMS ze zdjęciem jego samego od tyłu we własnym przedpokoju. Mężczyzna na końcu korytarza: „You're in my flat.” Drzwi klikają, numer zmienia się z 12 na 13. Pytanie: Run for the door or hide? 🚪
 - **UK-2 „The line that isn't on the map”**: awaria sygnalizacji, ostatni pociąg uciekł; na peron wjeżdża stary pociąg spoza rozkładu (fikcyjna linia, bez nazw prawdziwych linii). Pasażerowie w ubraniach z lat 50. patrzą przed siebie bez mrugania; lampy migoczą. Komunikat: następna stacja to ta zamknięta „many years ago” (bez konkretnej daty i katastrofy); drzwi ryglują się od zewnątrz. Twist: w szybie odbija się, że on też ma płaszcz z lat 50. Pytanie: Pull the alarm or stay seated? 🚇
@@ -28,8 +28,8 @@ Pomysły od właściciela; piszemy WŁASNE zdania, twist i szczegóły (bez kopi
 
 Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu z ostatnich 10 filmów.
 
-- Szkolny group chat: wiadomość od kolegi, który od tygodnia jest zaginiony („why did you leave me in the woods”).
-- Nocna zmiana na stacji benzynowej: klient płaci kartą z twoim imieniem i nazwiskiem.
+- ~~Szkolny group chat~~ ZROBIONY: 009-missing-friend-chat.
+- ~~Stacja benzynowa, karta~~ ZROBIONY: 010-gas-station-card.
 - Sąsiad co noc o 3:33 kosi trawnik. Dziś przestał w połowie i patrzy w twoje okno.
 - Nowe mieszkanie: w szafie są drzwi, których nie ma na planie.
 - Dziecko mówi, że „pani z sufitu” zna hasło do wi-fi.
@@ -37,3 +37,6 @@ Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu
 | 006-night-bus | 24.10.2026 22:00 UK (UK, lektor bm_george) | 79,5 s | hook: zdarzenie | https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-2084198477140966725 |
 | 007-find-my-attic | 28.10.2026 19:00 ET (23:00 UK) | 72,5 s | hook: pytanie; Kokoro am_michael; ZRODLO: bank „Find My” | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=1580807447601300698) |
 | 008-own-voicemail | 28.10.2026 22:00 ET (29.10 02:00 UK) | 74,9 s | hook: zdarzenie; Kokoro am_michael | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=2600755232209191180) |
+| 009-missing-friend-chat | 29.10.2026 19:00 ET (23:00 UK) | 70,9 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations (bez Canvy) | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-1685604408071993254) |
+| 010-gas-station-card | 29.10.2026 22:00 ET (30.10 02:00 UK) | 66,4 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-8103809617699715324) |
+| 011-dont-answer-midnight | 29.10.2026 20:00 UK (UK, bm_george) | 82,9 s | hook: zdarzenie; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4893693076144276031) |
