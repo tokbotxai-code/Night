@@ -20,7 +20,7 @@
 **Kolejka slotu UK (20:00 UK, lektor bm_george, brytyjski angielski) – kolejność od właściciela 24.10: Night bus → 5 → 1 → 6 → 2.**
 Pomysły od właściciela; piszemy WŁASNE zdania, twist i szczegóły (bez kopiowania), bez prawdziwych miejscowości, marek i zbrodni.
 - ~~UK-5 „Don't answer after midnight”~~ ZROBIONY: 011-dont-answer-midnight.
-- **UK-1 „The bells on the moor”**: pasterz zgania owce przed śnieżycą; o zmierzchu dzwony z ruin opactwa, które nie ma dzwonów; owce stają; we mgle wysokie blade sylwetki naśladują jego ruchy. Zamyka się w kamiennej chacie; drapanie w drzwi i głosy żony i syna (zaginionych) proszą o wpuszczenie. Twist: ostatni głos za drzwiami to JEGO głos: „Let me in. It's freezing out here.” Pytanie: Open the door or wait for dawn? 🔔
+- ~~UK-1 „The bells on the moor”~~ ZROBIONY: 014-bells-on-the-moor. Opis był: **UK-1 „The bells on the moor”**: pasterz zgania owce przed śnieżycą; o zmierzchu dzwony z ruin opactwa, które nie ma dzwonów; owce stają; we mgle wysokie blade sylwetki naśladują jego ruchy. Zamyka się w kamiennej chacie; drapanie w drzwi i głosy żony i syna (zaginionych) proszą o wpuszczenie. Twist: ostatni głos za drzwiami to JEGO głos: „Let me in. It's freezing out here.” Pytanie: Open the door or wait for dawn? 🔔
 - **UK-6 „Flat 13”**: tani blok, mieszka w 12; sąsiedzi omijają windę po północy. Co noc 2:14 trzy powolne pukania, w wizjerze wysoki mężczyzna w czarnym płaszczu. Sąsiad: „Flat 13's been sealed for twenty years. The family just… vanished.” (BEZ morderstwa). SMS ze zdjęciem jego samego od tyłu we własnym przedpokoju. Mężczyzna na końcu korytarza: „You're in my flat.” Drzwi klikają, numer zmienia się z 12 na 13. Pytanie: Run for the door or hide? 🚪
 - **UK-2 „The line that isn't on the map”**: awaria sygnalizacji, ostatni pociąg uciekł; na peron wjeżdża stary pociąg spoza rozkładu (fikcyjna linia, bez nazw prawdziwych linii). Pasażerowie w ubraniach z lat 50. patrzą przed siebie bez mrugania; lampy migoczą. Komunikat: następna stacja to ta zamknięta „many years ago” (bez konkretnej daty i katastrofy); drzwi ryglują się od zewnątrz. Twist: w szybie odbija się, że on też ma płaszcz z lat 50. Pytanie: Pull the alarm or stay seated? 🚇
 
@@ -30,8 +30,8 @@ Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu
 
 - ~~Szkolny group chat~~ ZROBIONY: 009-missing-friend-chat.
 - ~~Stacja benzynowa, karta~~ ZROBIONY: 010-gas-station-card.
-- Sąsiad co noc o 3:33 kosi trawnik. Dziś przestał w połowie i patrzy w twoje okno.
-- Nowe mieszkanie: w szafie są drzwi, których nie ma na planie.
+- ~~Sąsiad co noc o 3:33 kosi trawnik.~~ ZROBIONY: 012-333-mower. Dziś przestał w połowie i patrzy w twoje okno.
+- ~~Nowe mieszkanie: drzwi w szafie.~~ ZROBIONY: 013-closet-door.
 - Dziecko mówi, że „pani z sufitu” zna hasło do wi-fi.
 
 | 006-night-bus | 24.10.2026 22:00 UK (UK, lektor bm_george) | 79,5 s | hook: zdarzenie | https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-2084198477140966725 |
@@ -40,3 +40,6 @@ Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu
 | 009-missing-friend-chat | 29.10.2026 19:00 ET (23:00 UK) | 70,9 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations (bez Canvy) | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-1685604408071993254) |
 | 010-gas-station-card | 29.10.2026 22:00 ET (30.10 02:00 UK) | 66,4 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-8103809617699715324) |
 | 011-dont-answer-midnight | 29.10.2026 20:00 UK (UK, bm_george) | 82,9 s | hook: zdarzenie; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4893693076144276031) |
+| 012-333-mower | 30.10.2026 19:00 ET (23:00 UK) | 77,8 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations (bez Canvy) | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3400670177063843335) |
+| 013-closet-door | 30.10.2026 22:00 ET (31.10 02:00 UK) | 81,2 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-6481435199392561370) |
+| 014-bells-on-the-moor | 30.10.2026 20:00 UK (UK, bm_george) | 78,0 s | hook: zdarzenie; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=7972554895404647675) |

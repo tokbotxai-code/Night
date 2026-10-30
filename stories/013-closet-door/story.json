@@ -1,0 +1,171 @@
+{
+ "id": "013-closet-door",
+ "title": "The closet door wasn't on the floor plan",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American home at night, no text, no watermark",
+ "hook_text": "There's a second door in my closet. It's not on the floor plan.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "My closet has a second door.",
+   "shots": [
+    {
+     "prompt": "narrow closet door in a bedroom, a second door visible behind the hanging clothes, thin light under it, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Landlord",
+     "text": "That unit has no second door.",
+     "time": "9:12 PM",
+     "at_word": "second",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I moved in Monday. Small apartment. One closet. Behind my coats, I found a door. Plain. Painted over. Warm to the touch. Like something had just leaned on it from the other side.",
+   "shots": [
+    {
+     "prompt": "dark apartment bedroom closet with coats pushed aside, a painted door behind them",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I checked the floor plan. No door. I texted my landlord. He said, that closet is one foot deep. Mine is six. I measured it twice. The numbers made no sense.",
+   "shots": [
+    {
+     "prompt": "apartment lease floor plan paper on a table in dim lamp light, blurred lines, no text legible",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6
+  },
+  {
+   "narration": "That night I heard it. Soft knocking. From inside the door. Three taps. Then a pause. Then three more. Like it was waiting politely. Like it knew I was awake.",
+   "shots": [
+    {
+     "prompt": "closet door in a dark bedroom at night, narrow light beneath it",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "knock3",
+     "at_word": "knocking"
+    }
+   ]
+  },
+  {
+   "narration": "By morning, the door was open. A few inches. My coats were pushed aside. And my slippers were gone from beside the bed. I never opened it. I live alone.",
+   "shots": [
+    {
+     "prompt": "bedroom floor at dawn, an empty spot beside a bed, closet slightly open, dark gap",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Tonight I set up my phone to film the closet. At 3:03 a.m. the door opened wide. Nobody came out. Instead, my phone saw me. Sitting up in bed. Walking toward it. Asleep. Eyes open. Smiling at the dark.",
+   "shots": [
+    {
+     "prompt": "night vision style dark bedroom viewed from a closet, bed in the distance, blurred figure rising, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "saw",
+     "gain": 0.8
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "Walking",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you wake me up, or follow me inside?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Wake or Follow",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "WAKE  or  FOLLOW",
+     "at_word": "follow",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "narrow closet door in a bedroom, a second door visible behind the hanging clothes, thin light under it, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Wake me up or follow me in? 🚪 or 😴 Part 2 soon? Let us know below #horrortok #scarystories #creepy #horrorstory #fyp #apartment",
+  "tiktok_title": "My closet has a second door. It's not on the floor plan 🚪",
+  "firstCommentText": "Would you open it? 👇",
+  "cover_ms": 1500
+ }
+}

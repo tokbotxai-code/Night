@@ -1,0 +1,181 @@
+{
+ "id": "012-333-mower",
+ "title": "My neighbor mows at 3:33 a.m.",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American home at night, no text, no watermark",
+ "hook_text": "My neighbor mows his lawn at 3:33 a.m. Tonight he stopped.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "My neighbor mows at 3:33 a.m.",
+   "shots": [
+    {
+     "prompt": "mowed lawn at night, a lawnmower left in the middle of a dark suburban back yard, a half-cut stripe of grass, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Doorbell cam",
+     "text": "Motion: back yard",
+     "time": "3:33 AM",
+     "at_word": "mows",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Every night. Same slow lines. I never saw his face. Only heard the engine through my window. I called it background noise. My dog never barked at it. Not once. Tonight, he hid under the bed.",
+   "shots": [
+    {
+     "prompt": "dark suburban bedroom window with curtains, faint streetlight glow",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Tonight it stopped halfway. The silence woke me. I went to the window. He stood on his half-cut grass. Facing my house. Not moving. Just a dark shape, and the smell of cut grass drifting through my window.",
+   "shots": [
+    {
+     "prompt": "dark back yard at night, a tall silhouette far away in the grass, back turned, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6
+  },
+  {
+   "narration": "My phone buzzed. A text from my own number. Close the curtain. Slowly. Don't look at him. Whatever you do, don't let him see you move.",
+   "shots": [
+    {
+     "prompt": "smartphone glowing in the dark on a bed, blue light",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Me",
+     "text": "Close the curtain. Slowly.",
+     "time": "3:34 AM",
+     "at_word": "Close",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I did. The engine started again. Louder. Closer. Right under my window. Mowing my lawn. I don't own a mower. And the cut grass smell filled my whole room.",
+   "shots": [
+    {
+     "prompt": "curtain glowing faintly with a shadow behind it in a dark bedroom, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then I understood. He never watched my window. He mowed to cover the sound. Of something else. Standing behind my bed. Breathing along with me. Waiting for me to notice.",
+   "shots": [
+    {
+     "prompt": "dark empty bedroom, a bed from behind, a doorway in shadow, no person visible",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "Breathing",
+     "gain": 0.8
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "behind",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Turn around, or keep staring at the curtain?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Turn or Curtain",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "TURN  or  CURTAIN",
+     "at_word": "curtain",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "mowed lawn at night, a lawnmower left in the middle of a dark suburban back yard, a half-cut stripe of grass, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Turn around or stare at the curtain? 🔦 or 🪟 Want a Part 2? Comment YES 👇 #horrortok #scarystories #creepy #horrorstory #fyp #3am",
+  "tiktok_title": "My neighbor mows at 3:33 a.m. Tonight he stopped 😱",
+  "firstCommentText": "What would you do? 👇",
+  "cover_ms": 1500
+ }
+}

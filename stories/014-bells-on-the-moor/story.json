@@ -1,0 +1,171 @@
+{
+ "id": "014-bells-on-the-moor",
+ "title": "The abbey has no bells",
+ "tts": "kokoro",
+ "voice": "bm_george",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, rainy British city at night, no text, no watermark",
+ "hook_text": "Bells rang from the ruins. The abbey has no bells.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "Bells rang from the abbey ruins.",
+   "shots": [
+    {
+     "prompt": "stone shepherd's hut on a foggy moor at dusk, ruined abbey arches in the distance, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Mobile",
+     "text": "No signal",
+     "time": "5:48 PM",
+     "at_word": "Bells",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I was bringing the flock down before the snow. The abbey has been a ruin for centuries. It has no bells. My sheep stopped dead.",
+   "shots": [
+    {
+     "prompt": "flock of sheep standing still on a misty moor at dusk, ruined stone arches behind",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Through the fog, tall pale shapes stood among them. Slowly, they copied how I walked. Every step. A second late. Like they were learning me.",
+   "shots": [
+    {
+     "prompt": "tall pale blurred silhouettes in dense fog on a moor, backs turned, no faces",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6
+  },
+  {
+   "narration": "I ran to the stone hut and bolted the door. Then came the scratching. And my wife's voice. Please. It's cold. Let us in. I know that voice. I have heard it every night since.",
+   "shots": [
+    {
+     "prompt": "heavy wooden door of a stone hut at night, thin firelight beneath it",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "knock3",
+     "at_word": "scratching"
+    }
+   ]
+  },
+  {
+   "narration": "My wife went missing in spring. My son, too. My boy giggled. Dad, please. We've been out here so long. Please, Dad. It hurts to wait.",
+   "shots": [
+    {
+     "prompt": "dark stone hut interior with a dying fire, shadows on the wall",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I reached for the bolt. Then the voices stopped. And a third voice spoke. Calm. Tired. Mine. Let me in. It's freezing out here. And the bolt began to slide on its own.",
+   "shots": [
+    {
+     "prompt": "hand hovering over a rusty door bolt in the dark, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "flicker": true,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "Mine",
+     "gain": 0.8
+    },
+    {
+     "type": "heartbeat",
+     "at_word": "bolt",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Open the door, or wait for dawn?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Open or Dawn",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "OPEN  or  DAWN",
+     "at_word": "dawn",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "stone shepherd's hut on a foggy moor at dusk, ruined abbey arches in the distance, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Open the door or wait for dawn? 🔔 or 🌅 Should I tell you what happened next? Comment YES #horrortok #scarystories #creepy #horrorstory #fyp #ukhorror",
+  "tiktok_title": "Bells rang from the abbey. It has no bells 🔔",
+  "firstCommentText": "Would you open it? 👇",
+  "cover_ms": 1500
+ }
+}
