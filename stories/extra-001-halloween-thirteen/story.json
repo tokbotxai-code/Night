@@ -1,0 +1,199 @@
+{
+ "id": "extra-001-halloween-thirteen",
+ "title": "Doorbell counted thirteen kids. I gave candy to twelve 🎃",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American home at night, no text, no watermark",
+ "hook_text": "On Halloween, my doorbell camera counted thirteen trick-or-treaters. I gave candy to twelve.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "On Halloween, my doorbell camera counted thirteen trick-or-treaters. I gave candy to twelve.",
+   "shots": [
+    {
+     "prompt": "front porch at night with a glowing jack-o-lantern and a bowl of candy, doorbell camera angle, empty steps in the dark, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "captions": true
+  },
+  {
+   "narration": "I always count them. Witches. A ghost. Two tiny astronauts. Twelve kids. Twelve thank-yous.",
+   "shots": [
+    {
+     "prompt": "suburban front steps at night with paper decorations, orange porch light, small silhouettes in costumes far away, no faces",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "captions": true
+  },
+  {
+   "narration": "At ten, I checked the video. Thirteen figures climbed my steps. Twelve took candy. The last one stood at the back. Arms at its sides. Not moving.",
+   "shots": [
+    {
+     "prompt": "doorbell camera fisheye view of a porch at night, a group of small figures and one tall dark figure standing very still at the back, no faces visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "captions": true
+  },
+  {
+   "narration": "I zoomed in. It wore a gray coat. My gray coat. The same torn pocket. The same keys hanging from the belt.",
+   "shots": [
+    {
+     "prompt": "grainy zoomed security camera frame of a gray coat with a torn pocket, hanging keys, no head visible, blurred",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "captions": true
+  },
+  {
+   "narration": "It never looked at the kids. It never looked at the bowl. It looked straight into the camera, the whole time, like it knew I would watch.",
+   "shots": [
+    {
+     "prompt": "grainy security camera frame, a dark figure in the back of a porch facing the lens, face hidden in shadow, orange glow from a pumpkin",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "captions": true
+  },
+  {
+   "narration": "Then my phone buzzed. My neighbor texted me. I live alone.",
+   "shots": [
+    {
+     "prompt": "dark living room, phone lighting up a couch cushion in the dark, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Neighbor",
+     "text": "Who is standing on your porch?",
+     "time": "10:41 PM",
+     "at_word": "neighbor",
+     "until": "end"
+    }
+   ],
+   "captions": true
+  },
+  {
+   "narration": "The doorbell chimed. Once. I checked the screen. The porch was empty. The chime came from inside my house.",
+   "shots": [
+    {
+     "prompt": "phone screen showing an empty porch at night in black and white, hallway behind it dark, no person visible",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.1
+    }
+   ],
+   "captions": true
+  },
+  {
+   "narration": "I did not move. Behind me, a floorboard creaked. Slowly. One step at a time. Candy wrappers crinkled in a pocket I know by heart.",
+   "shots": [
+    {
+     "prompt": "dark living room seen from the couch, hallway doorway in the background with a thin line of orange light, no person visible",
+     "motion": "zoom_out"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    },
+    {
+     "type": "heartbeat",
+     "at": 1.0,
+     "until": "end",
+     "gain": 0.5
+    }
+   ],
+   "captions": true
+  },
+  {
+   "narration": "So tell me. Do I turn around, or keep staring at the door?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Turn or Stare",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "TURN AROUND  or  STARE AT THE DOOR",
+     "at_word": "door",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "front porch at night with a glowing jack-o-lantern and a bowl of candy, doorbell camera angle, empty steps in the dark, no person visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "captions": true
+  }
+ ],
+ "post": {
+  "caption": "On Halloween, my doorbell camera counted thirteen… 🎃 Turn around or stare at the door? Want a Part 2? Comment YES 👇 #horrortok #storytime #horrorstoriestok #scarystories #halloween",
+  "tiktok_title": "Doorbell counted thirteen kids. I gave candy to twelve 🎃",
+  "firstCommentText": "",
+  "cover_ms": 1500
+ }
+}
