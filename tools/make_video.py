@@ -193,8 +193,8 @@ def fetch_image(prompt, cache, offline):
                 if "429" in str(e):
                     break  # daily quota used up: go straight to the next source
                 time.sleep(5 * (attempt + 1))
-    if not offline:
-        # second choice: AI Horde (community, anonymous key, native 9:16)
+    if not offline and os.environ.get("NIGHT_HORDE") == "1":
+        # optional: AI Horde (quality too low for finals; only with NIGHT_HORDE=1) (community, anonymous key, native 9:16)
         try:
             hh = {"apikey": "0000000000", "Content-Type": "application/json", "Client-Agent": "night:1:x", "User-Agent": "Mozilla/5.0 night"}
             body = {"prompt": prompt[:1000], "params": {"width": 576, "height": 1024, "steps": 25, "n": 1}, "models": ["Deliberate"]}
