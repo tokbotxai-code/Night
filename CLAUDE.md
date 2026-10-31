@@ -80,6 +80,8 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 
 ### Kontrola jakości przed publikacją (obowiązkowa)
 
+**Kod wyjścia 3 z make_video.py** (od 31.10) oznacza, że co najmniej jedno ujęcie ma ciemny zapas zamiast obrazu (limit 402/503 generatora). Skrypt wypisuje, które prompty. Zmień je (krótszy, prostszy opis) i wyrenderuj ponownie; film z kodem 3 nie idzie do Metricool.
+
 0. **Kontrole tekstu (dopisane 31.10 po samoocenie autopilota):** (a) `hook_text` ma być **dosłownie tym samym zdaniem** co pierwsze zdanie lektora (sprawdź przed renderem; nie skracaj w jednym z nich); (b) cała narracja w jednym czasie (przeszły), bez zmiany czasu w środku zdania; (c) tekst `choice` na końcu to dwie pełne opcje, każda max 3 słowa i bez ucinania (np. „TURN AROUND  or  STARE AT THE CURTAIN” albo „DOOR  or  COUCH”), nie „Turn or Curtain”; (d) po wyrenderowaniu **obejrzyj arkusz klatek każdego filmu** (nie tylko pierwszego), a ujęcia prawie czarne wymień (zmień prompt, bo Pollinations po błędzie 402/503 zwraca ciemny kadr); (e) po zaplanowaniu wywołaj `getScheduledPosts` na 48 h i sprawdź, czy każdy slot ma jeden film i brak ERROR; (f) tekst 160–200 słów (poniżej 160 dopisz zdania eskalacji).
 
 1. Długość 61–90 s (cel 65–90 s; skrypt blokuje tylko <61 s i >180 s).

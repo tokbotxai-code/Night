@@ -163,6 +163,9 @@ def tts(text, voice, rate, pitch, cache):
 
 # ------------------------------------------------------------------ images
 
+PLACEHOLDERS = []   # prompts whose image could not be fetched (rate limit); the film must not be published with them
+
+
 def fetch_image(prompt, cache, offline):
     key = h(prompt)
     path = cache / f"img_{key}.jpg"
@@ -185,6 +188,7 @@ def fetch_image(prompt, cache, offline):
                 log(f"image retry {attempt + 1} ({key}): {e}")
                 time.sleep(12 * (attempt + 1))
         log(f"image FAILED, using placeholder: {prompt[:60]}")
+        PLACEHOLDERS.append(prompt)
     # offline / failed placeholder: dark gradient with a soft light source
     yy, xx = np.mgrid[0:1344, 0:768]
     seed = int(key[:6], 16)
@@ -598,6 +602,10 @@ def main():
     ap.add_argument("--allow-any-length", action="store_true")
     a = ap.parse_args()
     build(a.story, a.out, a.preview, a.no_ai_images, a.allow_any_length)
+    if PLACEHOLDERS and not a.no_ai_images:
+        log(f"WARNING: {len(PLACEHOLDERS)} shot(s) have a dark placeholder instead of an image. Change those prompts and render again before scheduling:")
+        for pr in PLACEHOLDERS: log("  - " + pr[:100])
+        sys.exit(3)
 
 
 if __name__ == "__main__":
