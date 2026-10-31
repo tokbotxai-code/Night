@@ -69,7 +69,7 @@
    "narration": "The old woman next door whispered it. Flat 13 has been sealed for twenty years. The family just vanished. Nobody goes in.",
    "shots": [
     {
-     "prompt": "old brick british flats corridor, boarded door numbered thirteen, dark, no people",
+     "prompt": "bright fluorescent lit british flats corridor, one door nailed shut with wooden planks, wet floor reflections, no people, no signs",
      "motion": "zoom_in"
     }
    ],
@@ -121,7 +121,7 @@
    "narration": "You're in my flat, he said. The door clicked behind me. I looked up. The brass number on it had changed. Twelve was now thirteen.",
    "shots": [
     {
-     "prompt": "brass door number thirteen on a dark front door, close up",
+     "prompt": "front door of a flat seen from inside, chain lock on, a letterbox with a pale light shining through, night",
      "motion": "zoom_in"
     }
    ],
@@ -173,9 +173,9 @@
   }
  ],
  "post": {
-  "caption": "Every night at 2:14, someone knocked on my\u2026 \ud83d\udeaa Run for the door or hide? Part 2? Comment YES \ud83d\udc47 #horrortok #storytime #horrorstoriestok #scarystories #ukhorror",
-  "tiktok_title": "Flat 13 has been sealed for twenty years \ud83d\udeaa",
-  "firstCommentText": "Would you open the door? \ud83d\udc47",
+  "caption": "Every night at 2:14, someone knocked on my… 🚪 Run for the door or hide? Part 2? Comment YES 👇 #horrortok #storytime #horrorstoriestok #scarystories #ukhorror",
+  "tiktok_title": "Flat 13 has been sealed for twenty years 🚪",
+  "firstCommentText": "Would you open the door? 👇",
   "cover_ms": 1500
  }
 }
