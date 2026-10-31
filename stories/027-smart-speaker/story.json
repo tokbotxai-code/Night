@@ -13,8 +13,8 @@
    "narration": "At 3:40 a.m. my smart speaker said, do not turn around.",
    "shots": [
     {
-     "prompt": "small smart speaker on a dark shelf with a pulsing light ring, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -176,8 +176,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "small smart speaker on a dark shelf with a pulsing light ring, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,

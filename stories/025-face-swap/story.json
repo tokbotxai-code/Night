@@ -13,8 +13,8 @@
    "narration": "At 1:05 a.m. a face swap filter put my face on something above me.",
    "shots": [
     {
-     "prompt": "dark bedroom ceiling with a faint pale smudge, phone glow below, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -183,8 +183,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "dark bedroom ceiling with a faint pale smudge, phone glow below, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,
