@@ -1,0 +1,187 @@
+{
+ "id": "015-quiet-floor-post-1",
+ "title": "Post 1 | At 3:07 a.m. every phone rang",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "low-poly 3D render, faceless smooth mannequin character, angular simple shapes, soft blue night lighting, fog outside the window, minimal interior, no text, no face",
+ "hook_text": "At 3:07 a.m., every phone in my building rang.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 3:07 a.m., every phone rang at once.",
+   "shots": [
+    {
+     "prompt": "blue night apartment building facade, every window glowing, fog, lone smooth faceless mannequin figure far below on street",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    },
+    {
+     "type": "vibrate",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Unit 9F",
+     "text": "Incoming call",
+     "time": "3:07 AM",
+     "at_word": "phone",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Forty apartments. One ringtone. I answered mine. Nobody spoke. Only breathing. Slow. Close. Like someone standing right behind the phone.",
+   "shots": [
+    {
+     "prompt": "minimal blue bedroom, glowing phone on a nightstand, seen from the side",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then every phone stopped. The whole building went silent. I walked to my window. Fog had swallowed the street.",
+   "shots": [
+    {
+     "prompt": "window with curtain and thick blue fog outside, smooth mannequin figure seen from behind at the window",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6
+  },
+  {
+   "narration": "Under the streetlight stood a tall, smooth figure. No face. Dark like a mannequin. One arm raised. Holding a phone to where its ear should be.",
+   "shots": [
+    {
+     "prompt": "tall faceless smooth mannequin figure under a streetlight in blue fog, seen from the back, holding a phone",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My phone buzzed again. The caller ID said Unit 9F. That is my apartment. That is me. I turned around. My front door was open.",
+   "shots": [
+    {
+     "prompt": "smooth mannequin figure silhouette in a doorway of a minimal blue apartment hallway, seen from behind",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "turned"
+    }
+   ],
+   "flicker": true
+  },
+  {
+   "narration": "Across the street, every window was lit. Every neighbor stood in it. Facing me. Phones to their ears. They weren't staring. They were warning me.",
+   "shots": [
+    {
+     "prompt": "row of lit windows in a low-poly apartment block, faceless smooth mannequin figures standing in each, fog",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The figure in the street was never calling us. It was calling in. And I had already answered. Part two: whoever answers next.",
+   "shots": [
+    {
+     "prompt": "empty foggy street at blue night with one streetlight, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "answered",
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Look out the window, or hide under the covers?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Window or Covers",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "WINDOW  or  COVERS",
+     "at_word": "covers",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "tall faceless smooth mannequin figure under a streetlight in blue fog, seen from the back, holding a phone",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Post 1 | The Quiet Floor. At 3:07 a.m. every phone in my building rang and nobody spoke\u2026 \ud83d\ude28 Window or covers? Want Post 2? Comment YES \ud83d\udc47 #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Post 1 | At 3:07 a.m. every phone rang \ud83d\udcde",
+  "firstCommentText": "Would you answer it? \ud83d\udc47",
+  "cover_ms": 1500
+ }
+}

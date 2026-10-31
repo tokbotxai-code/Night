@@ -21,7 +21,7 @@
 Pomysły od właściciela; piszemy WŁASNE zdania, twist i szczegóły (bez kopiowania), bez prawdziwych miejscowości, marek i zbrodni.
 - ~~UK-5 „Don't answer after midnight”~~ ZROBIONY: 011-dont-answer-midnight.
 - ~~UK-1 „The bells on the moor”~~ ZROBIONY: 014-bells-on-the-moor. Opis był: **UK-1 „The bells on the moor”**: pasterz zgania owce przed śnieżycą; o zmierzchu dzwony z ruin opactwa, które nie ma dzwonów; owce stają; we mgle wysokie blade sylwetki naśladują jego ruchy. Zamyka się w kamiennej chacie; drapanie w drzwi i głosy żony i syna (zaginionych) proszą o wpuszczenie. Twist: ostatni głos za drzwiami to JEGO głos: „Let me in. It's freezing out here.” Pytanie: Open the door or wait for dawn? 🔔
-- **UK-6 „Flat 13”**: tani blok, mieszka w 12; sąsiedzi omijają windę po północy. Co noc 2:14 trzy powolne pukania, w wizjerze wysoki mężczyzna w czarnym płaszczu. Sąsiad: „Flat 13's been sealed for twenty years. The family just… vanished.” (BEZ morderstwa). SMS ze zdjęciem jego samego od tyłu we własnym przedpokoju. Mężczyzna na końcu korytarza: „You're in my flat.” Drzwi klikają, numer zmienia się z 12 na 13. Pytanie: Run for the door or hide? 🚪
+- ~~UK-6 „Flat 13”~~ ZROBIONY: 017-flat-13. Opis był: **UK-6 „Flat 13”**: tani blok, mieszka w 12; sąsiedzi omijają windę po północy. Co noc 2:14 trzy powolne pukania, w wizjerze wysoki mężczyzna w czarnym płaszczu. Sąsiad: „Flat 13's been sealed for twenty years. The family just… vanished.” (BEZ morderstwa). SMS ze zdjęciem jego samego od tyłu we własnym przedpokoju. Mężczyzna na końcu korytarza: „You're in my flat.” Drzwi klikają, numer zmienia się z 12 na 13. Pytanie: Run for the door or hide? 🚪
 - **UK-2 „The line that isn't on the map”**: awaria sygnalizacji, ostatni pociąg uciekł; na peron wjeżdża stary pociąg spoza rozkładu (fikcyjna linia, bez nazw prawdziwych linii). Pasażerowie w ubraniach z lat 50. patrzą przed siebie bez mrugania; lampy migoczą. Komunikat: następna stacja to ta zamknięta „many years ago” (bez konkretnej daty i katastrofy); drzwi ryglują się od zewnątrz. Twist: w szybie odbija się, że on też ma płaszcz z lat 50. Pytanie: Pull the alarm or stay seated? 🚇
 
 - ~~[UK] „Night bus”~~ ZROBIONY: 006-night-bus. Opis był:: ostatni nocny autobus, ktoś dzwoni dzwonkiem z pustego piętra; kierowca: "Don't go upstairs, love. Not on this route."; SMS od mamy: "Why are you whispering? I can hear you on the phone." / "Who's that with you? They keep saying your name."; kroki na schodach; kierowca: "That's your stop." – a to nie jej przystanek. Pytanie: Get off or stay on? 🚌. Pełny tekst w rozmowie „główna” (24.10 wieczorem). Lektor bm_george, brytyjski angielski.
@@ -43,3 +43,20 @@ Bierz od góry, a wykorzystany pomysł przenieś do tabeli. Nie powtarzaj motywu
 | 012-333-mower | 30.10.2026 19:00 ET (23:00 UK) | 77,8 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations (bez Canvy) | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3400670177063843335) |
 | 013-closet-door | 30.10.2026 22:00 ET (31.10 02:00 UK) | 81,2 s | hook: zdarzenie; Kokoro am_michael; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-6481435199392561370) |
 | 014-bells-on-the-moor | 30.10.2026 20:00 UK (UK, bm_george) | 78,0 s | hook: zdarzenie; tła Pollinations | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=7972554895404647675) |
+| 015-quiet-floor-post-1 | 31.10.2026 19:00 ET (23:00 UK) + IG Reel | 75,5 s | hook: zdarzenie; SERIA „The Quiet Floor” Post 1; styl low-poly (test, Pollinations dał ciemne sylwetki); bez Canvy (oszczędnie) | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=3293172831758273456) |
+| 016-laundromat-rules | 31.10.2026 22:00 ET (1.11 02:00 UK) + IG Reel | 74,6 s | hook: zdarzenie; wariant „instrukcja pracy” (2. os.); styl dotychczasowy | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=6123702236628927695) |
+| 017-flat-13 | 31.10.2026 20:00 UK (UK, bm_george) | 78,1 s | hook: zdarzenie; styl dotychczasowy | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4650435717268130579) |
+
+Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon; Post 2: „whoever answers next”). Narrator mieszka w Unit 9F, figura bez twarzy low-poly.
+
+## Bank pomysłów – uzupełnienie 31.10
+- Winda z przyciskiem piętra, którego nie ma w budynku (a nocny konserwator ją obsługuje).
+- Stacja kontroli pojazdów: auto wraca z naklejką sprzed 20 lat (wariant instrukcji pracy).
+- Smart speaker odpowiada na pytania, których nie zadałeś.
+- Dziecko śpiewa kołysankę, której nikt go nie uczył, w obcym języku.
+- Biblioteka: książka wypożyczona na twoje nazwisko, termin zwrotu jutro, nigdy jej nie brałeś.
+- Ostatni autobus: kierowca liczy pasażerów o jednego za dużo.
+- Czat rodzinny: nowy numer pisze jak zmarły dziadek, zna tylko twoje sekrety.
+- Zdjęcia w telefonie: co noc nowe ujęcie ciebie śpiącego.
+- Radio w aucie łapie stację, która podaje twoją trasę na żywo.
+- Pralnia/hotel/parking: 2. osoba, nowa praca nocnego konserwatora windy w pustym biurowcu.

@@ -1,0 +1,181 @@
+{
+ "id": "017-flat-13",
+ "title": "Flat 13 has been sealed for twenty years",
+ "tts": "kokoro",
+ "voice": "bm_george",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, rainy British city at night, no text, no watermark",
+ "hook_text": "Every night at 2:14, someone knocked on my door.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "Every night at 2:14, someone knocked on my door.",
+   "shots": [
+    {
+     "prompt": "dim 1970s british council block corridor at night, one door, flickering light, no people",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "knock3",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Mobile",
+     "text": "2:14 a.m.",
+     "time": "2:14 AM",
+     "at_word": "knocked",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Three slow knocks. Always three. I moved into Flat 12 last month. Cheap rent. The neighbours avoided the lift after midnight.",
+   "shots": [
+    {
+     "prompt": "british block of flats stairwell at night, grimy lift doors, fluorescent light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Through the peephole stood a tall man. Black coat. Hands at his sides. Waiting. When I opened the door, the corridor was empty.",
+   "shots": [
+    {
+     "prompt": "view through a front door peephole of a corridor, blurred tall silhouette, fisheye",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6
+  },
+  {
+   "narration": "The old woman next door whispered it. Flat 13 has been sealed for twenty years. The family just vanished. Nobody goes in.",
+   "shots": [
+    {
+     "prompt": "old brick british flats corridor, boarded door numbered thirteen, dark, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6
+  },
+  {
+   "narration": "That night my mobile buzzed. A photo. Me, from behind, standing in my own hallway. Taken a second ago.",
+   "shots": [
+    {
+     "prompt": "phone glowing in a dark flat hallway, blurred figure in doorway behind",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "photo"
+    },
+    {
+     "type": "riser",
+     "at_word": "Taken",
+     "until": "end"
+    }
+   ],
+   "flicker": true
+  },
+  {
+   "narration": "Three knocks. From inside the flat. I turned. The tall man stood at the end of my hallway. He looked at me, quite calmly.",
+   "shots": [
+    {
+     "prompt": "dark flat hallway, tall man in black coat standing at the far end in shadow, backlit, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "You're in my flat, he said. The door clicked behind me. I looked up. The brass number on it had changed. Twelve was now thirteen.",
+   "shots": [
+    {
+     "prompt": "brass door number thirteen on a dark front door, close up",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "thirteen",
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Run for the door, or hide?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Run or Hide",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "RUN  or  HIDE",
+     "at_word": "hide",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "dim 1970s british council block corridor at night, one door, flickering light, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Every night at 2:14, someone knocked on my\u2026 \ud83d\udeaa Run for the door or hide? Part 2? Comment YES \ud83d\udc47 #horrortok #storytime #horrorstoriestok #scarystories #ukhorror",
+  "tiktok_title": "Flat 13 has been sealed for twenty years \ud83d\udeaa",
+  "firstCommentText": "Would you open the door? \ud83d\udc47",
+  "cover_ms": 1500
+ }
+}

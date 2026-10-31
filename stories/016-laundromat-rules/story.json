@@ -1,0 +1,183 @@
+{
+ "id": "016-laundromat-rules",
+ "title": "Job alert: night attendant at Bell Lane Laundromat",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark, moody, low key lighting, 35mm film grain, desaturated, realistic, suburban American home at night, no text, no watermark",
+ "hook_text": "You've been hired. Rule one: lock up at midnight.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "You've been hired. Rule one: lock up at midnight.",
+   "shots": [
+    {
+     "prompt": "empty twenty-four hour laundromat at night, rows of washing machines, one flickering fluorescent tube, no people",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Bell Lane Wash",
+     "text": "Rule 1: Lock up at midnight",
+     "time": "11:58 PM",
+     "at_word": "Rule",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Welcome to Bell Lane Laundromat. Night shift. Read these carefully. Rule two: if a machine runs empty, let it finish.",
+   "shots": [
+    {
+     "prompt": "laundromat washing machine spinning with nothing inside, dim light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule three: the lost property shelf is not yours. Never fold the gray coat. Rule four: you will hear someone say your name. Don't turn around.",
+   "shots": [
+    {
+     "prompt": "shelf of lost clothes in a laundromat, a gray coat hanging alone, shadows",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6
+  },
+  {
+   "narration": "Rule five: customers never come after one. If someone walks in, smile. Tell them we're closed. They will thank you. Then leave.",
+   "shots": [
+    {
+     "prompt": "glass door of a laundromat at night with fog outside and a blurred shape behind it",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "knock3",
+     "at_word": "walks"
+    }
+   ]
+  },
+  {
+   "narration": "Rule six: the dryer at the back is broken. If you hear tumbling, that is normal. If you hear knocking from inside, that is not.",
+   "shots": [
+    {
+     "prompt": "old dryer at the back of a laundromat, round window dark, flickering light above",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "flicker": true
+  },
+  {
+   "narration": "Rule seven: your coworker Dana works the morning shift. If Dana is here at night, do not speak to her. Dana quit last year.",
+   "shots": [
+    {
+     "prompt": "empty laundromat counter with a time clock and a coat hook, cold light, no people",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule eight: you can break any rule above. Rule one has always been optional. The door locked from outside at 11:58. You are the last customer.",
+   "shots": [
+    {
+     "prompt": "laundromat door with the lock turning by itself, dark window, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "hit",
+     "at_word": "locked",
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Fold the gray coat, or answer when it calls?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Coat or Call",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "COAT  or  CALL",
+     "at_word": "calls",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "empty twenty-four hour laundromat at night, rows of washing machines, one flickering fluorescent tube, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Job alert: we're looking for a night attendant \ud83c\uddfa\ud83c\uddf8\ud83c\uddec\ud83c\udde7 Bell Lane Laundromat. Rule one: lock up at midnight\u2026 \ud83e\uddfa Coat or call? Part 2 soon? Let us know below #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Job alert: night attendant wanted \ud83e\uddfa",
+  "firstCommentText": "Which rule would you break first? \ud83d\udc47",
+  "cover_ms": 1500
+ }
+}
