@@ -24,6 +24,12 @@ Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczn
 - **Koniec bez ulgi:** ostatnie zdanie nie zamyka historii. Bez „i wszystko się skończyło dobrze”.
 - Dalej obowiązuje: bez krwi w kadrze, samookaleczeń, przemocy wobec dzieci i zwierząt, bez prawdziwych miejsc i osób, oznaczenie AI. Straszymy sugestią.
 
+### Seria i styl (decyzja właściciela 31.10, wzór: konto z serią „Post 1 |” i playlistą, 216 tys. polubień, 26 tys. zapisów)
+- **Jedna oryginalna seria na raz, 4–6 odcinków.** Ten sam narrator, to samo miejsce i jeden motyw przewodni, każdy odcinek kończy się urwaną sprawą, która prowadzi do następnego (nie rozwiązuj wszystkiego). W opisie zaczynaj od „Post N |” (np. „Post 2 | …”) i wpisz nazwę serii. Nazwę i fabułę wymyślasz sam, **nie kopiuj cudzej serii, tytułu ani zdarzenia**. Właściciel zakłada playlistę o nazwie serii w aplikacji i dodaje do niej odcinki; wypisz w raporcie, który odcinek wyszedł, żeby mógł to zrobić. To zastępuje dotychczasowy limit „Part 2, max 3 części” dla tej jednej serii; pozostałe filmy zostają samodzielne.
+- **Hook = zdarzenie, które dotyka wszystkich albo kogoś bliskiego, z konkretną godziną** (np. „At 3:07 a.m. …”). Pierwsze zdanie nie może się rozwiązać w opisie: opis urywa się w połowie zdania i kończy „…” przy hooku, pytanie A/B dopiero niżej.
+- **Test stylu: płaska ilustracja zamiast ciemnych zdjęć.** Przez 2 filmy w tygodniu (jeden w serii, jeden samodzielny) użyj w `style_prompt`: „flat vector illustration, minimal shapes, night sky with moon and stars, dark navy background, one glowing orange accent colour, no text, no faces”. Reszta bez zmian (bez twarzy, bez krwi). W LOG.md zapisz, które filmy były w tym stylu, żeby porównać wyniki z resztą po 48 godzinach.
+- Napisy: wyróżnij aktualnie czytane słowo kolorem (żółty), tak jak już mamy słowo po słowie.
+
 ### Struktura (sprawdzona na filmie #1)
 
 | Czas | Element | Zasada |
