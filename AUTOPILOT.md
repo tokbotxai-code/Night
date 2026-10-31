@@ -22,7 +22,7 @@ Przeczytaj w całości CLAUDE.md (ma pierwszeństwo przed tym plikiem), channel.
 
 TRYB OSZCZĘDNY (decyzja właściciela 27.10: tygodniowy limit planu musi starczyć na 7 dni dla Night i PepSafe):
 - Najpierw filmy do wolnych slotów, potem raport. Statystyki z 14 dni i porządki w LOG.md robisz pełne tylko w poniedziałki; w inne dni tylko liczby wczorajszych filmów.
-- Canva: 1 kadr na film (hook), nie 2. Twist i reszta teł z Pollinations.
+- Canva (decyzja właściciela 31.10): kadr hooka z Canvy robisz w jednym filmie dziennie, pierwszym slocie (test A/B z pozostałymi). Pozostałe filmy, twist i reszta teł z Pollinations. W LOG.md zapisz, który film miał kadr z Canvy, i porównuj wyświetlenia po 10–14 filmach. Gdy Canva odmówi dwa razy, użyj Pollinations i napisz to w raporcie.
 - Render: najpierw od razu wersja finalna (bez --preview), sprawdzasz arkusz klatek; ponowny render najwyżej raz.
 - Raport: maks. 10 linijek.
 - Gdy krok nie wyjdzie dwa razy, pomiń go i napisz to w jednej linijce.
@@ -41,7 +41,7 @@ ZASADA ZATRZYMANIA (decyzja właściciela 24.10: filmy stoją na ~238 wyświetle
 - Cel długości bez zmian (61–90 s), ale bez pustych pauz dłuższych niż 0,6 s w pierwszych 15 s.
 - W raporcie: czy któryś film przekroczył 300 wyświetleń i jaki miał hook (zapisz w LOG.md).
 
-CANVA OBOWIĄZKOWO (decyzja właściciela 24.10): w każdym filmie zrób w Canvie (narzędzia mcp__Canva__*) co najmniej 2 kluczowe kadry 9:16: hook (pierwsza klatka) i twist. Projekt → eksport PNG/JPG → stories/<id>/hook.png i twist.png → w story.json ujęcia {"image_file": "hook.png", ...}. Styl z assets/brand.json, bez twarzy wprost, bez krwi. Dopiero gdy Canva odmówi albo zwróci błąd, użyj Pollinations i napisz to w raporcie. W raporcie wypisz, które kadry są z Canvy.
+CANVA (zmienione 31.10: tylko hook, jeden film dziennie, patrz TRYB OSZCZĘDNY; reszta tej reguły dotyczy tylko tego filmu): w filmie z Canvą zrób w Canvie (narzędzia mcp__Canva__*) co najmniej 2 kluczowe kadry 9:16: hook (pierwsza klatka) i twist. Projekt → eksport PNG/JPG → stories/<id>/hook.png i twist.png → w story.json ujęcia {"image_file": "hook.png", ...}. Styl z assets/brand.json, bez twarzy wprost, bez krwi. Dopiero gdy Canva odmówi albo zwróci błąd, użyj Pollinations i napisz to w raporcie. W raporcie wypisz, które kadry są z Canvy.
 
 KROK 2 – DLA KAŻDEGO SLOTU OSOBNY FILM
 a) Scenariusz wg CLAUDE.md sekcja 6 albo pierwszy pomysł z "Bank pomysłów". stories/<NNN>-<slug>/story.json jak w 001:
