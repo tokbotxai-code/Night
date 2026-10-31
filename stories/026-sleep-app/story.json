@@ -1,0 +1,188 @@
+{
+ "id": "026-sleep-app",
+ "title": "My sleep app recorded two hours of whispering 😴",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 7:02 a.m. my sleep app had recorded two hours of someone whispering my name.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 7:02 a.m. my sleep app had recorded two hours of someone whispering my name.",
+   "shots": [
+    {
+     "prompt": "phone on a bedside table at dawn with a bright screen, rumpled bed, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I use a sleep tracker. It records snoring, sleep talking, any noise in the night. Usually it shows a flat quiet line.",
+   "shots": [
+    {
+     "prompt": "bedside table with a phone, a glass of water and a lamp, soft morning light, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "That morning the graph was one solid block. Two hours long. From 3:14 to 5:14 a.m. A voice. Not mine.",
+   "shots": [
+    {
+     "prompt": "phone screen with a bright jagged audio graph, bedroom, no text, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I pressed play. A whisper. Low. Slow. My name. Over and over. Like someone testing the sound of it.",
+   "shots": [
+    {
+     "prompt": "phone lying on a pillow with a glowing waveform, dim bedroom, no text, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I skipped forward. Still whispering. I skipped again. The voice was louder now. Closer to the microphone. Closer to my pillow.",
+   "shots": [
+    {
+     "prompt": "close view of a pillow and phone microphone in dim light, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "At 4:40 the whisper changed. It stopped saying my name. It said, she is awake. She is pretending.",
+   "shots": [
+    {
+     "prompt": "dark bedroom at night seen from above the bed, a phone glowing, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I had slept through all of it. Or I had not. I remembered lying very still with my eyes shut. Feeling someone lean in.",
+   "shots": [
+    {
+     "prompt": "dim bedroom with a figure-shaped shadow on the wall above a bed, no face",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The last second of the recording was my own voice. Very quiet. It said, please stop.",
+   "shots": [
+    {
+     "prompt": "phone screen with a thin bright audio line ending abruptly, dark, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you sleep tonight with the app on, or leave the house?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "KEEP IT ON  or  LEAVE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "phone on a bedside table at dawn with a bright screen, rumpled bed, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 7:02 a.m. my sleep app had recorded… 😴 A: keep it on or B: leave the house? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Two hours of whispering my name 😴",
+  "firstCommentText": "Would you listen again? 👇",
+  "cover_ms": 1500
+ }
+}

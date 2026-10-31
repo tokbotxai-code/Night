@@ -1,0 +1,193 @@
+{
+ "id": "022-flash-photo",
+ "title": "The flash photo showed someone in front of me 📸",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 12:48 a.m. my flash photo showed someone standing in front of me.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 12:48 a.m. my flash photo showed someone standing in front of me.",
+   "shots": [
+    {
+     "prompt": "camera flash lighting a dark bedroom for an instant, pale glare, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I was texting in bed with the lights off. I tapped the wrong button. The flash went off. I thought nothing of it.",
+   "shots": [
+    {
+     "prompt": "phone on a dark bed with a bright white glare, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "Then I saw the picture. My room. My wardrobe. My own feet at the bottom of the frame.",
+   "shots": [
+    {
+     "prompt": "phone screen showing a dim photo of a bedroom, bright glare, no text, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "And between the bed and the camera, close enough to touch, someone was standing. Facing me. Absolutely still.",
+   "shots": [
+    {
+     "prompt": "dim flash photo of a dark room with a pale blurry figure close to the camera, no face, fully clothed",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I looked up. The room was empty. I lifted the phone and took another picture. Flash. Click.",
+   "shots": [
+    {
+     "prompt": "dark empty bedroom lit by a camera flash, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The figure was closer. Now it was leaning over the bed. Its head was tilted to look at the screen of my phone.",
+   "shots": [
+    {
+     "prompt": "flash photo of a dark bedroom with a tall blurry silhouette bending over the bed, no face, fully clothed",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I took a third picture, because I needed to see. Flash. In the photo, there was nobody behind me anymore.",
+   "shots": [
+    {
+     "prompt": "bright flash on a bedroom wall, empty bed, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "That is when I understood where it had gone. The phone was in my hand. My thumb was not on the button.",
+   "shots": [
+    {
+     "prompt": "phone in a dark room, screen showing a flash icon, no text, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you take one more photo, or put the phone down?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "TAKE  or  DROP",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "camera flash lighting a dark bedroom for an instant, pale glare, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 12:48 a.m. my flash photo showed… 📸 A: take another photo or B: put the phone down? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The flash photo showed someone 📸",
+  "firstCommentText": "Would you take another one? 👇",
+  "cover_ms": 1500
+ }
+}

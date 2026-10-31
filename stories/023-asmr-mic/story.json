@@ -1,0 +1,188 @@
+{
+ "id": "023-asmr-mic",
+ "title": "My ASMR mic recorded someone breathing 🎙️",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 2:09 a.m. my ASMR mic recorded someone breathing behind the camera.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 2:09 a.m. my ASMR mic recorded someone breathing behind the camera.",
+   "shots": [
+    {
+     "prompt": "studio microphone with a pop filter in a dark room, small lamp glow, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I bought a new microphone for my ASMR videos. Soft tapping. Quiet whispering. Every night at two, I record for an hour.",
+   "shots": [
+    {
+     "prompt": "desk with a studio microphone, headphones and a small lamp in the dark, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "That night I put on the headphones to check the sound. The tapping was clean. The whispering was clean. And under it, a slow rasp.",
+   "shots": [
+    {
+     "prompt": "headphones resting on a desk next to a glowing laptop, dark room, no text, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I paused the recording. The rasp stopped. I pressed play. It started again. In, out. In, out. Wet and slow.",
+   "shots": [
+    {
+     "prompt": "laptop screen with a bright audio waveform in a dark room, no text, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I checked the room. Locked door. Empty chair. The only breathing I could hear was my own. And it did not match the recording.",
+   "shots": [
+    {
+     "prompt": "dark home studio with an empty chair behind the desk, lamp glow, no person",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "I zoomed into the waveform. The breathing was not behind the microphone. It was inside the left headphone. Right against my ear.",
+   "shots": [
+    {
+     "prompt": "close view of a headphone with a bright audio waveform reflected on it, dark, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I tore the headphones off. Silence. Then, through the speakers, my own whisper from an hour ago said, quietly, he can hear you.",
+   "shots": [
+    {
+     "prompt": "studio microphone with a pop filter, lamp flickering, shadow on the wall, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The red light on the microphone was still on. It had not stopped recording.",
+   "shots": [
+    {
+     "prompt": "small red recording light glowing on a studio microphone in the dark, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you listen to the whole recording, or delete it?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "LISTEN  or  DELETE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "studio microphone with a pop filter in a dark room, small lamp glow, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 2:09 a.m. my ASMR mic recorded someone… 🎙️ A: listen or B: delete it? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My ASMR mic recorded someone 🎙️",
+  "firstCommentText": "Would you listen? 👇",
+  "cover_ms": 1500
+ }
+}

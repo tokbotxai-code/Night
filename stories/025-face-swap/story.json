@@ -1,0 +1,200 @@
+{
+ "id": "025-face-swap",
+ "title": "A face swap put my face on something above me 🙂",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 1:05 a.m. a face swap filter put my face on something above me.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 1:05 a.m. a face swap filter put my face on something above me.",
+   "shots": [
+    {
+     "prompt": "dark bedroom ceiling with a faint pale smudge, phone glow below, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I was playing with a face swap filter. It swaps your face with whatever the camera sees. A cat. A statue. A friend.",
+   "shots": [
+    {
+     "prompt": "hand holding a phone in a dark bedroom, bright screen glow, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "I pointed it at the poster on my wall. The swap worked. My face, on a poster. I laughed.",
+   "shots": [
+    {
+     "prompt": "phone camera pointing at a dark bedroom wall with a poster, bright screen, no face",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "Then I tilted the phone up. The filter locked onto something near the ceiling. A tiny spinning circle. Face found.",
+   "shots": [
+    {
+     "prompt": "phone screen with a glowing circle pointing at the dark ceiling of a bedroom, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My face appeared on the screen, hanging upside down, pressed against the ceiling. It was smiling. I was not.",
+   "shots": [
+    {
+     "prompt": "dim bedroom ceiling with a pale oval shape pressed against it, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I lowered the phone. The ceiling looked normal. Plain white paint. Raised the phone. The face was gone from the screen.",
+   "shots": [
+    {
+     "prompt": "plain white bedroom ceiling in dim light, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "A drop landed on the screen. Another landed on my cheek. I did not look up. I just watched the filter in the phone.",
+   "shots": [
+    {
+     "prompt": "phone screen with water drops on it and a glowing circle, dim room, no text",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The filter had found a face again. Right behind mine. Close enough that I could feel the breath on my neck.",
+   "shots": [
+    {
+     "prompt": "bedroom wall in a phone camera view with a pale shape behind a silhouette, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "And the swap finished. For a moment, I could see the room from above.",
+   "shots": [
+    {
+     "prompt": "dark bedroom seen from the ceiling looking down at a bed and a phone glow, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you look up, or keep your eyes on the phone?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "LOOK UP  or  STAY",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "dark bedroom ceiling with a faint pale smudge, phone glow below, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 1:05 a.m. a face swap put my face on… 🙂 A: look up or B: keep your eyes down? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "A face swap put my face above me 🙂",
+  "firstCommentText": "Would you look up? 👇",
+  "cover_ms": 1500
+ }
+}

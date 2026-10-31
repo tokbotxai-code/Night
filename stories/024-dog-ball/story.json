@@ -1,0 +1,200 @@
+{
+ "id": "024-dog-ball",
+ "title": "The ball came back but my dog was asleep 🐕",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 11:20 p.m. I threw the ball into the dark hallway and it came back.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 11:20 p.m. I threw the ball into the dark hallway and it came back.",
+   "shots": [
+    {
+     "prompt": "tennis ball rolling out of a dark hallway onto a living room floor, lamp glow, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "My dog loves that game. I throw. He runs. He drops the ball by my feet. Always the same wet thud.",
+   "shots": [
+    {
+     "prompt": "cozy living room at night with a sofa and a lamp, a dog bed, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "So when the ball rolled back out of the dark, I did not look up. I just reached for it.",
+   "shots": [
+    {
+     "prompt": "tennis ball on a wooden floor in lamplight, dark hallway behind, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "It was wet. And cold. Cold like it had been held by something that does not warm things.",
+   "shots": [
+    {
+     "prompt": "close view of a wet tennis ball on a wooden floor, cold light, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "Then I looked up. On the sofa, my dog was fast asleep. Curled up. Paws twitching. He had never moved.",
+   "shots": [
+    {
+     "prompt": "sleeping dog curled up on a sofa in a dim living room, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Something had caught the ball. Something had thrown it back. Something that knew exactly how this game goes.",
+   "shots": [
+    {
+     "prompt": "dark hallway doorway with faint shapes in the shadows, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I threw the ball again, very softly, because I did not know what else to do. Into the dark. It landed. A pause.",
+   "shots": [
+    {
+     "prompt": "tennis ball in the air in a dim living room towards a dark hallway, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "Then I heard the thud. Wet. Close. And footsteps on four legs, coming towards me, in the hallway, not in the sofa.",
+   "shots": [
+    {
+     "prompt": "dark hallway with the sound of something low moving, faint silhouette on the floor, no face",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "My dog woke up. He looked at the hallway. And he started to growl at me.",
+   "shots": [
+    {
+     "prompt": "dog on a sofa looking toward the camera in a dim room, glowing eyes in lamp light, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you throw the ball once more, or grab your dog and leave?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "THROW  or  LEAVE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "tennis ball rolling out of a dark hallway onto a living room floor, lamp glow, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 11:20 p.m. I threw the ball into the dark… 🐕 A: throw it again or B: leave with the dog? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The ball came back 🐕",
+  "firstCommentText": "Would you throw it again? 👇",
+  "cover_ms": 1500
+ }
+}

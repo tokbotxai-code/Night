@@ -1,0 +1,205 @@
+{
+ "id": "018-mirror-smile",
+ "title": "My reflection stopped copying me 🪞",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 4:12 a.m. my reflection stopped copying me.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 4:12 a.m. my reflection stopped copying me.",
+   "shots": [
+    {
+     "prompt": "bedroom mirror with a ring light glowing, dark room, phone on a tripod, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I was filming a mirror trend. Hands up. Hair flip. Spin. I did it twice. On the third take, the reflection kept its arms down.",
+   "shots": [
+    {
+     "prompt": "large mirror in a dark bedroom reflecting a ring light and an empty room, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I froze. I checked the real mirror. It copied me again. Perfectly. I laughed and blamed the lag.",
+   "shots": [
+    {
+     "prompt": "phone on a tripod facing a mirror, glowing screen, dark bedroom, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "Then I replayed the clip. My reflection was smiling. Not a normal smile. Too wide. Like it was waiting for me to notice.",
+   "shots": [
+    {
+     "prompt": "phone screen glowing in a dark room showing a blurry bright mirror, no text, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I counted the seconds. At second nine, it looked past me. Straight into the camera. At whoever would watch this later.",
+   "shots": [
+    {
+     "prompt": "dark mirror with a ring light reflection, a pale blurred shape, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "I deleted the clip. My phone said it was still saving. Then it said posted. Nine hundred views. I never touched the button.",
+   "shots": [
+    {
+     "prompt": "phone lying on a bed, bright notification glow on the sheets, dark room, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Every comment said the same thing. Turn around. Turn around. Turn around. I did not move. In the mirror, I did not move either.",
+   "shots": [
+    {
+     "prompt": "dark bedroom seen from behind a person in a hoodie facing a mirror, long shadows, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then my reflection lifted one hand and waved. I was holding the phone with both of mine.",
+   "shots": [
+    {
+     "prompt": "hand waving inside a dark mirror, cold blue light, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I felt my mouth smile. I had not told it to.",
+   "shots": [
+    {
+     "prompt": "close view of a dark mirror edge with a faint smile-shaped reflection of light, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you cover the mirror, or keep filming?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "COVER  or  FILM",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "bedroom mirror with a ring light glowing, dark room, phone on a tripod, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 4:12 a.m. my reflection stopped copying… 🪞 A: cover the mirror or B: keep filming? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My reflection stopped copying me 🪞",
+  "firstCommentText": "Would you keep filming? 👇",
+  "cover_ms": 1500
+ }
+}

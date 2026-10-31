@@ -1,0 +1,200 @@
+{
+ "id": "019-filter-corner",
+ "title": "The filter named the empty corner 🎭",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 1:26 a.m. a filter gave the empty corner of my room a name.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 1:26 a.m. a filter gave the empty corner of my room a name.",
+   "shots": [
+    {
+     "prompt": "dark bedroom corner with a faint glow, phone screen light on the wall, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "It was one of those filters that tells you which character you are. I pointed the camera at my face. Then I swung it round, just for a joke.",
+   "shots": [
+    {
+     "prompt": "hand holding a phone in a dark bedroom, bright screen glow, no face",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "The corner of the room was empty. The filter scanned it anyway. A little spinning circle. A soft chime.",
+   "shots": [
+    {
+     "prompt": "phone screen glowing pointed at an empty dark corner, no text, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "A label popped up over nothing. Character match. Ninety-eight percent. It named a villain from a horror film.",
+   "shots": [
+    {
+     "prompt": "phone screen with a bright glowing circle over an empty dark corner, no text",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "I laughed. Then the label moved. One step to the left. Toward the bed.",
+   "shots": [
+    {
+     "prompt": "dark bedroom seen through a phone camera, one blurry bright shape near the bed, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I tried another corner. Match again. Same name. Same percentage. It was in every corner I pointed at.",
+   "shots": [
+    {
+     "prompt": "phone camera sweeping a dark room, bright glowing circles on the walls, no text",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I turned the filter back on myself. The circle spun for a long time. The chime sounded twice.",
+   "shots": [
+    {
+     "prompt": "phone glowing in a dark room, bright circular loading ring on screen, no text, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "The label said, Match found. Ninety-nine percent. And the name it gave me was the same one.",
+   "shots": [
+    {
+     "prompt": "bright phone screen reflecting on a dark wall, blurry glowing label, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I put the phone down. Behind me, something chimed.",
+   "shots": [
+    {
+     "prompt": "dark bedroom corner with a faint pale glow and a silhouette shape, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you delete the filter, or point it at the corner again?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "DELETE  or  POINT",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "dark bedroom corner with a faint glow, phone screen light on the wall, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 1:26 a.m. a filter gave the empty… 🎭 A: delete it or B: scan again? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The filter named the empty corner 🎭",
+  "firstCommentText": "Would you scan again? 👇",
+  "cover_ms": 1500
+ }
+}

@@ -60,3 +60,6 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 - Zdjęcia w telefonie: co noc nowe ujęcie ciebie śpiącego.
 - Radio w aucie łapie stację, która podaje twoją trasę na żywo.
 - Pralnia/hotel/parking: 2. osoba, nowa praca nocnego konserwatora windy w pustym biurowcu.
+
+## Scenariusze od właściciela (31.10): 018–027, gotowe story.json, do renderu po kolei
+018 mirror-smile, 019 filter-corner, 020 room-tour, 021 flashlight, 022 flash-photo, 023 asmr-mic, 024 dog-ball, 025 face-swap, 026 sleep-app, 027 smart-speaker. Kolejność publikacji: 019, 026, 022, 023, 020, potem reszta; każdy po kontroli klatek i ocenie ≥ 8.

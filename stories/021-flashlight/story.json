@@ -1,0 +1,193 @@
+{
+ "id": "021-flashlight",
+ "title": "My flashlight lit something taller than the hallway 🔦",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 3:33 a.m. my flashlight lit something taller than the hallway.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 3:33 a.m. my flashlight lit something taller than the hallway.",
+   "shots": [
+    {
+     "prompt": "long dark hallway with a narrow flashlight beam on the floor, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The power went out. I woke up to total black. I found my phone and turned on the light. I walked into the hallway.",
+   "shots": [
+    {
+     "prompt": "dark hallway seen from a doorway, a small cold beam of light on the floor, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The beam showed the floor first. Then the wall. Then a long stretch of ceiling that seemed higher than it should be.",
+   "shots": [
+    {
+     "prompt": "flashlight beam sweeping up a tall dark hallway wall, no person",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "Something stood at the far end. Tall. Narrow. Too tall for the door frame. It did not move. It was leaning very slightly to listen.",
+   "shots": [
+    {
+     "prompt": "tall dark silhouette at the end of a hallway in thin light, no face, fully clothed",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I held the light steady. The shape did not grow. It simply came closer without walking. Every time I blinked.",
+   "shots": [
+    {
+     "prompt": "hallway with a tall dark silhouette closer in thin cold light, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I whispered, Dad? The shape bent. Slowly. As if it was copying my voice instead of answering.",
+   "shots": [
+    {
+     "prompt": "hallway with a tall silhouette bending at the neck in cold light, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "My phone was at ten percent. The beam flickered. The shape was close enough that I could feel the air move.",
+   "shots": [
+    {
+     "prompt": "phone flashlight beam flickering on a wall, tall shadow, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Then it breathed out. One long breath. The flashlight went dark, like someone had blown out a candle.",
+   "shots": [
+    {
+     "prompt": "completely dark hallway with a faint ember glow, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. In total black, do you run for the stairs, or stay perfectly still?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "RUN  or  FREEZE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "long dark hallway with a narrow flashlight beam on the floor, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 3:33 a.m. my flashlight lit something… 🔦 A: run or B: freeze? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Something taller than the hallway 🔦",
+  "firstCommentText": "Would you run? 👇",
+  "cover_ms": 1500
+ }
+}

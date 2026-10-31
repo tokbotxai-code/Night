@@ -1,0 +1,193 @@
+{
+ "id": "027-smart-speaker",
+ "title": "My speaker said do not turn around 🔊",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 3:40 a.m. my smart speaker said, do not turn around.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 3:40 a.m. my smart speaker said, do not turn around.",
+   "shots": [
+    {
+     "prompt": "small smart speaker on a dark shelf with a pulsing light ring, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I was recording a late night vlog at my desk. Dim lamp. Cold tea. A smart speaker on the shelf behind me.",
+   "shots": [
+    {
+     "prompt": "desk with a laptop and a lamp at night, a speaker on a shelf behind, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "I never talk to it. But it lit up. A soft blue ring. It said, in a flat polite voice, there is someone behind you.",
+   "shots": [
+    {
+     "prompt": "glowing blue light ring of a small speaker on a shelf in a dark room, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I laughed. I said, stop it. The speaker said, do not turn around. I did not move. The camera was still recording.",
+   "shots": [
+    {
+     "prompt": "laptop webcam view of a dark room, a small blue light on a shelf behind, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I looked at the laptop screen instead. Behind my chair, in the reflection, the door was open. I always lock it.",
+   "shots": [
+    {
+     "prompt": "laptop screen reflecting a dark bedroom with an open door behind a chair, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The speaker said, it is waiting for you to look. I asked who it was. The speaker said, I cannot say. It is listening too.",
+   "shots": [
+    {
+     "prompt": "small speaker with a blue pulsing ring on a dark shelf, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Then the blue ring turned red. The speaker whispered, now. And behind me, the floor creaked. Once. Close.",
+   "shots": [
+    {
+     "prompt": "small speaker with a red glowing light in a dark room, shadow on the wall, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I stared at the screen. In the reflection, a tall shape bent over my shoulder. And the speaker said, thank you for not looking.",
+   "shots": [
+    {
+     "prompt": "laptop screen reflecting a faint dark silhouette bending over a chair, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you turn around, or keep staring at the screen?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "TURN  or  STARE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "small smart speaker on a dark shelf with a pulsing light ring, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 3:40 a.m. my smart speaker said… 🔊 A: turn around or B: stare at the screen? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My speaker said do not turn around 🔊",
+  "firstCommentText": "Would you turn around? 👇",
+  "cover_ms": 1500
+ }
+}

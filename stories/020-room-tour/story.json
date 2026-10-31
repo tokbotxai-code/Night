@@ -1,0 +1,210 @@
+{
+ "id": "020-room-tour",
+ "title": "My night room tour showed something under the bed 🛏️",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 2:51 a.m. my room tour showed something under the bed.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 2:51 a.m. my room tour showed something under the bed.",
+   "shots": [
+    {
+     "prompt": "dark bedroom bed with a deep shadow under it, phone light on the floor, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I do late night room tours for my followers. Cozy lamp. Soft music. Slow pan across the room. Nothing weird. Ever.",
+   "shots": [
+    {
+     "prompt": "cozy bedroom with a warm lamp at night, soft light, bed and shelf, no person",
+     "motion": "pan_right"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "This time, I panned past the bed and the audio crackled. Like someone breathing in, very slowly.",
+   "shots": [
+    {
+     "prompt": "low angle view of a bedroom floor and bed frame, warm lamp light, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I lowered the camera to the floor. Under the bed, the dark was thick. Too thick. It did not move with my light.",
+   "shots": [
+    {
+     "prompt": "flashlight beam on the floor under a bed, deep black shadow, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My slipper was next to the bed. I looked at it. I looked back at the camera. The slipper had moved six inches.",
+   "shots": [
+    {
+     "prompt": "single slipper on a wooden floor beside a bed, flashlight beam, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I held my breath. The slipper slid across the floor. Slowly. Into the dark. No hand. No pull. Just gone.",
+   "shots": [
+    {
+     "prompt": "wooden floor under a bed with a faint drag mark in the dust, dark, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The lamp flickered. Under the bed, something exhaled. I heard it through the phone and through the room at the same time.",
+   "shots": [
+    {
+     "prompt": "bedroom with a flickering lamp and a dark gap under the bed, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I ended the stream. The chat was full. Everyone was typing the same thing. Check your feet.",
+   "shots": [
+    {
+     "prompt": "phone on a bedspread with a bright screen glow, dark room, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I looked down. My other slipper was still on my foot. And it was already half in the dark.",
+   "shots": [
+    {
+     "prompt": "dark floor beside a bed, a slipper at the edge of deep shadow, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6
+  },
+  {
+   "narration": "So tell me. Do you check under the bed, or leave the room?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "CHECK  or  LEAVE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "dark bedroom bed with a deep shadow under it, phone light on the floor, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "At 2:51 a.m. my room tour showed something… 🛏️ A: check under the bed or B: leave the room? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My night room tour showed something 🛏️",
+  "firstCommentText": "Would you look under the bed? 👇",
+  "cover_ms": 1500
+ }
+}
