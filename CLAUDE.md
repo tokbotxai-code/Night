@@ -74,7 +74,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 
 ### Zasada nadrzędna: publikuj tylko najlepszą wersję (decyzja właściciela 31.10, po filmie Halloween)
 - **Wada zauważona przed publikacją = naprawiasz przed publikacją**, a nie opisujesz jej w raporcie. Jeśli arkusz klatek, tekst lub ocena straszności pokazuje słabe miejsce (ciemne albo czarne kadry, brak wyraźnego obrazu w kluczowym momencie, oczywiste zakończenie, ucięty napis), przerób scenę (nowy prompt, jaśniejsze ujęcie, lepszy twist) i wyrenderuj ponownie, **zanim** zaplanujesz film. Dopiero film bez znanych wad idzie do Metricool.
-- **Przed publikacją oceń film w skali 1–10 pod kątem strachu** (z arkusza klatek i scenariusza). Poniżej 7: popraw (wyraźne jasne ujęcie głównej postaci bez twarzy w kluczowej chwili, więcej ciszy przed zakończeniem, mniej oczywisty koniec) i oceń ponownie. Maksymalnie dwie poprawki na film.
+- **Przed publikacją oceń film w skali 1–10 pod kątem strachu** (z arkusza klatek i scenariusza), uczciwie, bez zawyżania. **Wymagane minimum to 8 (cel 9).** Poniżej 8: popraw (wyraźne jasne ujęcie głównej postaci bez twarzy w kluczowej chwili, więcej ciszy przed zakończeniem, mniej oczywisty koniec, lepszy twist, wymiana słabych obrazów) i oceń ponownie. Maksymalnie trzy poprawki na film; jeśli po nich film nadal ma poniżej 8, **nie publikuj go**, zostaw stary slot z poprzednim filmem (albo pusty) i opisz w raporcie, co nie wyszło (decyzja właściciela 31.10: „nic poniżej 8”).
 - W raporcie podaj ocenę końcową i co poprawiłeś, nie listę wad opublikowanego filmu.
 - Dotyczy też filmów „extra” robionych na prośbę właściciela.
 
