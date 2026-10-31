@@ -13,8 +13,8 @@
    "narration": "At 4:12 a.m. my reflection stopped copying me.",
    "shots": [
     {
-     "prompt": "bedroom mirror with a ring light glowing, dark room, phone on a tripod, no person",
-     "motion": "shake"
+     "motion": "shake",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -188,8 +188,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "bedroom mirror with a ring light glowing, dark room, phone on a tripod, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,
