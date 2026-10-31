@@ -1,0 +1,190 @@
+{
+ "id": "extra-003-voicemail-part-2",
+ "title": "Part 2: I opened the closet. I should have run 🚪",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, harsh high contrast lighting, sharp focus, 35mm film grain, realistic, dark apartment at night, no text, no watermark",
+ "hook_text": "Part 2. I opened the closet. I should have run.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "Part 2. I opened the closet. I should have run.",
+   "shots": [
+    {
+     "prompt": "dark apartment bedroom closet door slightly open, thin cold light from inside, a smartphone glowing on the floor in front of it, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "narration": "The handle was warm. The door was heavy. Inside, my coats were gone. Just a bare floor and a cold draft.",
+   "shots": [
+    {
+     "prompt": "empty closet interior with bare floor and bare walls, cold blue draft, dim light, no person",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "narration": "In the middle sat a person. Back to me. Knees pulled up. Whispering into a phone. Whispering my exact words.",
+   "shots": [
+    {
+     "prompt": "a person sitting on the floor of an empty closet seen from behind, knees pulled up, holding a glowing phone to the ear, dark clothes, back to the camera, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Don't open the closet. Whatever you hear, it's not me. I knew that voice. I had heard it every night in my own head.",
+   "shots": [
+    {
+     "prompt": "close view of the back of a head and shoulders in a dark closet, phone light glowing on the wall, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "He did not turn around. He raised the phone over his shoulder. The screen showed a call to my number. It was ringing in my pocket.",
+   "shots": [
+    {
+     "prompt": "a hand holding a ringing smartphone raised over a shoulder in the dark, the screen glowing with an incoming call, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "narration": "I answered. His voice came through my phone and, one second later, through his mouth. Same words. Same pause. A recording playing live.",
+   "shots": [
+    {
+     "prompt": "smartphone in a hand held to an ear in a dark hallway, screen glowing, a closet door open behind, no face",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "Then he said, quietly, you were not supposed to open it. Now one of us has to stay.",
+   "shots": [
+    {
+     "prompt": "the dark closet seen from the doorway, the seated figure motionless in the middle of the floor, cold light, no face",
+     "motion": "zoom_out"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Me",
+     "text": "One of us has to stay.",
+     "time": "3:07 AM",
+     "at_word": "stay",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Behind me, the door swung shut. And I was sitting on the floor, a phone in my hand, whispering the warning to the next person.",
+   "shots": [
+    {
+     "prompt": "view from inside a dark closet looking at a closing door with a thin line of light underneath, a phone glowing on the floor, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.1
+    },
+    {
+     "type": "heartbeat",
+     "at": 0.8,
+     "until": "end",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Would you have stayed, or run?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Stay or Run",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "A  STAY  or  B  RUN",
+     "at_word": "run",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "dark apartment bedroom closet door slightly open, thin cold light from inside, a smartphone glowing on the floor in front of it, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "Part 2 | I opened the closet. I should have run… 🚪 Comment A to stay or B to run 👇 Want Part 3? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Part 2: I opened the closet 🚪",
+  "firstCommentText": "A or B? Tell me what you would do 👇",
+  "cover_ms": 1500
+ }
+}
