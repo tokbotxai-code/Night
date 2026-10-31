@@ -149,7 +149,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Obrazy lub wideo z AI → `tiktokData.isAigc: true`.
 - Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 61–90 s.
 - Praktyka (test 23.10): `generate-image` zwraca tylko miniaturę, a pełna rozdzielczość wymaga projektu i eksportu.
-  Dlatego Canvy używaj do 1–2 kluczowych kadrów na film (hook, twist) i do okładek serii. Eksport zapisz w `stories/<id>/`
+  Dlatego Canvy używaj do kadru hooka w jednym filmie dziennie (test A/B, decyzja właściciela 31.10; szczegóły w `AUTOPILOT.md`) i do okładek serii. Eksport zapisz w `stories/<id>/`
   i podaj w ujęciu jako `{"image_file": "hook.png", "motion": "zoom_in"}`. Pozostałe tła generuje Pollinations.
 - Planu konta Canva i liczby kredytów nie da się sprawdzić przez narzędzia. Gdy funkcja premium odmówi,
   napisz to w podsumowaniu i dokończ film zwykłym rendererem (`tools/make_video.py`).
