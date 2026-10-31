@@ -30,8 +30,8 @@
    "narration": "It was one of those filters that tells you which character you are. I pointed the camera at my face. Then I swung it round, just for a joke.",
    "shots": [
     {
-     "prompt": "hand holding a phone in a dark bedroom, bright screen glow, no face",
-     "motion": "pan_right"
+     "motion": "zoom_in",
+     "image_file": "a2.png"
     }
    ],
    "pre": 0.1,
@@ -42,8 +42,8 @@
    "narration": "The corner of the room was empty. The filter scanned it anyway. A little spinning circle. A soft chime.",
    "shots": [
     {
-     "prompt": "phone screen glowing pointed at an empty dark corner, no text, no person",
-     "motion": "zoom_in"
+     "motion": "slow_zoom_in",
+     "image_file": "a3.png"
     }
    ],
    "pre": 0.1,
@@ -60,8 +60,8 @@
    "narration": "A label popped up over nothing. Character match. Ninety-eight percent. It named a villain from a horror film.",
    "shots": [
     {
-     "prompt": "phone screen with a bright glowing circle over an empty dark corner, no text",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "a3c.png"
     }
    ],
    "pre": 0.1,
@@ -72,8 +72,8 @@
    "narration": "I laughed. Then the label moved. One step to the left. Toward the bed.",
    "shots": [
     {
-     "prompt": "dark bedroom seen through a phone camera, one blurry bright shape near the bed, no face",
-     "motion": "zoom_in"
+     "motion": "pan_right",
+     "image_file": "a4.png"
     }
    ],
    "pre": 0.1,
@@ -90,8 +90,8 @@
    "narration": "I tried another corner. Match again. Same name. Same percentage. It was in every corner I pointed at.",
    "shots": [
     {
-     "prompt": "phone camera sweeping a dark room, bright glowing circles on the walls, no text",
-     "motion": "shake"
+     "motion": "slow_zoom_in",
+     "image_file": "a4c.png"
     }
    ],
    "pre": 0.1,
@@ -108,8 +108,8 @@
    "narration": "I turned the filter back on myself. The circle spun for a long time. The chime sounded twice.",
    "shots": [
     {
-     "prompt": "phone glowing in a dark room, bright circular loading ring on screen, no text, no face",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "a5.png"
     }
    ],
    "pre": 0.1,
@@ -120,8 +120,8 @@
    "narration": "The label said, Match found. Ninety-nine percent. And the name it gave me was the same one.",
    "shots": [
     {
-     "prompt": "bright phone screen reflecting on a dark wall, blurry glowing label, no text",
-     "motion": "zoom_in"
+     "motion": "zoom_out",
+     "image_file": "a3c.png"
     }
    ],
    "pre": 0.1,
@@ -137,8 +137,8 @@
    "narration": "I put the phone down. Behind me, something chimed.",
    "shots": [
     {
-     "prompt": "dark bedroom corner with a faint pale glow and a silhouette shape, no face",
-     "motion": "slow_zoom_in"
+     "motion": "slow_zoom_in",
+     "image_file": "h5.png"
     }
    ],
    "pre": 0.1,
