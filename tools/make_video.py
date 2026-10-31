@@ -17,7 +17,7 @@ import json
 import math
 import os
 import ssl
-import base64
+import base64, io
 import subprocess
 import sys
 import time
@@ -190,7 +190,31 @@ def fetch_image(prompt, cache, offline):
                 raise RuntimeError(str(d.get("errors"))[:120])
             except Exception as e:
                 log(f"cloudflare image retry {attempt + 1} ({key}): {e}")
+                if "429" in str(e):
+                    break  # daily quota used up: go straight to the next source
                 time.sleep(5 * (attempt + 1))
+    if not offline:
+        # second choice: AI Horde (community, anonymous key, native 9:16)
+        try:
+            hh = {"apikey": "0000000000", "Content-Type": "application/json", "Client-Agent": "night:1:x", "User-Agent": "Mozilla/5.0 night"}
+            body = {"prompt": prompt[:1000], "params": {"width": 576, "height": 1024, "steps": 25, "n": 1}, "models": ["Deliberate"]}
+            ctx = ssl.create_default_context(cafile=CA_FILE) if CA_FILE else None
+            r = urllib.request.urlopen(urllib.request.Request("https://aihorde.net/api/v2/generate/async", data=json.dumps(body).encode(), headers=hh), timeout=60, context=ctx)
+            rid = json.loads(r.read())["id"]
+            for _ in range(60):
+                time.sleep(8)
+                st = json.loads(urllib.request.urlopen(urllib.request.Request("https://aihorde.net/api/v2/generate/check/" + rid, headers=hh), timeout=60, context=ctx).read())
+                if st.get("done"):
+                    g = json.loads(urllib.request.urlopen(urllib.request.Request("https://aihorde.net/api/v2/generate/status/" + rid, headers=hh), timeout=60, context=ctx).read())["generations"][0]
+                    data = urllib.request.urlopen(urllib.request.Request(g["img"], headers={"User-Agent": "Mozilla/5.0 night"}), timeout=120, context=ctx).read() if g["img"].startswith("http") else base64.b64decode(g["img"])
+                    im = Image.open(io.BytesIO(data)).convert("RGB")
+                    im.save(path, quality=92)
+                    log(f"image ok (horde) {key} {im.size}")
+                    return im
+                if st.get("faulted"):
+                    break
+        except Exception as e:
+            log(f"horde image failed ({key}): {e}")
     if not offline:
         seed = int(key[:6], 16)
         url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt) +
