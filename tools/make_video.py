@@ -266,8 +266,8 @@ def text_block(text, fnt, max_w, fill=(255, 255, 255), stroke=8, stroke_fill=(0,
 
 def caption_img(words, active, s):
     """One caption chunk, active word highlighted, TikTok style."""
-    fnt = font("display", int(96 * s))
-    stroke = int(9 * s)
+    fnt = font("display", int(82 * s))
+    stroke = int(8 * s)
     d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     space = d.textlength(" ", font=fnt)
     widths = [d.textlength(w_, font=fnt) for w_ in words]
@@ -532,7 +532,7 @@ def build(story_path, out_root, preview, offline, allow_any_length):
             wb = ch[k + 1][0] if k + 1 < len(ch) else b
             variants.append((wa, wb, np.asarray(caption_img(words, k, s))))
         cap_frames.append((a, b, variants))
-    cap_y = int(1180 * s)
+    cap_y = int(1290 * s)
 
     # 6) render frames
     rng = np.random.default_rng(7)
