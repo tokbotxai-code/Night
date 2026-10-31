@@ -41,7 +41,7 @@
    "narration": "At ten, I rewound the doorbell video. Thirteen figures on my steps. Twelve took candy. One stood at the very back, arms at its sides. It never moved.",
    "shots": [
     {
-     "prompt": "doorbell camera fisheye view of a lit porch with children in costumes and one very tall thin figure in a long gray coat standing at the back, head down, hood up, face completely hidden in shadow, sharp and clearly visible",
+     "prompt": "security camera view of a lit porch at night, small children in costumes, one very tall thin figure in a long gray coat at the back, hood up, face hidden in shadow",
      "motion": "zoom_in"
     }
    ],
@@ -59,7 +59,7 @@
    "narration": "It wore a gray coat. My gray coat. The torn pocket. The keys on the belt.",
    "shots": [
     {
-     "prompt": "close view of a long gray coat with a torn pocket and a ring of keys hanging from the belt, bright porch light, no head visible, sharp detail",
+     "prompt": "long gray coat with a torn pocket and a ring of keys on the belt, bright porch light, no head visible",
      "motion": "slow_zoom_in"
     }
    ],
@@ -87,7 +87,7 @@
    "narration": "But I was on the couch. All night. I remember the game. I never stood up.",
    "shots": [
     {
-     "prompt": "living room couch at night lit by a television, empty couch with a blanket, remote on the cushion, no person visible",
+     "prompt": "empty living room couch with a blanket lit by a television at night, remote on the cushion, no person",
      "motion": "zoom_out"
     }
    ],
