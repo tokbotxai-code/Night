@@ -13,8 +13,8 @@
    "narration": "At 12:48 a.m. my flash photo showed someone standing in front of me.",
    "shots": [
     {
-     "prompt": "camera flash lighting a dark bedroom for an instant, pale glare, no person",
-     "motion": "shake"
+     "motion": "shake",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -176,8 +176,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "camera flash lighting a dark bedroom for an instant, pale glare, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,

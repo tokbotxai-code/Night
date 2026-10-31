@@ -13,8 +13,8 @@
    "narration": "At 2:09 a.m. my ASMR mic recorded someone breathing behind the camera.",
    "shots": [
     {
-     "prompt": "studio microphone with a pop filter in a dark room, small lamp glow, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -171,8 +171,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "studio microphone with a pop filter in a dark room, small lamp glow, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,

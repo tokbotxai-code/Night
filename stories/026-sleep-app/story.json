@@ -13,8 +13,8 @@
    "narration": "At 7:02 a.m. my sleep app had recorded two hours of someone whispering my name.",
    "shots": [
     {
-     "prompt": "phone on a bedside table at dawn with a bright screen, rumpled bed, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -171,8 +171,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "phone on a bedside table at dawn with a bright screen, rumpled bed, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,

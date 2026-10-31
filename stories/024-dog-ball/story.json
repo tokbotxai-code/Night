@@ -13,8 +13,8 @@
    "narration": "At 11:20 p.m. I threw the ball into the dark hallway and it came back.",
    "shots": [
     {
-     "prompt": "tennis ball rolling out of a dark hallway onto a living room floor, lamp glow, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -183,8 +183,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "tennis ball rolling out of a dark hallway onto a living room floor, lamp glow, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,

@@ -13,8 +13,8 @@
    "narration": "At 1:26 a.m. a filter gave the empty corner of my room a name.",
    "shots": [
     {
-     "prompt": "dark bedroom corner with a faint glow, phone screen light on the wall, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -183,8 +183,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "dark bedroom corner with a faint glow, phone screen light on the wall, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,

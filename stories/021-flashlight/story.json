@@ -13,8 +13,8 @@
    "narration": "At 3:33 a.m. my flashlight lit something taller than the hallway.",
    "shots": [
     {
-     "prompt": "long dark hallway with a narrow flashlight beam on the floor, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -176,8 +176,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "long dark hallway with a narrow flashlight beam on the floor, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,

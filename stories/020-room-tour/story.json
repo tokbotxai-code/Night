@@ -13,8 +13,8 @@
    "narration": "At 2:51 a.m. my room tour showed something under the bed.",
    "shots": [
     {
-     "prompt": "dark bedroom bed with a deep shadow under it, phone light on the floor, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -193,8 +193,8 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "dark bedroom bed with a deep shadow under it, phone light on the floor, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.0,
