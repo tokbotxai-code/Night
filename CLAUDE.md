@@ -74,6 +74,8 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 
 ### Kontrola jakości przed publikacją (obowiązkowa)
 
+0. **Kontrole tekstu (dopisane 31.10 po samoocenie autopilota):** (a) `hook_text` ma być **dosłownie tym samym zdaniem** co pierwsze zdanie lektora (sprawdź przed renderem; nie skracaj w jednym z nich); (b) cała narracja w jednym czasie (przeszły), bez zmiany czasu w środku zdania; (c) tekst `choice` na końcu to dwie pełne opcje, każda max 3 słowa i bez ucinania (np. „TURN AROUND  or  STARE AT THE CURTAIN” albo „DOOR  or  COUCH”), nie „Turn or Curtain”; (d) po wyrenderowaniu **obejrzyj arkusz klatek każdego filmu** (nie tylko pierwszego), a ujęcia prawie czarne wymień (zmień prompt, bo Pollinations po błędzie 402/503 zwraca ciemny kadr); (e) po zaplanowaniu wywołaj `getScheduledPosts` na 48 h i sprawdź, czy każdy slot ma jeden film i brak ERROR; (f) tekst 160–200 słów (poniżej 160 dopisz zdania eskalacji).
+
 1. Długość 61–90 s (cel 65–90 s; skrypt blokuje tylko <61 s i >180 s).
 2. Zrób arkusz klatek (`ffmpeg ... -vf tile=5x3`) i obejrzyj go: żadnych napisów, logo ani zniekształconych twarzy w tłach, nic nie zasłania napisów.
    Złe tło wymień: zmień prompt i wyrenderuj ponownie.
@@ -148,6 +150,7 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Eksporty z Canvy (JPG/PNG) zapisuj w `stories/<id>/`. Gotowy film idzie przez `tools/upload_media.py` (branch `media`, sekcja 4), nigdy do repo.
 - Obrazy lub wideo z AI → `tiktokData.isAigc: true`.
 - Zasady TikToka: bez krwi i przemocy na zbliżeniach, bez samookaleczeń. Historie 61–90 s.
+- **Obowiązuje reguła z AUTOPILOT.md (31.10, tryb oszczędny): Canva tylko do kadru hooka w jednym filmie dziennie (pierwszy slot, test A/B).** Pozostałe filmy, twist i reszta teł: Pollinations. Starsze zdania w tej sekcji o „1–2 kluczowych kadrach na film” nie obowiązują.
 - Praktyka (test 23.10): `generate-image` zwraca tylko miniaturę, a pełna rozdzielczość wymaga projektu i eksportu.
   Dlatego Canvy używaj do 1–2 kluczowych kadrów na film (hook, twist) i do okładek serii. Eksport zapisz w `stories/<id>/`
   i podaj w ujęciu jako `{"image_file": "hook.png", "motion": "zoom_in"}`. Pozostałe tła generuje Pollinations.
