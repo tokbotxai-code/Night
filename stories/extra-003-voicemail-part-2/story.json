@@ -13,7 +13,7 @@
    "narration": "Part 2. I opened the closet. I should have run.",
    "shots": [
     {
-     "prompt": "bedroom closet door ajar, bright cold white light spilling out onto the wooden floor, well exposed, no person",
+     "prompt": "wooden wardrobe door slightly open with warm yellow light inside, bedroom at night, no person",
      "motion": "shake"
     }
    ],
@@ -30,7 +30,7 @@
    "narration": "The handle was warm. The door was heavy. Inside, my coats were gone. Just a bare floor and a cold draft.",
    "shots": [
     {
-     "prompt": "empty walk-in closet with white walls and an empty clothes rail lit by a bright bare bulb, well exposed, no person",
+     "prompt": "inside a wardrobe, hanging dark coats on a rail, warm lamp light, close view, no person",
      "motion": "slow_zoom_in"
     }
    ],
@@ -47,7 +47,7 @@
    "narration": "In the middle sat a person. Back to me. Knees pulled up. Whispering into a phone. Whispering my exact words.",
    "shots": [
     {
-     "prompt": "a person sitting on the floor of an empty closet seen from behind, knees pulled up, holding a glowing phone to the ear, dark clothes, back to the camera, no face",
+     "prompt": "silhouette of a person sitting cross-legged in a dark room, back to camera, one warm lamp, no face",
      "motion": "zoom_in"
     }
    ],
@@ -76,7 +76,7 @@
    "narration": "He did not turn around. He raised the phone over his shoulder. The screen showed a call to my number. It was ringing in my pocket.",
    "shots": [
     {
-     "prompt": "hand raising a smartphone with a plain white glowing screen over a shoulder, bright closet light, no face, no text",
+     "prompt": "smartphone lying on a wooden floor, glowing screen lighting the boards, warm light, no text",
      "motion": "zoom_in"
     }
    ],
@@ -93,7 +93,7 @@
    "narration": "I answered. His voice came through my phone and, one second later, through his mouth. Same words. Same pause. A recording playing live.",
    "shots": [
     {
-     "prompt": "hand holding a smartphone to an ear in a lit hallway, open closet door behind with bright light, no face, no text",
+     "prompt": "a hand holding a smartphone to an ear, bedroom, warm lamp light, blurred background, no face, no text",
      "motion": "slow_zoom_in"
     }
    ],
@@ -104,7 +104,7 @@
    "narration": "Then he said, quietly, you were not supposed to open it. Now one of us has to stay.",
    "shots": [
     {
-     "prompt": "brightly lit closet seen from the doorway, a person in a dark hoodie sitting motionless on the floor, back to camera, no face",
+     "prompt": "wide view of a bedroom with an open wardrobe and a silhouette of a seated person on the floor, warm orange lamp, no face",
      "motion": "zoom_out"
     }
    ],
@@ -125,7 +125,7 @@
    "narration": "Behind me, the door swung shut. And I was sitting on the floor, a phone in my hand, whispering the warning to the next person.",
    "shots": [
     {
-     "prompt": "view from inside a closet at a closing door, strong bright strip of white light around the edges, no person",
+     "prompt": "wardrobe door closing, bright orange strip of light along the edge, bedroom wall, no person",
      "motion": "zoom_in"
     }
    ],
@@ -167,7 +167,7 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "bedroom closet door ajar, bright cold white light spilling out onto the wooden floor, well exposed, no person",
+     "prompt": "wooden wardrobe door slightly open with warm yellow light inside, bedroom at night, no person",
      "motion": "zoom_in"
     }
    ],
