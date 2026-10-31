@@ -1,0 +1,201 @@
+{
+ "id": "extra-002-halloween-thirteen-v2",
+ "title": "Doorbell counted thirteen kids. I gave candy to twelve 🎃",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, bright porch light, clear subject, sharp focus, high contrast, 35mm film grain, realistic, suburban American home at night, no text, no watermark",
+ "hook_text": "On Halloween, my doorbell camera counted thirteen trick-or-treaters. I gave candy to twelve.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "On Halloween, my doorbell camera counted thirteen trick-or-treaters. I gave candy to twelve.",
+   "shots": [
+    {
+     "prompt": "suburban front door at night, bright warm porch light, carved pumpkin glowing, bowl of candy on the step, doorbell camera angle, no person",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "narration": "I always count them. Witches. A ghost. Two tiny astronauts. Twelve kids. Twelve thank-yous.",
+   "shots": [
+    {
+     "prompt": "group of small children in halloween costumes seen from behind on a lit porch steps at night, witch hat, white ghost sheet, astronaut helmets, no faces",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "At ten, I rewound the doorbell video. Thirteen figures on my steps. Twelve took candy. One stood at the very back, arms at its sides. It never moved.",
+   "shots": [
+    {
+     "prompt": "doorbell camera fisheye view of a lit porch with children in costumes and one very tall thin figure in a long gray coat standing at the back, head down, hood up, face completely hidden in shadow, sharp and clearly visible",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "It wore a gray coat. My gray coat. The torn pocket. The keys on the belt.",
+   "shots": [
+    {
+     "prompt": "close view of a long gray coat with a torn pocket and a ring of keys hanging from the belt, bright porch light, no head visible, sharp detail",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "Then I watched the door. It opened. A gray sleeve handed out the candy. Twelve times. Same sleeve. Same coat.",
+   "shots": [
+    {
+     "prompt": "open front door at night with a gray coat sleeve and hand reaching out holding a candy bowl, bright porch light, the rest of the body hidden in the dark hallway, no face",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "narration": "But I was on the couch. All night. I remember the game. I never stood up.",
+   "shots": [
+    {
+     "prompt": "living room couch at night lit by a television, empty couch with a blanket, remote on the cushion, no person visible",
+     "motion": "zoom_out"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "Then my phone buzzed. My neighbor. Who is standing on your porch right now?",
+   "shots": [
+    {
+     "prompt": "phone lighting up in a dark living room next to a couch, bright screen glow, no person visible",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Neighbor",
+     "text": "Who is standing on your porch?",
+     "time": "10:41 PM",
+     "at_word": "neighbor",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I opened the live feed. The porch was empty. The bowl was empty too. Every candy was gone.",
+   "shots": [
+    {
+     "prompt": "phone screen showing a security camera live view of an empty lit porch with an empty candy bowl and a glowing pumpkin, night",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5
+  },
+  {
+   "narration": "Then the doorbell chimed. From inside the house. And the couch cushion beside me sank, like someone had just sat down.",
+   "shots": [
+    {
+     "prompt": "couch cushion with a deep fresh indentation beside a blanket in a dim living room lit by a tv, no person visible, dramatic shadows",
+     "motion": "zoom_out"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.1
+    },
+    {
+     "type": "heartbeat",
+     "at": 0.8,
+     "until": "end",
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do I look at it, or keep watching the game?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.4,
+   "post": 1.4,
+   "captions": false,
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "Look or Watch",
+     "at": 0.0,
+     "until": "end"
+    },
+    {
+     "kind": "choice",
+     "text": "LOOK AT IT  or  KEEP WATCHING",
+     "at_word": "game",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "suburban front door at night, bright warm porch light, carved pumpkin glowing, bowl of candy on the step, doorbell camera angle, no person",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2
+  }
+ ],
+ "post": {
+  "caption": "On Halloween, my doorbell camera counted thirteen… 🎃 Look at it or keep watching? Want a Part 2? Comment YES 👇 #horrortok #storytime #horrorstoriestok #scarystories #halloween",
+  "tiktok_title": "Doorbell counted thirteen kids. I gave candy to twelve 🎃",
+  "firstCommentText": "",
+  "cover_ms": 1500
+ }
+}
