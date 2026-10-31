@@ -4,6 +4,9 @@ Kanał TikTok z **oryginalnymi** horror stories po angielsku, rynek **USA/UK**.
 Format: faceless, 9:16, **61–90 s** (Creator Rewards płaci od 61 s, a krótsze filmy mają wyższy % obejrzeń do końca). Lektor AI, tła AI, napisy słowo po słowie, efekty dźwiękowe.
 Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczne są w `channel.json`.
 
+## 0. Zamrożenie zasad 31.10–7.11 (decyzja właściciela 31.10)
+- Przez 7 dni nie zmieniaj zasad, godzin ani formatów (poza naprawą błędów). Realizuj testy z sekcji „Seria i styl” w podanej kolejności i zapisuj wyniki w LOG.md (typ hooka, styl, seria, wyświetlenia po 48 h z aplikacji lub Metricool). Zmiany zasad dopiero po przeglądzie wyników i po zgodzie właściciela.
+
 ## 1. Treść (najważniejsze)
 
 - **Tylko oryginalne historie.** Nie przerabiaj creepypast, wątków z r/nosleep, filmów, odcinków ani cudzych TikToków.
