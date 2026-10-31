@@ -30,8 +30,8 @@
    "narration": "I was recording a late night vlog at my desk. Dim lamp. Cold tea. A smart speaker on the shelf behind me.",
    "shots": [
     {
-     "prompt": "desk with a laptop and a lamp at night, a speaker on a shelf behind, no person",
-     "motion": "slow_zoom_in"
+     "motion": "slow_zoom_in",
+     "image_file": "d2.png"
     }
    ],
    "pre": 0.1,
@@ -42,8 +42,8 @@
    "narration": "I never talk to it. But it lit up. A soft blue ring. It said, in a flat polite voice, there is someone behind you.",
    "shots": [
     {
-     "prompt": "glowing blue light ring of a small speaker on a shelf in a dark room, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "spk.png"
     }
    ],
    "pre": 0.1,
@@ -60,8 +60,8 @@
    "narration": "I laughed. I said, stop it. The speaker said, do not turn around. I did not move. The camera was still recording.",
    "shots": [
     {
-     "prompt": "laptop webcam view of a dark room, a small blue light on a shelf behind, no face",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "d3.png"
     }
    ],
    "pre": 0.1,
@@ -78,8 +78,8 @@
    "narration": "I looked at the laptop screen instead. Behind my chair, in the reflection, the door was open. I always lock it.",
    "shots": [
     {
-     "prompt": "laptop screen reflecting a dark bedroom with an open door behind a chair, no face",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "d3c.png"
     }
    ],
    "pre": 0.1,
@@ -96,8 +96,8 @@
    "narration": "The speaker said, it is waiting for you to look. I asked who it was. The speaker said, I cannot say. It is listening too.",
    "shots": [
     {
-     "prompt": "small speaker with a blue pulsing ring on a dark shelf, no person",
-     "motion": "slow_zoom_in"
+     "motion": "pan_right",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -113,8 +113,8 @@
    "narration": "Then the blue ring turned red. The speaker whispered, now. And behind me, the floor creaked. Once. Close.",
    "shots": [
     {
-     "prompt": "small speaker with a red glowing light in a dark room, shadow on the wall, no person",
-     "motion": "shake"
+     "motion": "zoom_in",
+     "image_file": "d4.png"
     }
    ],
    "pre": 0.1,
@@ -130,8 +130,8 @@
    "narration": "I stared at the screen. In the reflection, a tall shape bent over my shoulder. And the speaker said, thank you for not looking.",
    "shots": [
     {
-     "prompt": "laptop screen reflecting a faint dark silhouette bending over a chair, no face",
-     "motion": "zoom_in"
+     "motion": "slow_zoom_in",
+     "image_file": "d5.png"
     }
    ],
    "pre": 0.1,

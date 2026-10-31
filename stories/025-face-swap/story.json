@@ -30,8 +30,8 @@
    "narration": "I was playing with a face swap filter. It swaps your face with whatever the camera sees. A cat. A statue. A friend.",
    "shots": [
     {
-     "prompt": "hand holding a phone in a dark bedroom, bright screen glow, no face",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "p3.png"
     }
    ],
    "pre": 0.1,
@@ -42,8 +42,8 @@
    "narration": "I pointed it at the poster on my wall. The swap worked. My face, on a poster. I laughed.",
    "shots": [
     {
-     "prompt": "phone camera pointing at a dark bedroom wall with a poster, bright screen, no face",
-     "motion": "pan_right"
+     "motion": "slow_zoom_in",
+     "image_file": "p2.png"
     }
    ],
    "pre": 0.1,
@@ -54,8 +54,8 @@
    "narration": "Then I tilted the phone up. The filter locked onto something near the ceiling. A tiny spinning circle. Face found.",
    "shots": [
     {
-     "prompt": "phone screen with a glowing circle pointing at the dark ceiling of a bedroom, no text",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "ceil.png"
     }
    ],
    "pre": 0.1,
@@ -72,8 +72,8 @@
    "narration": "My face appeared on the screen, hanging upside down, pressed against the ceiling. It was smiling. I was not.",
    "shots": [
     {
-     "prompt": "dim bedroom ceiling with a pale oval shape pressed against it, no face",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -90,8 +90,8 @@
    "narration": "I lowered the phone. The ceiling looked normal. Plain white paint. Raised the phone. The face was gone from the screen.",
    "shots": [
     {
-     "prompt": "plain white bedroom ceiling in dim light, no person",
-     "motion": "zoom_in"
+     "motion": "slow_zoom_in",
+     "image_file": "p5.png"
     }
    ],
    "pre": 0.1,
@@ -102,8 +102,8 @@
    "narration": "A drop landed on the screen. Another landed on my cheek. I did not look up. I just watched the filter in the phone.",
    "shots": [
     {
-     "prompt": "phone screen with water drops on it and a glowing circle, dim room, no text",
-     "motion": "shake"
+     "motion": "pan_right",
+     "image_file": "p4.png"
     }
    ],
    "pre": 0.1,
@@ -120,8 +120,8 @@
    "narration": "The filter had found a face again. Right behind mine. Close enough that I could feel the breath on my neck.",
    "shots": [
     {
-     "prompt": "bedroom wall in a phone camera view with a pale shape behind a silhouette, no face",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "p4c.png"
     }
    ],
    "pre": 0.1,
@@ -137,8 +137,8 @@
    "narration": "And the swap finished. For a moment, I could see the room from above.",
    "shots": [
     {
-     "prompt": "dark bedroom seen from the ceiling looking down at a bed and a phone glow, no person",
-     "motion": "zoom_in"
+     "motion": "zoom_out",
+     "image_file": "p5.png"
     }
    ],
    "pre": 0.1,
