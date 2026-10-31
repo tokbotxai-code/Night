@@ -72,6 +72,12 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
 - Dźwięki są syntetyzowane w `tools/sfx.py` (bez licencji zewnętrznych): `vibrate`, `hit`, `knock3`, `creak`, `tv`, `drone`, `riser`, `heartbeat`.
 - Głośność: loudnorm −14 LUFS. Bitrate do 2 Mb/s: film ma ok. 7–20 MB.
 
+### Zasada nadrzędna: publikuj tylko najlepszą wersję (decyzja właściciela 31.10, po filmie Halloween)
+- **Wada zauważona przed publikacją = naprawiasz przed publikacją**, a nie opisujesz jej w raporcie. Jeśli arkusz klatek, tekst lub ocena straszności pokazuje słabe miejsce (ciemne albo czarne kadry, brak wyraźnego obrazu w kluczowym momencie, oczywiste zakończenie, ucięty napis), przerób scenę (nowy prompt, jaśniejsze ujęcie, lepszy twist) i wyrenderuj ponownie, **zanim** zaplanujesz film. Dopiero film bez znanych wad idzie do Metricool.
+- **Przed publikacją oceń film w skali 1–10 pod kątem strachu** (z arkusza klatek i scenariusza). Poniżej 7: popraw (wyraźne jasne ujęcie głównej postaci bez twarzy w kluczowej chwili, więcej ciszy przed zakończeniem, mniej oczywisty koniec) i oceń ponownie. Maksymalnie dwie poprawki na film.
+- W raporcie podaj ocenę końcową i co poprawiłeś, nie listę wad opublikowanego filmu.
+- Dotyczy też filmów „extra” robionych na prośbę właściciela.
+
 ### Kontrola jakości przed publikacją (obowiązkowa)
 
 0. **Kontrole tekstu (dopisane 31.10 po samoocenie autopilota):** (a) `hook_text` ma być **dosłownie tym samym zdaniem** co pierwsze zdanie lektora (sprawdź przed renderem; nie skracaj w jednym z nich); (b) cała narracja w jednym czasie (przeszły), bez zmiany czasu w środku zdania; (c) tekst `choice` na końcu to dwie pełne opcje, każda max 3 słowa i bez ucinania (np. „TURN AROUND  or  STARE AT THE CURTAIN” albo „DOOR  or  COUCH”), nie „Turn or Curtain”; (d) po wyrenderowaniu **obejrzyj arkusz klatek każdego filmu** (nie tylko pierwszego), a ujęcia prawie czarne wymień (zmień prompt, bo Pollinations po błędzie 402/503 zwraca ciemny kadr); (e) po zaplanowaniu wywołaj `getScheduledPosts` na 48 h i sprawdź, czy każdy slot ma jeden film i brak ERROR; (f) tekst 160–200 słów (poniżej 160 dopisz zdania eskalacji).
