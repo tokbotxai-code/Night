@@ -30,8 +30,8 @@
    "narration": "The power went out. I woke up to total black. I found my phone and turned on the light. I walked into the hallway.",
    "shots": [
     {
-     "prompt": "dark hallway seen from a doorway, a small cold beam of light on the floor, no person",
-     "motion": "slow_zoom_in"
+     "motion": "slow_zoom_in",
+     "image_file": "f2.png"
     }
    ],
    "pre": 0.1,
@@ -48,8 +48,8 @@
    "narration": "The beam showed the floor first. Then the wall. Then a long stretch of ceiling that seemed higher than it should be.",
    "shots": [
     {
-     "prompt": "flashlight beam sweeping up a tall dark hallway wall, no person",
-     "motion": "pan_right"
+     "motion": "slow_zoom_in",
+     "image_file": "f3.png"
     }
    ],
    "pre": 0.1,
@@ -60,8 +60,8 @@
    "narration": "Something stood at the far end. Tall. Narrow. Too tall for the door frame. It did not move. It was leaning very slightly to listen.",
    "shots": [
     {
-     "prompt": "tall dark silhouette at the end of a hallway in thin light, no face, fully clothed",
-     "motion": "zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hook.png"
     }
    ],
    "pre": 0.1,
@@ -78,8 +78,8 @@
    "narration": "I held the light steady. The shape did not grow. It simply came closer without walking. Every time I blinked.",
    "shots": [
     {
-     "prompt": "hallway with a tall dark silhouette closer in thin cold light, no face",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "hc.png"
     }
    ],
    "pre": 0.1,
@@ -96,8 +96,8 @@
    "narration": "I whispered, Dad? The shape bent. Slowly. As if it was copying my voice instead of answering.",
    "shots": [
     {
-     "prompt": "hallway with a tall silhouette bending at the neck in cold light, no face",
-     "motion": "zoom_in"
+     "motion": "pan_right",
+     "image_file": "f3.png"
     }
    ],
    "pre": 0.1,
@@ -113,8 +113,8 @@
    "narration": "My phone was at ten percent. The beam flickered. The shape was close enough that I could feel the air move.",
    "shots": [
     {
-     "prompt": "phone flashlight beam flickering on a wall, tall shadow, no person",
-     "motion": "shake"
+     "motion": "shake",
+     "image_file": "f3d.png"
     }
    ],
    "pre": 0.1,
@@ -130,8 +130,8 @@
    "narration": "Then it breathed out. One long breath. The flashlight went dark, like someone had blown out a candle.",
    "shots": [
     {
-     "prompt": "completely dark hallway with a faint ember glow, no person",
-     "motion": "slow_zoom_in"
+     "motion": "zoom_in",
+     "image_file": "f2c.png"
     }
    ],
    "pre": 0.1,
