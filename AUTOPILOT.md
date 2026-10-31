@@ -74,6 +74,6 @@ Sekcja „Kontrola i porządki”: każdy błąd (co, gdzie, dlaczego, co zrobio
 Dla każdego filmu: tytuł, długość, godzina (ET i czas polski), link plannera, typ hooka, problemy. Plus statystyki i 1 zdanie: czego się nauczyliśmy i co zmieniasz.
 
 KROK 6 – DOSTARCZENIE RAPORTU (decyzja właściciela 24.10)
-Po raporcie: list_sessions (claude-code-remote, w razie potrzeby przez ToolSearch), znajdź sesję właściciela o tytule dokładnie „task”
+Po raporcie: list_sessions (claude-code-remote, w razie potrzeby przez ToolSearch), znajdź sesję właściciela o tytule dokładnie „główna” (od 31.10; sesja „task” jest zarchiwizowana i raporty tam nie docierały)
 i wyślij do niej pełny raport przez send_message, z nagłówkiem „🌙 Night – raport RRRR-MM-DD”. Zawsze, także gdy nic nie zrobiono (wtedy napisz dlaczego).
 ```
