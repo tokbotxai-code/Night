@@ -41,7 +41,7 @@
    "narration": "At ten, I rewound the doorbell video. Thirteen figures on my steps. Twelve took candy. One stood at the very back, arms at its sides. It never moved.",
    "shots": [
     {
-     "prompt": "house front steps at night, bright porch light, several small children in costumes and one very tall dark figure standing behind them, seen from far away on a security camera",
+     "prompt": "house front steps at night, bright porch light, several small children in costumes seen from behind and one very tall dark figure in a long gray coat standing behind them, hood up, face hidden in shadow, security camera view",
      "motion": "zoom_in"
     }
    ],
@@ -59,7 +59,7 @@
    "narration": "It wore a gray coat. My gray coat. The torn pocket. The keys on the belt.",
    "shots": [
     {
-     "prompt": "gray coat hanging on a hook beside a door, torn pocket, ring of keys hanging from it, porch light, object only, no person",
+     "prompt": "long gray coat hanging on a hook beside a front door, torn pocket, ring of keys hanging from it, harsh porch light, no person",
      "motion": "slow_zoom_in"
     }
    ],
@@ -70,7 +70,7 @@
    "narration": "Then I watched the door. It opened. A gray sleeve handed out the candy. Twelve times. Same sleeve. Same coat.",
    "shots": [
     {
-     "prompt": "close-up of a hand and gray coat sleeve holding out a candy bowl through a doorway at night, nothing else visible, no head, no face",
+     "prompt": "close-up of a hand in a gray coat sleeve holding out a candy bowl through a dark doorway at night, nothing else visible, no head, no face",
      "motion": "zoom_in"
     }
    ],

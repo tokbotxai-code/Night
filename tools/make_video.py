@@ -17,6 +17,7 @@ import json
 import math
 import os
 import ssl
+import base64
 import subprocess
 import sys
 import time
@@ -171,6 +172,25 @@ def fetch_image(prompt, cache, offline):
     path = cache / f"img_{key}.jpg"
     if path.exists():
         return Image.open(path).convert("RGB")
+    if not offline and os.environ.get("CLOUDFLARE_ACCOUNT_ID"):
+        # first choice: Cloudflare Workers AI (FLUX schnell); the API token is added to the request by the environment's network secret
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(
+                    "https://api.cloudflare.com/client/v4/accounts/" + os.environ["CLOUDFLARE_ACCOUNT_ID"] + "/ai/run/@cf/black-forest-labs/flux-1-schnell",
+                    data=json.dumps({"prompt": prompt[:2000], "steps": 6}).encode(), headers={"Content-Type": "application/json"})
+                ctx = ssl.create_default_context(cafile=CA_FILE) if CA_FILE else None
+                with urllib.request.urlopen(req, timeout=120, context=ctx) as r:
+                    d = json.loads(r.read())
+                if d.get("success"):
+                    path.write_bytes(base64.b64decode(d["result"]["image"]))
+                    img = Image.open(path).convert("RGB")
+                    log(f"image ok (cloudflare) {key} {img.size}")
+                    return img
+                raise RuntimeError(str(d.get("errors"))[:120])
+            except Exception as e:
+                log(f"cloudflare image retry {attempt + 1} ({key}): {e}")
+                time.sleep(5 * (attempt + 1))
     if not offline:
         seed = int(key[:6], 16)
         url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt) +
