@@ -73,7 +73,7 @@
    "narration": "Under the streetlight stood a tall, smooth figure. No face. Dark like a mannequin. One arm raised. Holding a phone to where its ear should be.",
    "shots": [
     {
-     "prompt": "tall faceless smooth mannequin figure under a streetlight in blue fog, seen from the back, holding a phone",
+     "prompt": "tall dark figure in a long black coat and hood under a streetlight in blue fog, seen from the back, fully clothed, silhouette",
      "motion": "zoom_in"
     }
    ],
@@ -91,7 +91,7 @@
    "narration": "My phone buzzed again. The caller ID said Unit 9F. That is my apartment. That is me. I turned around. My front door was open.",
    "shots": [
     {
-     "prompt": "smooth mannequin figure silhouette in a doorway of a minimal blue apartment hallway, seen from behind",
+     "prompt": "dark silhouette of a person in a long black coat in a doorway of a blue apartment hallway, seen from behind, fully clothed",
      "motion": "shake"
     }
    ],
@@ -109,7 +109,7 @@
    "narration": "Across the street, every window was lit. Every neighbor stood in it. Facing me. Phones to their ears. They weren't staring. They were warning me.",
    "shots": [
     {
-     "prompt": "row of lit windows in a low-poly apartment block, faceless smooth mannequin figures standing in each, fog",
+     "prompt": "row of lit windows in an apartment block at blue night, dark silhouettes in long coats standing in the windows, fog, fully clothed",
      "motion": "slow_zoom_in"
     }
    ],
@@ -170,7 +170,7 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "tall faceless smooth mannequin figure under a streetlight in blue fog, seen from the back, holding a phone",
+     "prompt": "tall dark figure in a long black coat and hood under a streetlight in blue fog, seen from the back, fully clothed, silhouette",
      "motion": "zoom_in"
     }
    ],
@@ -179,9 +179,9 @@
   }
  ],
  "post": {
-  "caption": "Post 1 | The Quiet Floor. At 3:07 a.m. every phone in my building rang and nobody spoke\u2026 \ud83d\ude28 Window or covers? Want Post 2? Comment YES \ud83d\udc47 #horrortok #storytime #horrorstoriestok #scarystories #fyp",
-  "tiktok_title": "Post 1 | At 3:07 a.m. every phone rang \ud83d\udcde",
-  "firstCommentText": "Would you answer it? \ud83d\udc47",
+  "caption": "Post 1 | The Quiet Floor. At 3:07 a.m. every phone in my building rang and nobody spoke… 😨 Window or covers? Want Post 2? Comment YES 👇 #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Post 1 | At 3:07 a.m. every phone rang 📞",
+  "firstCommentText": "Would you answer it? 👇",
   "cover_ms": 1500
  }
 }
