@@ -60,7 +60,7 @@
    "narration": "I paused the recording. The rasp stopped. I pressed play. It started again. In, out. In, out. Wet and slow.",
    "shots": [
     {
-     "prompt": "laptop screen with a bright audio waveform in a dark room, no text, no face",
+     "prompt": "open laptop on a desk in a dark room, a bright green sound wave on the screen, no person, no text",
      "motion": "slow_zoom_in"
     }
    ],
@@ -78,7 +78,7 @@
    "narration": "I checked the room. Locked door. Empty chair. The only breathing I could hear was my own. And it did not match the recording.",
    "shots": [
     {
-     "prompt": "dark home studio with an empty chair behind the desk, lamp glow, no person",
+     "prompt": "dark home recording corner with an empty chair, a small lamp glow, no person",
      "motion": "pan_right"
     }
    ],
@@ -90,8 +90,8 @@
    "narration": "I zoomed into the waveform. The breathing was not behind the microphone. It was inside the left headphone. Right against my ear.",
    "shots": [
     {
-     "prompt": "close view of a headphone with a bright audio waveform reflected on it, dark, no face",
-     "motion": "zoom_in"
+     "prompt": "desk with a studio microphone, headphones and a small lamp in the dark, no person",
+     "motion": "pan_right"
     }
    ],
    "pre": 0.1,
