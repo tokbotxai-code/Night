@@ -60,7 +60,7 @@
    "narration": "And between the bed and the camera, close enough to touch, someone was standing. Facing me. Absolutely still.",
    "shots": [
     {
-     "prompt": "dim flash photo of a dark room with a pale blurry figure close to the camera, no face, fully clothed",
+     "prompt": "dark bedroom lit by a camera flash, the back of a tall person in a long dark coat standing close to the camera, seen from behind, no face",
      "motion": "zoom_in"
     }
    ],
@@ -95,7 +95,7 @@
    "narration": "The figure was closer. Now it was leaning over the bed. Its head was tilted to look at the screen of my phone.",
    "shots": [
     {
-     "prompt": "flash photo of a dark bedroom with a tall blurry silhouette bending over the bed, no face, fully clothed",
+     "prompt": "dark bedroom lit by a flash, the silhouette of a person in a long coat bending over a bed, seen from behind, no face",
      "motion": "slow_zoom_in"
     }
    ],
