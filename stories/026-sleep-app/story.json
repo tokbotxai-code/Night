@@ -42,7 +42,7 @@
    "narration": "That morning the graph was one solid block. Two hours long. From 3:14 to 5:14 a.m. A voice. Not mine.",
    "shots": [
     {
-     "prompt": "phone screen with a bright jagged audio graph, bedroom, no text, no face",
+     "prompt": "smartphone lying on a bedside table with a glowing blue sound wave on the screen, dark bedroom, close up, no person",
      "motion": "zoom_in"
     }
    ],
@@ -78,7 +78,7 @@
    "narration": "I skipped forward. Still whispering. I skipped again. The voice was louder now. Closer to the microphone. Closer to my pillow.",
    "shots": [
     {
-     "prompt": "close view of a pillow and phone microphone in dim light, no face",
+     "prompt": "white pillow on a bed in dim blue night light, close up, no person",
      "motion": "zoom_in"
     }
    ],
@@ -113,7 +113,7 @@
    "narration": "I had slept through all of it. Or I had not. I remembered lying very still with my eyes shut. Feeling someone lean in.",
    "shots": [
     {
-     "prompt": "dim bedroom with a figure-shaped shadow on the wall above a bed, no face",
+     "prompt": "dark bedroom wall with the long soft shadow of a bedpost, no person, dim blue light",
      "motion": "shake"
     }
    ],
@@ -131,7 +131,7 @@
    "narration": "The last second of the recording was my own voice. Very quiet. It said, please stop.",
    "shots": [
     {
-     "prompt": "phone screen with a thin bright audio line ending abruptly, dark, no text",
+     "prompt": "smartphone on a wooden table, glowing blue screen, dark room, no person",
      "motion": "zoom_in"
     }
    ],
