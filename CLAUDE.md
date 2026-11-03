@@ -7,6 +7,13 @@ Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczn
 ## 0. Zamrożenie zasad 31.10–7.11 (decyzja właściciela 31.10)
 - Przez 7 dni nie zmieniaj zasad, godzin ani formatów (poza naprawą błędów). Realizuj testy z sekcji „Seria i styl” w podanej kolejności i zapisuj wyniki w LOG.md (typ hooka, styl, seria, wyświetlenia po 48 h z aplikacji lub Metricool). Zmiany zasad dopiero po przeglądzie wyników i po zgodzie właściciela.
 
+## 0a. Nowe zasady od 6.11.2026 (decyzja właściciela 3.11, „wszystko”; zastępują zamrożenie od tego dnia)
+1. **Lektor mówi godziny po ludzku.** Renderer (`spoken()` w `tools/make_video.py`) zamienia „3:07 a.m.” na „seven minutes past three in the morning”, „3 a.m.” na „three in the morning”; napisy na ekranie zostają z cyframi. Stosuje się tylko do nowych filmów.
+2. **Test krótkich filmów 30–45 s** (ok. 85–120 słów): jeden z trzech filmów dziennie (slot 22:00 ET) jest krótki, pozostałe zostają 61–90 s. Struktura ta sama (hook, sprzeczność, eskalacja, twist, pętla), skróć eskalację. W LOG.md oznacz „short”, porównaj po 7 dniach średnie wyświetlenia i % obejrzeń do końca z długimi. Próg oceny strachu ≥ 8 dalej obowiązuje.
+3. **Nowa seria „backrooms”** (jedna seria na raz, 4–6 odcinków, własny świat, własna nazwa, ten sam narrator i miejsce, każdy odcinek urywa sprawę; „Post N |” w opisie). Nic cudzego: nie kopiuj cudzych serii, tytułów ani zdarzeń. Zastępuje „The Quiet Floor” jako bieżącą serię. Pierwszy odcinek w jednym ze slotów od 6.11. Reguły stylu i bezpieczeństwa z sekcji 1 bez zmian.
+4. **Przegląd wyników 7.11 (i co poniedziałek):** raport z podziałem na styl, typ hooka, długość (krótki/długi), godzinę i serię. Małe korekty (tematy, typy hooków, kolejność odcinków) stosuj od razu; zmiany godzin, formatów lub zasad proponuj w raporcie i czekaj na zgodę właściciela.
+5. **Gotowych i zaplanowanych filmów nie renderuj ponownie ani nie edytuj** (oszczędność kredytów). Poprawki dotyczą tylko nowych filmów.
+
 ## 1. Treść (najważniejsze)
 
 - **Tylko oryginalne historie.** Nie przerabiaj creepypast, wątków z r/nosleep, filmów, odcinków ani cudzych TikToków.

@@ -20,6 +20,7 @@ KROK 0 – REPO
 Jeśli repo nie ma w sesji albo push nie działa: add_repo (owner tokbotxai-code, repo Night, access push), sklonuj do /home/user/Night.
 cd /home/user/Night && git remote set-url origin https://github.com/tokbotxai-code/Night.git && git fetch origin night-autopilot && git checkout -B night-autopilot origin/night-autopilot
 Każdy push: git push origin HEAD:night-autopilot, zaraz potem git push origin HEAD:main. Odrzucony push: git fetch origin night-autopilot && git merge --no-edit origin/night-autopilot i ponów. Nigdy force-push.
+Od 6.11.2026 obowiązuje CLAUDE.md sekcja 0a (godziny po ludzku, krótkie filmy 30–45 s w slocie 22:00 ET, seria „backrooms”, przegląd wyników, bez ponownego renderowania gotowych filmów).
 Przeczytaj w całości CLAUDE.md (ma pierwszeństwo przed tym plikiem), channel.json, assets/brand.json, stories/LOG.md i stories/001-mom-forgot-keys/story.json (wzorzec).
 
 TRYB OSZCZĘDNY (decyzja właściciela 27.10: tygodniowy limit planu musi starczyć na 7 dni dla Night i PepSafe):
