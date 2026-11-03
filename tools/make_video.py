@@ -77,10 +77,52 @@ KOKORO_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/mode
 _kokoro = None
 
 
+_NUM = ("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen "
+        "eighteen nineteen twenty").split()
+
+
+def _n(n):
+    if n <= 20:
+        return _NUM[n]
+    t = {20: "twenty", 30: "thirty", 40: "forty", 50: "fifty"}[n // 10 * 10]
+    return t + ("-" + _NUM[n % 10] if n % 10 else "")
+
+
+def _clock(m):
+    """'3:07 a.m.' -> 'seven minutes past three in the morning' (spoken form only; captions keep digits)."""
+    h, mi, ap = int(m.group(1)), int(m.group(2) or 0), m.group(3).replace(".", "").lower()
+    base = h % 12 or 12
+    if mi > 30:
+        base, mi, rel = base % 12 + 1, 60 - mi, "to"
+    else:
+        rel = "past"
+    if m.group(2) is None or (mi == 0):
+        hour = _n(base) + (" o'clock" if m.group(2) else "")
+    elif mi == 15:
+        hour = f"quarter {rel} {_n(base)}"
+    elif mi == 30:
+        hour = f"half past {_n(base)}"
+    elif mi % 5 == 0:
+        hour = f"{_n(mi)} {rel} {_n(base)}"
+    else:
+        hour = f"{_n(mi)} minute{'s' if mi != 1 else ''} {rel} {_n(base)}"
+    if ap == "am":
+        part = "in the morning"
+    else:
+        part = "in the afternoon" if h % 12 < 6 or h == 12 else ("in the evening" if h % 12 < 9 else "at night")
+    return f"{hour} {part}"
+
+
+def spoken(text):
+    """Make clock times sound natural for the narrator. Text without times is returned unchanged."""
+    import re
+    return re.sub(r"\b(\d{1,2})(?::(\d{2}))?\s?([ap]\.?m\.?)(?=[\s,;:!?)]|$)", lambda m: _clock(m) + ("." if m.group(3).endswith(".") and False else ""), text, flags=re.I)
+
+
 def kokoro_tts(text, voice, speed, cache):
     """Kokoro (Apache-2.0) narration; word times estimated from text (no native boundaries)."""
     global _kokoro
-    key = h(f"kokoro|{text}|{voice}|{speed}")
+    key = h(f"kokoro|{spoken(text)}|{voice}|{speed}")
     wav, meta = cache / f"tts_{key}.wav", cache / f"tts_{key}.json"
     if not (wav.exists() and meta.exists()):
         import soundfile as sf
@@ -98,7 +140,7 @@ def kokoro_tts(text, voice, speed, cache):
         chunks, words, cur = [], [], 0.0
         for sent in sentences:
             # British voices (bf_*/bm_*) need British pronunciation
-            seg, sr = _kokoro.create(sent, voice=voice, speed=speed, lang="en-gb" if voice[:2] in ("bf", "bm") else "en-us")
+            seg, sr = _kokoro.create(spoken(sent), voice=voice, speed=speed, lang="en-gb" if voice[:2] in ("bf", "bm") else "en-us")
             a = np.abs(seg)
             nz = np.nonzero(a > 0.01)[0]
             if len(nz):
