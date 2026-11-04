@@ -1,0 +1,242 @@
+{
+ "id": "037-the-plate",
+ "title": "The station phone called from my own number 📞",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "At 2:17 a.m. the inspection station phone rang.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 2:17 a.m. the inspection station phone rang. The caller ID was my own number.",
+   "shots": [
+    {
+     "image_file": "u8.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I answered. Nobody spoke. Only an engine idling. And somewhere behind it, a pen scratching.",
+   "shots": [
+    {
+     "image_file": "u2.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I looked at the bays. Bay two was lit. A car I had never seen was parked inside. Engine running. Nobody at the wheel.",
+   "shots": [
+    {
+     "image_file": "u1.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I walked over. The windscreen was fogged from the inside. Someone had written on it with a finger. Just one word.",
+   "shots": [
+    {
+     "image_file": "u7.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "It said, behind. I did not turn around. I watched the glass instead. And in the reflection, I saw my lamp swaying.",
+   "shots": [
+    {
+     "image_file": "u7.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "BEHIND",
+     "at": 0.3,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The swinging lamp lit the floor under the car. The tyres were wet. Footprints, dry and dusty, led from the car to my counter.",
+   "shots": [
+    {
+     "image_file": "u5.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I followed them. They stopped at my logbook. It was open. Tonight's page. One line.",
+   "shots": [
+    {
+     "image_file": "u4.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "TONIGHT'S PAGE",
+     "at": 0.3,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "It said, car inspected. Driver deceased. Inspector present. Signed, you.",
+   "shots": [
+    {
+     "image_file": "u4.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "INSPECTOR PRESENT",
+     "at": 0.3,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The car door opened. The engine stopped. And I realised the phone was still ringing. In my pocket.",
+   "shots": [
+    {
+     "image_file": "u3.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you answer the phone, or close the door?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "ANSWER  or  CLOSE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "image_file": "u8.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 2:17 a.m. the inspection station phone rang… 📞 A: answer the phone or B: close the door? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The station phone called from my own number 📞",
+  "firstCommentText": "Would you answer? 👇",
+  "cover_ms": 1500
+ }
+}
