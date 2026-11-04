@@ -215,26 +215,43 @@ def fetch_image(prompt, cache, offline):
     if path.exists():
         return Image.open(path).convert("RGB")
     if not offline and os.environ.get("CLOUDFLARE_ACCOUNT_ID"):
-        # first choice: Cloudflare Workers AI (FLUX schnell); the API token is added to the request by the environment's network secret
-        for attempt in range(3):
-            try:
-                req = urllib.request.Request(
-                    "https://api.cloudflare.com/client/v4/accounts/" + os.environ["CLOUDFLARE_ACCOUNT_ID"] + "/ai/run/@cf/black-forest-labs/flux-1-schnell",
-                    data=json.dumps({"prompt": prompt[:2000], "steps": 6}).encode(), headers={"Content-Type": "application/json"})
-                ctx = ssl.create_default_context(cafile=CA_FILE) if CA_FILE else None
-                with urllib.request.urlopen(req, timeout=120, context=ctx) as r:
-                    d = json.loads(r.read())
-                if d.get("success"):
-                    path.write_bytes(base64.b64decode(d["result"]["image"]))
+        # Cloudflare Workers AI, best model first (the API token is added to the request by the environment's network secret).
+        # lucid-origin and phoenix give far better 9:16 frames than flux-schnell; flux stays as the last Cloudflare fallback.
+        models = [("@cf/leonardo/lucid-origin", {"width": 768, "height": 1344}),
+                  ("@cf/leonardo/phoenix-1.0", {"width": 768, "height": 1344}),
+                  ("@cf/black-forest-labs/flux-1-schnell", {"steps": 6})]
+        quota_done = False
+        for model, extra in models:
+            if quota_done:
+                break
+            for attempt in range(2):
+                try:
+                    body = {"prompt": prompt[:2000]}
+                    body.update(extra)
+                    req = urllib.request.Request(
+                        "https://api.cloudflare.com/client/v4/accounts/" + os.environ["CLOUDFLARE_ACCOUNT_ID"] + "/ai/run/" + model,
+                        data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
+                    ctx = ssl.create_default_context(cafile=CA_FILE) if CA_FILE else None
+                    with urllib.request.urlopen(req, timeout=150, context=ctx) as r:
+                        raw = r.read()
+                        ctype = r.headers.get("Content-Type", "")
+                    if raw[:2] == b"\xff\xd8" or raw[:4] == b"\x89PNG" or ctype.startswith("image/"):
+                        data = raw                     # some models return the image bytes directly
+                    else:
+                        d = json.loads(raw)
+                        if not d.get("success"):
+                            raise RuntimeError(str(d.get("errors"))[:120])
+                        data = base64.b64decode(d["result"]["image"])
+                    path.write_bytes(data)
                     img = Image.open(path).convert("RGB")
-                    log(f"image ok (cloudflare) {key} {img.size}")
+                    log(f"image ok (cloudflare {model.split('/')[-1]}) {key} {img.size}")
                     return img
-                raise RuntimeError(str(d.get("errors"))[:120])
-            except Exception as e:
-                log(f"cloudflare image retry {attempt + 1} ({key}): {e}")
-                if "429" in str(e):
-                    break  # daily quota used up: go straight to the next source
-                time.sleep(5 * (attempt + 1))
+                except Exception as e:
+                    log(f"cloudflare {model.split('/')[-1]} retry {attempt + 1} ({key}): {e}")
+                    if "429" in str(e):
+                        quota_done = True    # daily quota used up: go straight to the next source
+                        break
+                    time.sleep(4 * (attempt + 1))
     if not offline and os.environ.get("NIGHT_HORDE") == "1":
         # optional: AI Horde (quality too low for finals; only with NIGHT_HORDE=1) (community, anonymous key, native 9:16)
         try:

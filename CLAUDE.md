@@ -73,7 +73,7 @@ python3 tools/make_video.py stories/<id>/story.json             # finał 1080x19
   W story.json: `"tts": "kokoro", "voice": "am_michael", "speed": 0.9` (skopiuj z 001). Modele (~350 MB) skrypt pobiera sam do `~/.cache/kokoro`.
   **Nie używaj edge-tts** w nowych filmach (niejasna licencja komercyjna; nie ma go w requirements.txt, ponowny render 001–004 wymaga `pip install edge-tts`). Odcinki 001–004 zostały nagrane edge-tts i zostają bez zmian.
   Kokoro nie podaje czasu słów: skrypt nagrywa każde zdanie osobno (dokładny początek zdania, pauza 0,28 s) i szacuje słowa tylko wewnątrz zdania. Krótkie zdania = najlepsza synchronizacja.
-- Tła: Pollinations (darmowe, bez klucza). Darmowy limit zwraca błąd 402 lub 429, a skrypt sam ponawia z odstępem.
+- Tła: Cloudflare Workers AI (lucid-origin, potem phoenix-1.0 i flux-schnell; darmowy limit dzienny), a na końcu Pollinations. Przy błędzie 429 skrypt sam przechodzi do następnego źródła. Najlepszą jakość daje lucid-origin; kadry od właściciela (`image_file`) są opcją dodatkową.
   Obrazy są cache'owane po prompcie, więc ten sam prompt daje ten sam kadr (tak robimy pętlę).
 - Prompty obrazów: opis kadru po angielsku, bez tekstu w obrazie. **Nie pokazuj twarzy wprost** (cień, tył głowy, rozmycie).
   Styl dokleja `style_prompt` z pliku historii, więc trzymaj go identycznym między filmami.
