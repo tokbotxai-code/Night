@@ -67,3 +67,4 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 - Bank pomysłów (31.10, właściciel): seria „backrooms” własnego świata (liminalne korytarze, dodatkowe drzwi, zasady nowej pracy), start od 4.11; szczegóły w docs/komunikacja.md.
 
 | 019 | 019-filter-corner | hook: zdarzenie; styl dotychczasowy; Pollinations | 72,3 s | 4.11 19:00 ET (5.11 00:00 UK) TikTok + IG 00:01 | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5810091180946928344) |
+| 026 | 026-sleep-app | hook: zdarzenie; styl dotychczasowy; Pollinations | 78,3 s | 4.11 22:00 ET (5.11 03:00 UK) TikTok + IG 03:01 | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=752255419128237081) |
