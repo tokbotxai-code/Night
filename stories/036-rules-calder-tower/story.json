@@ -1,0 +1,282 @@
+{
+ "id": "036-rules-calder-tower",
+ "title": "Job alert: night cleaner wanted 🧹",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "You have been hired as the night cleaner of Calder Tower.",
+ "hook_scenes": 1,
+ "hook_type": "rules",
+ "scenes": [
+  {
+   "narration": "You have been hired as the night cleaner of Calder Tower. Read these rules before your first shift.",
+   "shots": [
+    {
+     "image_file": "g6_long.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.35,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Rule one. Lock the stairwell at midnight. Do not use it again until morning.",
+   "shots": [
+    {
+     "image_file": "g1_stairs.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 1",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule two. The fourth floor has nine doors. Count them once. Never twice.",
+   "shots": [
+    {
+     "image_file": "g4_doors.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 2",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule three. If you hear wheels behind you, stand still. They are not yours.",
+   "shots": [
+    {
+     "image_file": "h1_sheet.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 3",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule four. If your cart is already waiting in the hallway, do not take it. Walk away.",
+   "shots": [
+    {
+     "image_file": "g2_cart.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 4",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule five. If you find a paper note on a door, do not read it. It is already written in your hand.",
+   "shots": [
+    {
+     "image_file": "g7_note.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 5",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule six. If a chair in the empty room is warm, someone was sitting there. Do not sit in it.",
+   "shots": [
+    {
+     "image_file": "g3_chair.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 6",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "Rule seven. If a shadow stands in a doorway and you cast none, you are no longer the cleaner.",
+   "shots": [
+    {
+     "image_file": "h6_shadow.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 7",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule eight, the last one. Ignore every rule above. We are late for your shift.",
+   "shots": [
+    {
+     "image_file": "h8_steps.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "RULE 8",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you follow the rules, or ignore them?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "FOLLOW  or  IGNORE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "image_file": "g6_long.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Job alert: we're looking for a night cleaner 🇺🇸🇬🇧 Calder Tower. Rule one: lock the stairwell at midnight… 🧹 A: follow the rules or B: ignore them? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Job alert: night cleaner wanted 🧹",
+  "firstCommentText": "Which rule would you break first? 👇",
+  "cover_ms": 1500
+ }
+}
