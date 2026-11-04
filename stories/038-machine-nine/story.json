@@ -1,0 +1,209 @@
+{
+ "id": "038-machine-nine",
+ "title": "Machine nine started on its own 🧺",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "photorealistic 35mm film photograph, cold green fluorescent light, eerie and calm, empty 24-hour laundromat at night, no people, no faces, no text, no numbers, no logos",
+ "hook_text": "At 1:33 a.m. washing machine nine started on its own.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 1:33 a.m. washing machine nine started on its own.",
+   "shots": [
+    {
+     "prompt": "wide shot of an empty self-service laundromat at night, a long row of steel washing machines, one machine glowing warm from inside, wet tile floor",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I run the night shift at a self-service laundromat. Twenty machines. No customers after midnight.",
+   "shots": [
+    {
+     "prompt": "interior of an empty laundromat at night with a folding table and a plastic basket, cold green fluorescent light, dark foggy window",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Machine nine was empty. I had checked it myself. The drum was turning anyway. Slowly. Dark water inside.",
+   "shots": [
+    {
+     "prompt": "close view of a washing machine round glass door with dark water slowly swirling inside, no clothes, green fluorescent reflection",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I pressed the stop button. It did not stop. The door lock clicked shut. From the inside.",
+   "shots": [
+    {
+     "prompt": "close view of a washing machine control panel with a glowing orange light and a steel door handle, dark laundromat behind",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then the machine beside it started. And the one after that. One by one. All down the row.",
+   "shots": [
+    {
+     "prompt": "long row of washing machines in an empty laundromat at night, every machine door glowing warm orange, wet reflections on the floor",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I looked at the glass. Something pale pressed against it. Folded. Like clothes. Folded very neatly.",
+   "shots": [
+    {
+     "prompt": "close view of a washing machine glass door with a pale folded cloth pressed against the inside of the glass, dark water around it",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "The cycle ended. Every door unlocked at once. And on the floor in front of me lay a pile of folded clothes. My size. My jacket on top.",
+   "shots": [
+    {
+     "prompt": "neat pile of folded clothes on a wet tile floor under a flickering fluorescent light, a dark jacket folded on top, empty laundromat at night",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I never put them in. The tag in the collar was handwritten. It said, wash complete. Owner returning.",
+   "shots": [
+    {
+     "prompt": "close view of the collar of a dark jacket with a small blank paper tag, cold green light, tile floor",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "OWNER RETURNING",
+     "at": 0.5,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you wait for the owner, or lock up?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "WAIT  or  LOCK",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "wide shot of an empty self-service laundromat at night, a long row of steel washing machines, one machine glowing warm from inside, wet tile floor",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 1:33 a.m. washing machine nine started on its… 🧺 A: wait for the owner or B: lock up? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Machine nine started on its own 🧺",
+  "firstCommentText": "Would you wait for the owner? 👇",
+  "cover_ms": 1500
+ }
+}
