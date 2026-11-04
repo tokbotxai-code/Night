@@ -1,0 +1,158 @@
+{
+ "id": "040-goodnight",
+ "title": "My speaker said goodnight to someone else 🔊",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "photorealistic 35mm film photograph, cold blue night light, eerie and calm, ordinary apartment at night, no people, no faces, no text, no numbers, no logos",
+ "hook_text": "At 3:12 a.m. my speaker said goodnight to someone else.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "short": true,
+ "scenes": [
+  {
+   "narration": "At 3:12 a.m. my speaker said goodnight to someone else.",
+   "shots": [
+    {
+     "prompt": "small smart speaker glowing blue on a dark bedside table, apartment at night",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I live alone. It said, goodnight, Daniel. I am not Daniel.",
+   "shots": [
+    {
+     "prompt": "dark apartment living room at night with a sofa and a window, blue moonlight",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I asked who it was talking to. It answered, the one behind you.",
+   "shots": [
+    {
+     "prompt": "close view of a small smart speaker with a ring of blue light, dark room",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My lamp was off. A shape stood in the dark doorway. My height. My posture. Waiting.",
+   "shots": [
+    {
+     "prompt": "tall dark human silhouette standing motionless in a dark apartment hallway doorway, backlit by faint blue light, no face, no details",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.4,
+   "sfx": []
+  },
+  {
+   "narration": "Then my own voice came out of the speaker. It said, I told you not to answer him.",
+   "shots": [
+    {
+     "prompt": "small smart speaker glowing blue in a dark room, reflection on the table",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "HELLO, DANIEL",
+     "at": 0.5,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you answer to it, or unplug it?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "ANSWER  or  UNPLUG",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "small smart speaker glowing blue on a dark bedside table, apartment at night",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.0,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 3:12 a.m. my speaker said goodnight to… 🔊 A: answer to it or B: unplug it? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My speaker said goodnight to someone else 🔊",
+  "firstCommentText": "Would you unplug it? 👇",
+  "cover_ms": 1500
+ }
+}
