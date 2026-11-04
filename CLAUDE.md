@@ -207,3 +207,9 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
   Gdy push zostanie odrzucony, bo inna sesja coś dopisała: `git fetch` + `git merge --no-edit origin/night-autopilot`, potem push. Nigdy force-push.
 - `AUTOPILOT.md`: polecenie dla zadania cyklicznego.
 - Fonty: Anton (OFL) w `assets/fonts/`.
+
+## Współpraca z właścicielem: najpierw rozwiązania, które robisz sam (decyzja właściciela 4.11)
+- Przy każdym problemie podawaj **kilka rozwiązań**. Na miejscu **1** zawsze to, co możesz zrobić **sam**, bez udziału właściciela (kod, repo, skrypty, obejście w kodzie, inna droga niż planowana), i to **wykonaj od razu**.
+- Do właściciela kieruj tylko to, czego sam nie zrobisz (konta, kliknięcia w panelach, klucze, płatności, wgrywanie plików).
+- Właściciel zwykle pracuje na **telefonie**: krótko, po jednym kroku, bez opcji wymagających komputera, gdy jest inna droga. Nie pytaj, gdy możesz zadecydować sam.
+- Powód: dwa razy (wdrożenie PantryPal, routing podstron) problem dało się obejść w kodzie, bez klikania w panelach.
