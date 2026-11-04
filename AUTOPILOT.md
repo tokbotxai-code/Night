@@ -1,5 +1,3 @@
-> **PRÓG STRACHU 10/10 (4.11, właściciel): obowiązuje zamiast każdego „minimum 8” w tym pliku i w CLAUDE.md. Patrz CLAUDE.md sekcja 0a pkt 7.**
-
 # Autopilot: polecenie dla zadania cyklicznego
 
 Zadanie „Night” w Scheduled tasks (repo `tokbotxai-code/Night`, connector Metricool, codziennie rano).
