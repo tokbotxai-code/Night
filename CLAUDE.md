@@ -14,6 +14,7 @@ Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczn
 4. **Przegląd wyników 7.11 (i co poniedziałek):** raport z podziałem na styl, typ hooka, długość (krótki/długi), godzinę i serię. Małe korekty (tematy, typy hooków, kolejność odcinków) stosuj od razu; zmiany godzin, formatów lub zasad proponuj w raporcie i czekaj na zgodę właściciela.
 5. **Gotowych i zaplanowanych filmów nie renderuj ponownie ani nie edytuj** (oszczędność kredytów). Poprawki dotyczą tylko nowych filmów.
 6. **Nigdy nie planuj ponownie filmu, który już został opublikowany** (decyzja właściciela 4.11: powtórki 019 i 026 po 1–4 dniach). Wolny slot uzupełnij nowym filmem; jeśli go nie ma, zostaw slot pusty i napisz to w raporcie. Sprawdź przed planowaniem w `getScheduledPosts` (14 dni wstecz), czy `media` albo opis nie powtarza opublikowanego filmu.
+7. **Próg strachu 10/10 (decyzja właściciela 4.11, zastępuje wszystkie wcześniejsze „minimum 8”).** Film idzie do publikacji dopiero z oceną strachu 10 (uczciwą, z arkusza klatek). Poniżej 10: popraw i oceń ponownie (do trzech poprawek). Puste sloty dalej niedopuszczalne, więc przy braku wyniku 10 po trzech poprawkach przerób historię od nowa (nowy hook i twist) na tych samych kadrach, aż osiągnie 10. Opublikowanych filmów nie powtarzamy.
 
 ## 1. Treść (najważniejsze)
 
