@@ -13,7 +13,7 @@
    "narration": "At 2:58 a.m. I counted the doors again.",
    "shots": [
     {
-     "prompt": "long empty office hallway at night, nine plain doors, one extra beige door glowing under a buzzing ceiling light",
+     "image_file": "a10.jpg",
      "motion": "zoom_in"
     }
    ],
@@ -30,8 +30,8 @@
    "narration": "Ten. Eleven. Twelve. A new door every time I looked away. So I stopped looking away.",
    "shots": [
     {
-     "prompt": "endless empty hallway with yellow wallpaper and damp beige carpet, long row of fluorescent lights, no people, no windows",
-     "motion": "zoom_in"
+     "image_file": "a7.jpg",
+     "motion": "slow_zoom_in"
     }
    ],
    "pre": 0.1,
@@ -48,8 +48,8 @@
    "narration": "I tried to leave. The stairwell door was gone. I shouted for help. The hallway swallowed it. Only yellow walls. Lights humming. The carpet still wet.",
    "shots": [
     {
-     "prompt": "long yellow corridor fading into darkness at the end, lights flickering, wet carpet, empty",
-     "motion": "slow_zoom_in"
+     "image_file": "a4.jpg",
+     "motion": "zoom_in"
     }
    ],
    "pre": 0.1,
@@ -66,7 +66,7 @@
    "narration": "I pressed my ear to the nearest door. Footsteps inside. Slow. Pushing a cart. The wheel squeaked, exactly like mine.",
    "shots": [
     {
-     "prompt": "plain beige office door with a small blank brass plate, cold fluorescent light, no numbers, no digits, no text",
+     "image_file": "a6.jpg",
      "motion": "zoom_in"
     }
    ],
@@ -84,7 +84,7 @@
    "narration": "I counted my steps. Then I heard them count back. Always one behind.",
    "shots": [
     {
-     "prompt": "yellow corridor corner with the edge of a cleaning cart and a mop bucket just visible, damp floor, buzzing lights",
+     "image_file": "a5.jpg",
      "motion": "zoom_in"
     }
    ],
@@ -101,7 +101,7 @@
    "narration": "Then a new sound. Pen scratching. Behind the wall. Writing the same sentence again and again.",
    "shots": [
     {
-     "prompt": "close view of a buzzing fluorescent ceiling tube above a plain beige door, dust in the air, no numbers, no text",
+     "image_file": "a11.jpg",
      "motion": "slow_zoom_in"
     }
    ],
@@ -118,7 +118,7 @@
    "narration": "At the end of the hall was door thirteen. A paper note taped to it. My handwriting. It said, do not open this one.",
    "shots": [
     {
-     "prompt": "a plain beige door in a yellow hallway with a blank brass plate, a wet mop leaning on the wall, no numbers, no digits, no text",
+     "image_file": "a12.jpg",
      "motion": "zoom_in"
     }
    ],
@@ -144,7 +144,7 @@
    "narration": "I turned the paper over. Same pen. Same hand. On the back it said, you already did.",
    "shots": [
     {
-     "prompt": "a plain beige door in a yellow hallway with a blank brass plate, a wet mop leaning on the wall, no numbers, no digits, no text",
+     "image_file": "a12.jpg",
      "motion": "slow_zoom_in"
     }
    ],
@@ -180,7 +180,7 @@
    "narration": "Behind me, the wheels started rolling again. Slowly. Toward me. And the cart was not empty.",
    "shots": [
     {
-     "prompt": "cleaning cart wheel leaving wet tracks on yellow carpet in an empty corridor",
+     "image_file": "a9.jpg",
      "motion": "zoom_in"
     }
    ],
@@ -216,7 +216,7 @@
    "narration": "",
    "shots": [
     {
-     "prompt": "long empty office hallway at night, nine plain doors, one extra beige door glowing under a buzzing ceiling light",
+     "image_file": "a10.jpg",
      "motion": "zoom_in"
     }
    ],
