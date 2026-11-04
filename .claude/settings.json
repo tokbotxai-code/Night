@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Metricool_Social_Media_Management__createScheduledPost",
+      "mcp__Metricool_Social_Media_Management__updateScheduledPost",
+      "mcp__Metricool_Social_Media_Management__getScheduledPosts",
+      "mcp__Metricool_Social_Media_Management__getBrandSettings",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsAvailableMetrics",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsDataByMetrics",
+      "Bash(python3 tools/make_video.py:*)",
+      "Bash(python3 tools/upload_media.py:*)",
+      "Bash(ffmpeg:*)"
+    ]
+  }
+}
