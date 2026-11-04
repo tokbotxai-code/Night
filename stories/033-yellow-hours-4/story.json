@@ -1,0 +1,217 @@
+{
+ "id": "033-yellow-hours-4",
+ "title": "Post 4 | The Yellow Hours 🚪",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "At 1:12 a.m. the chair was facing me.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 1:12 a.m. the chair was facing me.",
+   "shots": [
+    {
+     "prompt": "close view of a single plain chair in an empty yellow wallpaper room, harsh fluorescent light, damp beige carpet, no people, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I had read the last line again. Welcome back. Do not let him leave. Who was he? I was the only one here.",
+   "shots": [
+    {
+     "image_file": "c6.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "DO NOT LET HIM LEAVE",
+     "at": 0.4,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I ran for the door. It was shut. The wall around it was plain yellow. No handle. No frame. I pounded on it until my hands hurt. Nobody answered.",
+   "shots": [
+    {
+     "prompt": "empty yellow wallpaper wall with no door and no handle, damp beige carpet, buzzing fluorescent ceiling light, no people, no text, no numbers",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then a sound from the corridor. Wheels. Slow. A second cart. Rolling toward the room.",
+   "shots": [
+    {
+     "image_file": "c9.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I hid behind the cart. Through the crack I saw something pass the doorway. A shadow. Pushing nothing. Dragging a mop.",
+   "shots": [
+    {
+     "prompt": "beige office door standing wide open in an empty yellow hallway, cold white light spilling onto the damp beige carpet, yellow wallpaper, buzzing fluorescent ceiling lights, no people, no text, no numbers",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "It stopped. I heard it breathing. Slowly. In time with my own breath. I held mine. It held its breath too.",
+   "shots": [
+    {
+     "image_file": "c11.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "It spoke in my voice. Eleven. Twelve. Thirteen. You are late for your shift.",
+   "shots": [
+    {
+     "image_file": "c4.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "YOU ARE LATE",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My name tag was on the cart. Night shift. Floor zero. And under it, a second tag. It said, replacement.",
+   "shots": [
+    {
+     "prompt": "small empty room with yellow wallpaper and damp beige carpet, one plain chair facing the wall, buzzing fluorescent ceiling light, no people, no text",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you wear the second tag, or throw it away?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "WEAR  or  THROW",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "close view of a single plain chair in an empty yellow wallpaper room, harsh fluorescent light, damp beige carpet, no people, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Post 4 | The Yellow Hours. At 1:12 a.m. the chair was facing… 🚪 A: wear the second tag or B: throw it away? Comment A or B 👇 Want Post 5? Comment YES #backrooms #horrortok #storytime #scarystories #liminalspaces",
+  "tiktok_title": "Post 4 | The Yellow Hours 🚪",
+  "firstCommentText": "Would you wear the second tag? 👇",
+  "cover_ms": 1500
+ }
+}
