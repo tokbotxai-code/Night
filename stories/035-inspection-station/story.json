@@ -1,0 +1,234 @@
+{
+ "id": "035-inspection-station",
+ "title": "The car came back after twenty years 🚗",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "At 11:48 p.m. a car I had inspected twenty years ago pulled into my station.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 11:48 p.m. a car I had inspected twenty years ago pulled into my station.",
+   "shots": [
+    {
+     "image_file": "u2.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I work nights at a vehicle inspection station. Three bays. One lamp. I log every plate.",
+   "shots": [
+    {
+     "image_file": "u8.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "This car was a grey hatchback. The old sticker on the windscreen had my handwriting. The expiry date said tomorrow.",
+   "shots": [
+    {
+     "image_file": "u7.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The driver stayed inside. Engine off. Headlights on. He did not move.",
+   "shots": [
+    {
+     "image_file": "u1.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I walked around the car. The tyres were soaking wet. The road outside was bone dry.",
+   "shots": [
+    {
+     "image_file": "u5.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I opened my logbook. Same plate. Twenty years ago. And one line I did not remember writing. Inspector did not return.",
+   "shots": [
+    {
+     "image_file": "u4.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "INSPECTOR DID NOT RETURN",
+     "at": 1.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I looked up. The driver's door was open. Nobody inside.",
+   "shots": [
+    {
+     "image_file": "u3.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "Then my lamp went out. In the dark, I heard my own pen scratching. Writing something in the logbook. Without my hand.",
+   "shots": [
+    {
+     "image_file": "u1.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "narration": "I switched the lamp back on. The logbook was closed. The sticker on the windscreen now said tonight's date. And my signature.",
+   "shots": [
+    {
+     "image_file": "u7.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "SIGNED",
+     "at": 1.5,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you sign the sticker, or walk out?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "SIGN  or  WALK",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "image_file": "u2.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 11:48 p.m. a car I had inspected twenty years ago… 🚗 A: sign the sticker or B: walk out? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The car came back after twenty years 🚗",
+  "firstCommentText": "Would you sign the sticker? 👇",
+  "cover_ms": 1500
+ }
+}
