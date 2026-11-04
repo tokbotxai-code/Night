@@ -1,0 +1,262 @@
+{
+ "id": "039-floor-zero",
+ "title": "My elevator stopped on floor zero 🛗",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "photorealistic 35mm film photograph, cold teal fluorescent light, eerie and calm, empty office tower at night, no people, no faces, no text, no numbers, no logos",
+ "hook_text": "At 12:04 a.m. my elevator stopped on floor zero.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 12:04 a.m. my elevator stopped on floor zero.",
+   "shots": [
+    {
+     "prompt": "open steel elevator doors in an empty office tower at night, dim corridor beyond, teal light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I run the elevator in an empty office tower. Night shift. Twelve floors. No floor zero.",
+   "shots": [
+    {
+     "prompt": "empty marble office lobby at night with a steel elevator, dark glass doors",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The panel had no zero button. I had not pressed anything. The doors simply opened.",
+   "shots": [
+    {
+     "prompt": "close view of an elevator button panel with glowing buttons, one dark empty gap at the bottom",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Beyond the doors, a concrete hallway. Fluorescent lights buzzed. Wet floor. No one.",
+   "shots": [
+    {
+     "prompt": "inside view of an elevator cabin looking out through open doors at a dim concrete hallway, wet floor, buzzing tube lights",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "I pressed the lobby button. Nothing happened. The doors stayed open.",
+   "shots": [
+    {
+     "prompt": "elevator panel with a pressed glowing button, open doors reflecting teal light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then a bell rang. Far down the hallway. Another elevator was arriving.",
+   "shots": [
+    {
+     "prompt": "steel elevator doors with a glowing floor indicator above them, in a bare concrete room, teal light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Its doors opened. Empty. A light blinked inside, as if waiting for me.",
+   "shots": [
+    {
+     "prompt": "steel elevator cabin interior, bright cold light, polished metal walls, empty, seen head-on",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "My radio crackled. Dispatch said, you are late for your shift. I said, I am on my shift.",
+   "shots": [
+    {
+     "prompt": "old handheld radio on a steel desk, small green light, dark concrete room",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Dispatch said, no. Your shift ended yesterday. Come down to zero. We have your chair.",
+   "shots": [
+    {
+     "prompt": "an empty office chair standing alone in a bare concrete room under one flickering tube light, wet floor",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I walked past a desk. A monitor showed the lobby upstairs. My lobby.",
+   "shots": [
+    {
+     "prompt": "old crt security monitor glowing in a dark concrete room, screen shows a grainy marble lobby",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": []
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "On the screen, my chair was empty. The elevator upstairs stood open. Someone inside faced the camera. Wearing my uniform.",
+   "shots": [
+    {
+     "prompt": "grainy black and white security camera view of a steel elevator cabin with a tall dark silhouette standing inside facing the camera, no face, dark uniform",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Behind me, the doors to zero slid shut. A button lit up. It said, going up.",
+   "shots": [
+    {
+     "prompt": "elevator doors closing from inside, narrow gap of light, glowing orange button on the panel",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "GOING UP",
+     "at": 0.5,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you stay down here, or ride up?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "STAY  or  RIDE UP",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "open steel elevator doors in an empty office tower at night, dim corridor beyond, teal light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 12:04 a.m. my elevator stopped on floor… 🛗 A: stay down here or B: ride up? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My elevator stopped on floor zero 🛗",
+  "firstCommentText": "Would you ride up? 👇",
+  "cover_ms": 1500
+ }
+}
