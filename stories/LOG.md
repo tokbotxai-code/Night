@@ -65,3 +65,5 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 018 mirror-smile, 019 filter-corner, 020 room-tour, 021 flashlight, 022 flash-photo, 023 asmr-mic, 024 dog-ball, 025 face-swap, 026 sleep-app, 027 smart-speaker. Kolejność publikacji: 019, 026, 022, 023, 020, potem reszta; każdy po kontroli klatek i ocenie ≥ 8.
 
 - Bank pomysłów (31.10, właściciel): seria „backrooms” własnego świata (liminalne korytarze, dodatkowe drzwi, zasady nowej pracy), start od 4.11; szczegóły w docs/komunikacja.md.
+
+| 019 | 019-filter-corner | hook: zdarzenie; styl dotychczasowy; Pollinations | 72,3 s | 4.11 19:00 ET (5.11 00:00 UK) TikTok + IG 00:01 | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5810091180946928344) |
