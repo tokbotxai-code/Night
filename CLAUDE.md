@@ -13,6 +13,7 @@ Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczn
 3. **Nowa seria „backrooms”** (jedna seria na raz, 4–6 odcinków, własny świat, własna nazwa, ten sam narrator i miejsce, każdy odcinek urywa sprawę; „Post N |” w opisie). Nic cudzego: nie kopiuj cudzych serii, tytułów ani zdarzeń. Zastępuje „The Quiet Floor” jako bieżącą serię. Pierwszy odcinek w jednym ze slotów od 6.11. Reguły stylu i bezpieczeństwa z sekcji 1 bez zmian.
 4. **Przegląd wyników 7.11 (i co poniedziałek):** raport z podziałem na styl, typ hooka, długość (krótki/długi), godzinę i serię. Małe korekty (tematy, typy hooków, kolejność odcinków) stosuj od razu; zmiany godzin, formatów lub zasad proponuj w raporcie i czekaj na zgodę właściciela.
 5. **Gotowych i zaplanowanych filmów nie renderuj ponownie ani nie edytuj** (oszczędność kredytów). Poprawki dotyczą tylko nowych filmów.
+6. **Nigdy nie planuj ponownie filmu, który już został opublikowany** (decyzja właściciela 4.11: powtórki 019 i 026 po 1–4 dniach). Wolny slot uzupełnij nowym filmem; jeśli go nie ma, zostaw slot pusty i napisz to w raporcie. Sprawdź przed planowaniem w `getScheduledPosts` (14 dni wstecz), czy `media` albo opis nie powtarza opublikowanego filmu.
 
 ## 1. Treść (najważniejsze)
 
