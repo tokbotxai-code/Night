@@ -1,0 +1,209 @@
+{
+ "id": "034-yellow-hours-5",
+ "title": "Post 5 | The Yellow Hours 🚪",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "At 4:44 a.m. I found the second tag on the floor.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 4:44 a.m. I found the second tag on the floor.",
+   "shots": [
+    {
+     "image_file": "h7_tag.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I had thrown it away. I was sure. I threw it down the stairs and heard it hit the bottom.",
+   "shots": [
+    {
+     "image_file": "h3_stairs.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Now it lay in front of me. Dry. Clean. And next to it, wet footprints. Coming from the end of the hall. Toward me.",
+   "shots": [
+    {
+     "image_file": "h8_steps.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I followed them backwards. They led past a cart under a white sheet. It had not been there before. One wheel was still turning.",
+   "shots": [
+    {
+     "image_file": "h1_sheet.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I did not lift the sheet. I walked into the next room. A table. A logbook, open. And two chairs facing each other. One of them was still warm.",
+   "shots": [
+    {
+     "image_file": "h4_table.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I read the page. My handwriting. Tonight he finally threw it away. Now we can switch.",
+   "shots": [
+    {
+     "image_file": "h2_chairs.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "NOW WE CAN SWITCH",
+     "at": 0.6,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "Behind me a door opened. Light flooded the hall. And a shadow fell across the carpet. Not mine. Standing exactly where I stood.",
+   "shots": [
+    {
+     "image_file": "h6_shadow.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I looked down at my own feet. I had no shadow at all.",
+   "shots": [
+    {
+     "image_file": "h5_cartfar.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you sit in the warm chair, or run?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "SIT  or  RUN",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "image_file": "h7_tag.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Post 5 | The Yellow Hours. At 4:44 a.m. I found the second tag on the… 🚪 A: sit in the warm chair or B: run? Comment A or B 👇 Want Post 6? Comment YES #backrooms #horrortok #storytime #scarystories #liminalspaces",
+  "tiktok_title": "Post 5 | The Yellow Hours 🚪",
+  "firstCommentText": "Would you sit in the warm chair? 👇",
+  "cover_ms": 1500
+ }
+}
