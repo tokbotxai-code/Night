@@ -1,0 +1,225 @@
+{
+ "id": "032-yellow-hours-3",
+ "title": "Post 3 | The Yellow Hours 🚪",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "At 3:19 a.m. door thirteen was already open.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 3:19 a.m. door thirteen was already open.",
+   "shots": [
+    {
+     "prompt": "beige office door standing wide open in an empty yellow hallway, cold white light spilling onto the damp beige carpet, yellow wallpaper, buzzing fluorescent ceiling lights, no people, no text, no numbers",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I had not touched it. Pale light spilled across the carpet. Then the humming of the lights stopped. Total silence. I could hear my own heartbeat.",
+   "shots": [
+    {
+     "image_file": "b4.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I stepped inside. A small room. One chair facing the wall, like it was waiting for someone. And my cleaning cart, parked as if it had always been there.",
+   "shots": [
+    {
+     "prompt": "small empty room with yellow wallpaper and damp beige carpet, one plain chair facing the wall, buzzing fluorescent ceiling light, no people, no text",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "On the cart lay a logbook. I opened it. My handwriting. Every page. Night one. Night two. Night three.",
+   "shots": [
+    {
+     "image_file": "b5.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "NIGHT 1  NIGHT 2  NIGHT 3",
+     "at": 0.4,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Every line said the same thing. Counted the doors. Ten. Eleven. Twelve. Thirteen. Never went back.",
+   "shots": [
+    {
+     "image_file": "b11.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "COUNTED THE DOORS",
+     "at": 0.4,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I turned to the last page. My hands were shaking. Tonight's date. And one more line, already written.",
+   "shots": [
+    {
+     "image_file": "b6.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "It said, welcome back. You have been counting for four hundred nights.",
+   "shots": [
+    {
+     "image_file": "b6.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "WELCOME BACK",
+     "at": 0.2,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Behind me the door closed. No click. The lights began to hum again. And the chair slowly turned around.",
+   "shots": [
+    {
+     "prompt": "close view of a single plain chair in an empty yellow wallpaper room, harsh fluorescent light, damp beige carpet, no people, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you sit in the chair, or read the last line again?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "SIT  or  READ",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "beige office door standing wide open in an empty yellow hallway, cold white light spilling onto the damp beige carpet, yellow wallpaper, buzzing fluorescent ceiling lights, no people, no text, no numbers",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Post 3 | The Yellow Hours. At 3:19 a.m. door thirteen was already… 🚪 A: sit in the chair or B: read the last line again? Comment A or B 👇 Want Post 4? Comment YES #backrooms #horrortok #storytime #scarystories #liminalspaces",
+  "tiktok_title": "Post 3 | The Yellow Hours 🚪",
+  "firstCommentText": "Would you sit in the chair? 👇",
+  "cover_ms": 1500
+ }
+}
