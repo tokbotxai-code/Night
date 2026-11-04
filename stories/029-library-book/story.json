@@ -1,0 +1,148 @@
+{
+ "id": "029-library-book",
+ "title": "The library says I borrowed my own diary 📖",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "cinematic horror film still, dark moody blue-teal grade, one bright light source, well exposed, 35mm film grain, realistic, no text, no watermark, no faces",
+ "hook_text": "At 11:52 p.m. my library emailed me.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 11:52 p.m. my library emailed me. A book I never borrowed was due tomorrow.",
+   "shots": [
+    {
+     "prompt": "moody blue-lit bedroom at night, moonlight through the window, a laptop glowing on a desk, unmade bed, well exposed, wide shot, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I opened it. The title was my own diary. The one I buried in the garden when I was twelve. I never told anyone it existed.",
+   "shots": [
+    {
+     "prompt": "an old open diary with yellowed pages lying on a wooden desk under a warm lamp, close-up, no readable text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.35,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I grabbed a torch and ran outside. The hole was open. Empty. The dirt was still wet.",
+   "shots": [
+    {
+     "prompt": "wide shot of a garden at night, a shovel stuck in a mound of dark soil beside an empty hole in the lawn, a bright flashlight beam from above",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then my phone buzzed. Return date: tonight. Borrowed by: me.",
+   "shots": [
+    {
+     "prompt": "a smartphone lying on grass at night seen from above, screen glowing bright white, wet grass around it",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.9,
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.4,
+   "sfx": []
+  },
+  {
+   "narration": "Behind me the back door clicked shut. Someone had just returned it.",
+   "shots": [
+    {
+     "prompt": "back door of a house at night wide open, bright warm light pouring out onto the patio with a long dark shadow stretching across the grass, wide shot, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you go back inside, or run?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.5,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "GO IN  or  RUN",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "moody blue-lit bedroom at night, moonlight through the window, a laptop glowing on a desk, unmade bed, well exposed, wide shot, no people",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.0,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 11:52 p.m. my library emailed me… 📖 A: go back inside or B: run? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The library says I borrowed my own diary 📖",
+  "firstCommentText": "Would you go back inside? 👇",
+  "cover_ms": 1500
+ }
+}

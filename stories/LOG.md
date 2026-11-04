@@ -68,3 +68,7 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 
 | 019 | 019-filter-corner | hook: zdarzenie; styl dotychczasowy; Pollinations | 72,3 s | 4.11 19:00 ET (5.11 00:00 UK) TikTok + IG 00:01 | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5810091180946928344) |
 | 026 | 026-sleep-app | hook: zdarzenie; styl dotychczasowy; Pollinations | 78,3 s | 4.11 22:00 ET (5.11 03:00 UK) TikTok + IG 03:01 | zaplanowany | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=752255419128237081) |
+
+| 028 | 028-yellow-hours-1 | Post 1 serii „The Yellow Hours” (backrooms); hook: zdarzenie 2:41; styl: żółty liminalny; długi | 79,8 s | 5.11 19:00 ET (6.11 00:00 UK) TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=7725928548939091246) |
+| 029 | 029-library-book | krótki test 30–45 s (short); hook: zdarzenie 11:52 | 41,3 s | NIE zaplanowany | ocena 7 po 3 poprawkach, odrzucony (zasada „nic poniżej 8”) | |
+| 030 | 030-yellow-hours-2 | Post 2 serii (short 30–45 s) | 39,3 s | NIE zaplanowany | ocena 7: szare zamiast żółtych korytarzy, twist bez obrazu; do przerobienia w pełnej wersji 61–90 s | |

@@ -1,0 +1,166 @@
+{
+ "id": "030-yellow-hours-2",
+ "title": "Post 2 | The Yellow Hours 🚪",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "At 2:58 a.m. I counted the doors again.",
+ "hook_scenes": 1,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 2:58 a.m. I counted the doors again.",
+   "shots": [
+    {
+     "prompt": "long empty office hallway at night, nine plain doors, one extra beige door glowing under a buzzing ceiling light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Ten. Then eleven. Then twelve. A new door every time I looked away.",
+   "shots": [
+    {
+     "prompt": "endless empty hallway with yellow wallpaper and damp beige carpet, long row of fluorescent lights, no people, no windows",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.35,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I pressed my ear to the first one. Footsteps. Slow. Wet carpet. The same cart wheels.",
+   "shots": [
+    {
+     "prompt": "long yellow corridor fading into darkness at the end, lights flickering, wet carpet, empty",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I counted the steps. They counted mine. Always one behind.",
+   "shots": [
+    {
+     "prompt": "yellow corridor corner with the edge of a cleaning cart and a mop bucket just visible, damp floor, buzzing lights",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "narration": "Then I saw a note taped to door thirteen. My own handwriting. It said, do not open this one.",
+   "shots": [
+    {
+     "prompt": "a plain beige office door with a small paper note taped to it, blank paper, yellow hallway, buzzing fluorescent light, no readable text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.3,
+   "sfx": []
+  },
+  {
+   "narration": "I had not written it yet.",
+   "shots": [
+    {
+     "prompt": "plain beige office door with a small blank brass plate, cold fluorescent light, no numbers, no digits, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you open it, or write the note?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.5,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "OPEN  or  WRITE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "long empty office hallway at night, nine plain doors, one extra beige door glowing under a buzzing ceiling light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.0,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Post 2 | The Yellow Hours. At 2:58 a.m. I counted the doors again… 🚪 A: open it or B: write the note? Comment A or B 👇 Want Post 3? Comment YES #backrooms #horrortok #storytime #scarystories #liminalspaces",
+  "tiktok_title": "Post 2 | The Yellow Hours 🚪",
+  "firstCommentText": "Would you open door thirteen? 👇",
+  "cover_ms": 1500
+ }
+}

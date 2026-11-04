@@ -1,0 +1,225 @@
+{
+ "id": "028-yellow-hours-1",
+ "title": "Post 1 | The Yellow Hours 🚪",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "liminal empty office space, yellow wallpaper, damp beige carpet, buzzing fluorescent ceiling lights, one bright light source, well exposed, 35mm film grain, no people, no faces, no text, no watermark",
+ "hook_text": "At 2:41 a.m. my office hallway had one more door than it should.",
+ "hook_scenes": 2,
+ "hook_type": "event",
+ "scenes": [
+  {
+   "narration": "At 2:41 a.m. my office hallway had one more door than it should.",
+   "shots": [
+    {
+     "prompt": "long empty office hallway at night, nine plain doors, one extra beige door glowing under a buzzing ceiling light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I clean the fourth floor of an empty office building. Nine doors. The same every night.",
+   "shots": [
+    {
+     "prompt": "empty office corridor at night, cleaning cart parked by the wall, row of nine doors",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": []
+  },
+  {
+   "narration": "That night I counted ten. The tenth had a brass number I had never seen. Zero.",
+   "shots": [
+    {
+     "prompt": "plain beige office door with a small blank brass plate, cold fluorescent light, no numbers, no digits, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I told myself it was a storage room. I knocked twice. Nothing. The light above it hummed louder.",
+   "shots": [
+    {
+     "prompt": "close view of a buzzing fluorescent ceiling tube above a plain beige door, dust in the air, no numbers, no text",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "knock3",
+     "at": 0.8
+    }
+   ]
+  },
+  {
+   "narration": "I opened it. The hallway behind was yellow. Damp carpet. Lights humming in a line that never ended.",
+   "shots": [
+    {
+     "prompt": "endless empty hallway with yellow wallpaper and damp beige carpet, long row of fluorescent lights, no people, no windows",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I took one step. The door closed behind me. No click. My own hallway was just gone.",
+   "shots": [
+    {
+     "prompt": "yellow hallway seen from inside, a plain wall where a door should be, damp carpet, one buzzing light",
+     "motion": "shake"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "narration": "Then I heard it. Slow footsteps on wet carpet. Closer every time the light flickered.",
+   "shots": [
+    {
+     "prompt": "long yellow corridor fading into darkness at the end, lights flickering, wet carpet, empty",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.4,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "flicker": true
+  },
+  {
+   "narration": "The steps stopped behind the corner. I knew that sound. My cleaning cart. The one I left in my hallway.",
+   "shots": [
+    {
+     "prompt": "yellow corridor corner with the edge of a cleaning cart and a mop bucket just visible, damp floor, buzzing lights",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "Someone was pushing it. Slowly. Toward me. And the wheels were wet.",
+   "shots": [
+    {
+     "prompt": "cleaning cart wheel leaving wet tracks on yellow carpet in an empty corridor",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.9,
+   "sfx": []
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.6,
+   "sfx": []
+  },
+  {
+   "narration": "I looked down. I was holding the mop. I never picked it up. The door was behind me again. New number. Eleven.",
+   "shots": [
+    {
+     "prompt": "a plain beige door in a yellow hallway with a blank brass plate, a wet mop leaning on the wall, no numbers, no digits, no text",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you walk down the hall, or close the door?",
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "pre": 0.2,
+   "post": 0.6,
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "WALK  or  CLOSE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "shots": [
+    {
+     "prompt": "long empty office hallway at night, nine plain doors, one extra beige door glowing under a buzzing ceiling light",
+     "motion": "zoom_in"
+    }
+   ],
+   "pre": 0.0,
+   "post": 1.2,
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Post 1 | The Yellow Hours. At 2:41 a.m. my office hallway had one more door than it… 🚪 A: walk down the hall or B: close the door? Comment A or B 👇 Want Post 2? Comment YES #backrooms #horrortok #storytime #scarystories #liminalspaces",
+  "tiktok_title": "Post 1 | The Yellow Hours 🚪",
+  "firstCommentText": "Would you walk down the hall? 👇",
+  "cover_ms": 1500
+ }
+}
