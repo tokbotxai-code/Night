@@ -15,6 +15,7 @@ Ten plik jest źródłem prawdy dla ludzi i dla autopilota. Ustawienia techniczn
 5. **Gotowych i zaplanowanych filmów nie renderuj ponownie ani nie edytuj** (oszczędność kredytów). Poprawki dotyczą tylko nowych filmów.
 6. **Nigdy nie planuj ponownie filmu, który już został opublikowany** (decyzja właściciela 4.11: powtórki 019 i 026 po 1–4 dniach). Wolny slot uzupełnij nowym filmem; jeśli go nie ma, zostaw slot pusty i napisz to w raporcie. Sprawdź przed planowaniem w `getScheduledPosts` (14 dni wstecz), czy `media` albo opis nie powtarza opublikowanego filmu.
 7. **Próg strachu: minimum 8 (cel 9), decyzja właściciela 4.11 po wycofaniu 10/10.** Obowiązuje sekcja 2 „Zasada nadrzędna”.
+8. **Bez „a.m./p.m.” w tekście i na filmie (decyzja właściciela 5.11, od następnego filmu).** Godziny piszemy słownie: „3:23 in the morning”, „4:35 in the afternoon”, „11:48 in the evening” (nie „3:23 a.m.”, „4:35 p.m.”). Dotyczy hooka, narracji, napisów na ekranie, opisów, tytułów, pytań A/B i komentarzy. Renderer (`written()` w `tools/make_video.py`) zamienia „a.m./p.m.” w całym story.json automatycznie, a lektor dalej czyta godzinę po ludzku (`spoken()`), ale **pisz od razu w nowej formie**, żeby hook i opis w Metricool były takie same. Godzina w hooku zostaje (zasada „konkretna godzina”). Gotowych i zaplanowanych filmów nie zmieniamy (reguła 5).
 
 ## 1. Treść (najważniejsze)
 

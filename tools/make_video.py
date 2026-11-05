@@ -113,9 +113,39 @@ def _clock(m):
     return f"{hour} {part}"
 
 
+def _part_of_day(h, ap):
+    """Owner rule (5.11): never show 'a.m./p.m.'; write '3:23 in the morning', '4:35 in the afternoon'."""
+    h12 = h % 12
+    if ap == "am":
+        return "in the morning"
+    if h12 < 6 or h == 12:
+        return "in the afternoon"
+    return "in the evening"
+
+
+def written(text):
+    """'3:23 a.m.' -> '3:23 in the morning', '4:35 p.m.' -> '4:35 in the afternoon' (all on-screen text and captions)."""
+    import re
+
+    def f(m):
+        h, mi, ap = int(m.group(1)), m.group(2), m.group(3).replace(".", "").lower()
+        return f"{h}" + (f":{mi}" if mi else "") + " " + _part_of_day(h, ap)
+    return re.sub(r"\b(\d{1,2})(?::(\d{2}))?\s?([ap]\.?m\.?)(?=[\s,;:!?)\u2026]|$)", f, text, flags=re.I)
+
+
+def _written_to_clock(m):
+    h, mi, part = int(m.group(1)), m.group(2), m.group(3).lower()
+    ap = "am" if part == "in the morning" else ("pm" if part in ("in the afternoon", "in the evening") else ("pm" if 9 <= h <= 11 else "am"))
+    class _M:
+        def group(self, i):
+            return {1: str(h), 2: mi, 3: ap}[i]
+    return _clock(_M())
+
+
 def spoken(text):
     """Make clock times sound natural for the narrator. Text without times is returned unchanged."""
     import re
+    text = re.sub(r"\b(\d{1,2})(?::(\d{2}))? (in the morning|in the afternoon|in the evening|at night)\b", _written_to_clock, text, flags=re.I)
     return re.sub(r"\b(\d{1,2})(?::(\d{2}))?\s?([ap]\.?m\.?)(?=[\s,;:!?)]|$)", lambda m: _clock(m) + ("." if m.group(3).endswith(".") and False else ""), text, flags=re.I)
 
 
@@ -441,6 +471,16 @@ def composite(frame, ov, x, y, alpha=1.0):
 
 def build(story_path, out_root, preview, offline, allow_any_length):
     story = json.loads(Path(story_path).read_text())
+
+    def _w(x):
+        if isinstance(x, str):
+            return written(x)
+        if isinstance(x, list):
+            return [_w(i) for i in x]
+        if isinstance(x, dict):
+            return {k: _w(v) for k, v in x.items()}
+        return x
+    story = _w(story)
     sid = story["id"]
     out = Path(out_root) / sid
     cache = out / "cache"
