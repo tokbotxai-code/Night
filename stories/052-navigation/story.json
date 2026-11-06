@@ -1,0 +1,220 @@
+{
+ "id": "052-navigation",
+ "title": "My navigation was not talking to me 🚗",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 11:40 in the evening my navigation told me to turn left.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 11:40 in the evening my navigation told me to turn left.",
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "24.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "There was no left turn. Just fog, one street lamp, and a wet road.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "19.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I kept driving. It said it again. Turn left. Calm. Patient. As if it knew I had no choice.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "12.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I took the turn. A ramp, down into an underground car park I had never seen. Every space empty. One car far away, headlights on.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "14.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The voice said, you have arrived. The engine stopped. I had not touched anything.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "13.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I stepped out. An elevator stood open at the end of the hall. Light inside. Waiting. Not for me.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "21.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The doors closed behind me. I had not pressed anything. It rose. The roof. City lights through the fog.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "17.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I looked back at my car, far below. The back seat. The leather was pressed down. As if someone had been sitting there all evening.",
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "24.jpg",
+     "motion": "zoom_out"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ]
+  },
+  {
+   "narration": "Then, behind me, very close, a quiet voice said, thank you for the ride.",
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "17.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you turn around, or keep looking at the lights?",
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "TURN AROUND  or  KEEP LOOKING",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "24.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  }
+ ],
+ "post": {
+  "caption": "At 11:40 in the evening my navigation told me to turn… 🚗 A: turn around or B: keep looking? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My navigation was not talking to me 🚗",
+  "firstCommentText": "Would you turn around? 👇",
+  "cover_ms": 1500
+ }
+}

@@ -1,0 +1,245 @@
+{
+ "id": "051-fridge-alarm",
+ "title": "My fridge alarm was not for the fridge 🧊",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 1:52 in the morning my fridge door alarm started beeping.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 1:52 in the morning my fridge door alarm started beeping.",
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "06.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I live alone. I had not opened it. I walked into the kitchen to shut it up.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "03.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The door was closed. But the light inside was on. Cold, white, spilling under the seam.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "06.jpg",
+     "motion": "zoom_out"
+    }
+   ]
+  },
+  {
+   "narration": "I opened it. Every shelf was full. Milk. Eggs. A plate of dinner, still warm. I had not bought any of it.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "A small screen on the door lit up. It said, door open for twenty minutes.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "DOOR OPEN: 20 MINUTES",
+     "at": 0.8,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I shut the door. The beeping stopped. Then it started again. Not in the kitchen. In the hallway.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I walked toward the sound. Every light was off. At the far end, one door stood open. Warm light came from inside.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "It was my bedroom. I always close that door.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Someone was sitting on my bed. Back to me. Looking at the window. Wearing my shirt.",
+   "pre": 0.1,
+   "post": 0.55,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "02.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ]
+  },
+  {
+   "narration": "It turned its head. Just slightly. As if it heard something behind it. I stood in the doorway. And the beeping was coming from my chest.",
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "09.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you close the door, or walk in?",
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "CLOSE  or  WALK IN",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "06.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  }
+ ],
+ "post": {
+  "caption": "At 1:52 in the morning my fridge door alarm started… 🧊 A: close the door or B: walk in? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My fridge alarm was not for the fridge 🧊",
+  "firstCommentText": "Would you walk in? 👇",
+  "cover_ms": 1500
+ }
+}
