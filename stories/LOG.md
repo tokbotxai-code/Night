@@ -83,3 +83,6 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 
 | 039 | 039-floor-zero | Samodzielny film (windziarz, piętro zero); hook: zdarzenie 12:04; auto kadry (Cloudflare); długi | 85,9 s | 5.11 00:00 UK (4.11 19:00 ET) TikTok + IG 00:01 | zaplanowany, ocena 8 (2. render) | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=3541612658063721109) |
 | 040 | 040-goodnight | Krótki test (short 30–45 s), głośnik; hook: zdarzenie 3:12; auto kadry (Cloudflare) | 34,6 s | 5.11 03:00 UK (4.11 22:00 ET) TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=8654250332584296512) |
+| 051 | 051-fridge-alarm | Samodzielny film; hook z urządzeniem (alarm lodówki) 1:52; kadry od właściciela (bank `stories/_bank`); długi | 76,3 s | 9.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | |
+| 052 | 052-navigation | Samodzielny film; hook z urządzeniem (nawigacja) 11:40 wieczorem; kadry od właściciela; długi | 74,9 s | 9.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | |
+| 053 | 053-static | Samodzielny film; hook z urządzeniem (telewizor) 12:47; kadry od właściciela; długi | 76,8 s | 10.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | |
