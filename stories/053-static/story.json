@@ -209,7 +209,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "LOOK AWAY  or  KEEP RUNNING",
+     "text": "LOOK AWAY  or  RUN",
      "at_word": "tell",
      "until": "end"
     }
