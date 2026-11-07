@@ -88,3 +88,8 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 053 | 053-static | Samodzielny film; hook z urządzeniem (telewizor) 12:47; kadry od właściciela; długi | 76,8 s | 10.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | |
 | 054 | 054-marlow-reading-room | Samodzielny film, wariant „zasady pracy” (2. os., biblioteka); kadry od właściciela; **pierwszy z nowym głosem qwen (vd1)**; długi | 64,1 s | 10.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | |
 | 055 | 055-home-camera | Samodzielny film; hook z urządzeniem (kamera domowa) 2:26 rano; kadry od właściciela (bank 15, 25, 28); głos qwen (vd1); długi | 79,2 s | 8.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 po 1 poprawce (wymiana kadru ławki na okno) | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-2540063540889959940) |
+
+## Przegląd wyników 7.11 (TikTok, dane Metricool)
+- Do 5.11 03:00 UK: 667–742 wyświetleń/film (hooki z urządzeniem/filtrem). Od 5.11 20:00: 231, 234 (Yellow Hours 1), 228 (035 stacja), 238 (lustro), 180 (Yellow Hours 2, po 7 h), 039 (stacja, telefon) 39 po ~3 h. Spadek ~3x utrzymuje się mimo powrotu do 5 hashtagów od Post 2.
+- Długość: short 040 (34 s) 711 vs długie 679–742 – bez różnicy. Styl: żółty liminalny (234/180) nie lepszy od ciemnego. Komentarze YES/Part 2: brak (0–1 komentarz na film), brak filmu ≥2× średniej.
+- Wniosek: spadek nie zależy od stylu ani długości, wygląda na zmianę dystrybucji konta (pula testowa). Zmian godzin/formatów nie wprowadzam; do decyzji właściciela. 8.11–10.11 zaplanowane 15 filmów; wolne sloty zaczynają się 11.11 00:00 UK.
