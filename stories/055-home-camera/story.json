@@ -1,0 +1,307 @@
+{
+ "id": "055-home-camera",
+ "title": "My camera said someone was home 📹",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 2:26 in the morning my camera app said someone was home.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 2:26 in the morning my camera app said someone was home.",
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "narration": "I was at my sister's house. Three hours from my flat. Nobody had a key.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I opened the live feed. My hallway. The light was on. I never leave it on.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Someone stood at the end of it. Facing the wall. Perfectly still.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I pressed the speaker button. I whispered, hello?",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "On the screen, the head turned. Slowly. Toward the camera.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "It walked closer. One step per second. The picture shook.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "narration": "Then black. Camera offline. My hands were shaking.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "15.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "One minute later, a new alert. Camera two. I own one camera.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "15.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I opened it. A window. Lit. Across the street. A figure stood inside, watching the screen.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "My sister's street. The window I was sitting beside.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I looked up. The curtain was open. I had not opened it.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The figure across the street held up a phone. Its screen lit up. My phone buzzed.",
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 1.5
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Motion detected. Someone is home.",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "15.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you close the curtain, or turn off the lights?",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "15.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "CURTAIN  or  LIGHTS",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  }
+ ],
+ "post": {
+  "caption": "At 2:26 in the morning my camera app said someone was… 📹 A: close the curtain or B: turn off the lights? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My camera said someone was home 📹",
+  "firstCommentText": "Would you close the curtain? 👇",
+  "cover_ms": 1500
+ }
+}
