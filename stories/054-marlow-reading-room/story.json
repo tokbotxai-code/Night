@@ -1,0 +1,227 @@
+{
+ "id": "054-marlow-reading-room",
+ "title": "Job alert: night keeper wanted 📚",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "Job alert: we're looking for a night keeper at the Marlow Reading Room.",
+ "hook_scenes": 1,
+ "hook_type": "job alert (rules, 2nd person)",
+ "scenes": [
+  {
+   "narration": "Job alert: we're looking for a night keeper at the Marlow Reading Room.",
+   "pre": 0.1,
+   "post": 0.3,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "23.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Rule one. Lock the front doors at midnight. Do not count the people who leave.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Rule two. The lamp on the last desk stays on. If it goes out, do not relight it.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Rule three. You will hear someone turn a page. It is not you. Do not look for them.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.6
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "23.jpg",
+     "motion": "zoom_out"
+    }
+   ]
+  },
+  {
+   "narration": "Rule four. At three in the morning, the library will ask you to return a book. Say you do not have it.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "07.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Rule five. If a reader sits down across from you, smile, and say, we are closed.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Rule six. Never go below the ground floor. The stairs are not on the plan.",
+   "pre": 0.1,
+   "post": 0.5,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "13.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Rule seven. If the lamp is already lit when you arrive, someone has been sitting in your chair. Do not ask who.",
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "title",
+     "text": "DO NOT ASK WHO",
+     "at": 0.5,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ]
+  },
+  {
+   "narration": "The night keeper before you wrote these rules. He is still on the staff list. And he is wearing your name tag.",
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "15.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you follow the rules, or break one?",
+   "pre": 0.1,
+   "post": 0.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "FOLLOW  or  BREAK",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "23.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  }
+ ],
+ "post": {
+  "caption": "Job alert: we're looking for a night keeper 🇺🇸🇬🇧 Marlow Reading Room. Rule one: lock the front doors at midnight… 📚 A: follow the rules or B: break one? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Job alert: night keeper wanted 📚",
+  "firstCommentText": "Which rule would you break first? 👇",
+  "cover_ms": 1500
+ }
+}

@@ -194,6 +194,57 @@ def kokoro_tts(text, voice, speed, cache):
     return np.frombuffer(pcm, dtype=np.float32).copy(), [tuple(w) for w in json.loads(meta.read_text())]
 
 
+_qwen = None
+QWEN_REPO = os.environ.get("QWEN_TTS_REPO", "Qwen/Qwen3-TTS-12Hz-1.7B-Base")
+QWEN_REF = ROOT / "assets" / "voices" / "night-narrator.wav"
+QWEN_REF_TEXT = ROOT / "assets" / "voices" / "night-narrator.txt"
+
+
+def qwen_tts(text, cache):
+    """Qwen3-TTS (Apache-2.0) narration cloned from an AI-designed reference voice (assets/voices).
+    Deep, hushed, trembling narrator. CPU: about 4-5x slower than real time. One call per sentence."""
+    global _qwen
+    ref_text = QWEN_REF_TEXT.read_text().strip()
+    key = h(f"qwen|{spoken(text)}|{QWEN_REPO}|{h(ref_text)}")
+    wav, meta = cache / f"tts_{key}.wav", cache / f"tts_{key}.json"
+    if not (wav.exists() and meta.exists()):
+        import re
+        import soundfile as sf
+        import torch
+        if _qwen is None:
+            from qwen_tts import Qwen3TTSModel
+            torch.set_num_threads(os.cpu_count() or 4)
+            log(f"loading {QWEN_REPO} (first use downloads the model)")
+            _qwen = Qwen3TTSModel.from_pretrained(QWEN_REPO, device_map="cpu", dtype=torch.bfloat16)
+        sentences = [x for x in re.split(r"(?<=[.!?:])\s+", text.strip()) if x]
+        chunks, words, cur, sr = [], [], 0.0, 24000
+        for sent in sentences:
+            with torch.inference_mode():
+                w, sr = _qwen.generate_voice_clone(text=spoken(sent), language="English",
+                                                   ref_audio=str(QWEN_REF), ref_text=ref_text)
+            seg = np.asarray(w[0], dtype=np.float32)
+            nz = np.nonzero(np.abs(seg) > 0.01)[0]
+            if len(nz):
+                seg = seg[max(0, nz[0] - int(0.03 * sr)): nz[-1] + int(0.05 * sr)]
+            dur = len(seg) / sr
+            toks = sent.split()
+            weights = [max(2, sum(c.isalnum() for c in x)) + (3 if x[-1] in ",;" else 0) for x in toks]
+            unit = dur / max(1, sum(weights))
+            t = cur
+            for x, wt in zip(toks, weights):
+                words.append((t, max(2, sum(c.isalnum() for c in x)) * unit, x.strip('.,!?:;"')))
+                t += wt * unit
+            gap = np.zeros(int(0.35 * sr), dtype=np.float32)
+            chunks += [seg, gap]
+            cur += dur + len(gap) / sr
+        audio = np.concatenate(chunks[:-1]) if chunks else np.zeros(1, np.float32)
+        sf.write(str(wav), audio, sr)
+        meta.write_text(json.dumps(words))
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", str(wav), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
+                         check=True, capture_output=True).stdout
+    return np.frombuffer(pcm, dtype=np.float32).copy(), [tuple(w) for w in json.loads(meta.read_text())]
+
+
 def tts(text, voice, rate, pitch, cache):
     """Return (mono float32 audio, [(start_s, dur_s, word)])."""
     key = h(f"{text}|{voice}|{rate}|{pitch}")
@@ -496,7 +547,13 @@ def build(story_path, out_root, preview, offline, allow_any_length):
         narr_start = start + sc.get("pre", 0.0)
         audio, words = (np.zeros(0, np.float32), [])
         if sc.get("narration"):
-            if story.get("tts") == "kokoro":
+            if story.get("tts") == "qwen":
+                try:
+                    audio, words = qwen_tts(sc["narration"], cache)
+                except Exception as e:  # missing torch/model or any failure: fall back to Kokoro so the film still renders
+                    log(f"qwen voice failed ({e!r}); falling back to Kokoro am_michael")
+                    audio, words = kokoro_tts(sc["narration"], story.get("voice", "am_michael"), story.get("speed", 0.9), cache)
+            elif story.get("tts") == "kokoro":
                 audio, words = kokoro_tts(sc["narration"], story["voice"], story.get("speed", 1.0), cache)
             else:
                 audio, words = tts(sc["narration"], story["voice"], story.get("rate", "+0%"),
