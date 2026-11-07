@@ -86,3 +86,4 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 051 | 051-fridge-alarm | Samodzielny film; hook z urządzeniem (alarm lodówki) 1:52; kadry od właściciela (bank `stories/_bank`); długi | 76,3 s | 9.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | |
 | 052 | 052-navigation | Samodzielny film; hook z urządzeniem (nawigacja) 11:40 wieczorem; kadry od właściciela; długi | 74,9 s | 9.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | |
 | 053 | 053-static | Samodzielny film; hook z urządzeniem (telewizor) 12:47; kadry od właściciela; długi | 76,8 s | 10.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | |
+| 054 | 054-marlow-reading-room | Samodzielny film, wariant „zasady pracy” (2. os., biblioteka); kadry od właściciela; **pierwszy z nowym głosem qwen (vd1)**; długi | 64,1 s | 10.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | |
