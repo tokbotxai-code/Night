@@ -1,0 +1,380 @@
+{
+ "id": "058-bus-stop-pulse",
+ "title": "My watch said I had no pulse ⌚",
+ "tts": "qwen",
+ "voice": "bm_george",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 4:10 in the morning my smartwatch said someone was sitting with me.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 4:10 in the morning my smartwatch said someone was sitting with me.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "narration": "I was alone on a bench at the bus stop. The fog was thick.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The watch buzzed. Nearby pulse detected. One.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I looked left. Nothing. I looked right. Nothing. The bench felt cold.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I checked my phone. Full signal. No bus until five.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "It buzzed again. Pulse rising. Closer.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Watch",
+     "text": "Nearby pulse: 1. Rising.",
+     "time": "4:11",
+     "at_word": "buzzed",
+     "until": "end",
+     "slot": 0
+    }
+   ]
+  },
+  {
+   "narration": "The wood creaked beside me, like a weight settling in.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I held my breath. Beside me, someone held theirs too.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The streetlight above us flickered twice.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The fog bent around something. Shoulder height. Very still.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I whispered, who's there? The watch lit up.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "narration": "I ran across the road into the laundrette. Warm light. Nobody inside.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "My own reading appeared. Heart rate: none.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I tapped it. Again. Heart rate: none. Nearby pulse: one. Calm.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "On the chair beside mine, someone shivered. A shaky breath. They could feel me.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ]
+  },
+  {
+   "narration": "I stepped outside. Headlights. The night bus pulled in. The doors opened for one passenger.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The driver looked straight at the bench. Straight through me.",
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "narration": "So tell me. Do you stay seated, or get on the bus?",
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "STAY  or  BOARD",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "22.jpg",
+     "motion": "shake"
+    }
+   ]
+  }
+ ],
+ "post": {
+  "caption": "At 4:10 in the morning my smartwatch said someone was sitting… ⌚ A: stay seated or B: board the bus? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My watch said I had no pulse ⌚",
+  "firstCommentText": "Would you board the bus? 👇",
+  "cover_ms": 1500
+ }
+}

@@ -1,0 +1,344 @@
+{
+ "id": "057-let-him-in",
+ "title": "My reminder said let him in 🔔",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 3:30 in the morning my phone reminder said, let him in.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 3:30 in the morning my phone reminder said, let him in.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "narration": "I never wrote that. I live alone. The door was locked.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "It repeated every night. Since the day I moved in.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I tried to delete it. It came back before I put the phone down.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I scrolled up. Every old reminder had a small note. Done.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Done. Done. Done. Someone kept marking them finished.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "My phone had been in my pocket the whole time.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "In the hallway, the floor creaked. Once. Then again, closer.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The reminder changed. Let him in. He is waiting.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "shake"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Reminders",
+     "text": "Let him in. He is waiting.",
+     "time": "3:31",
+     "at_word": "changed",
+     "until": "end",
+     "slot": 0
+    }
+   ]
+  },
+  {
+   "narration": "I crept to the door. I looked through the peephole.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I called out, hello? The creaking stopped. The whole flat went quiet.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Nobody. Just the corridor light. And my own breath on the glass.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "25.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ]
+  },
+  {
+   "narration": "Behind me, a lock turned. From the inside.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "A new line on my screen. Status: completed at 3:29.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Completed by me.",
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "narration": "So tell me. Do you check the door, or delete the reminder?",
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "DOOR  or  DELETE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "shake"
+    }
+   ]
+  }
+ ],
+ "post": {
+  "caption": "At 3:30 in the morning my phone reminder said, let him… 🔔 A: check the door or B: delete the reminder? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My reminder said let him in 🔔",
+  "firstCommentText": "Would you check the door? 👇",
+  "cover_ms": 1500
+ }
+}

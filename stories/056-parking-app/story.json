@@ -1,0 +1,309 @@
+{
+ "id": "056-parking-app",
+ "title": "The red dot was me 🚗",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "low-poly 3D render, faceless smooth mannequin character, angular simple shapes, soft blue night lighting, minimal interior, no text, no face",
+ "hook_text": "At 1:07 in the morning my parking app said my car had left.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 1:07 in the morning my parking app said my car had left.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "narration": "I was standing next to it. Level three. Keys in my hand.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The app showed a red dot. Moving. Down the ramp.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I looked at the car. Same car. Same dent in the door.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "The garage was empty. One light buzzed above the stairs.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Another alert. Vehicle exiting. Driver: you.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "sms",
+     "sender": "Park Easy",
+     "text": "Vehicle exiting. Driver: you.",
+     "time": "1:08",
+     "at_word": "Another",
+     "until": "end",
+     "slot": 0
+    }
+   ]
+  },
+  {
+   "narration": "I laughed. Then I heard an engine. Level two. Right below my feet.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "Headlights swept up the ramp. A car just like mine rolled past. Slowly.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "narration": "Someone sat behind the wheel. Hands at ten and two. Wearing my coat.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "It stopped beside me. The window stayed shut. A phone glowed in its lap.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "sfx": [],
+   "shots": [
+    {
+     "black": true
+    }
+   ]
+  },
+  {
+   "narration": "My app updated. Driver found.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I checked the map. The red dot was never my car. It was me.",
+   "pre": 0.1,
+   "post": 0.45,
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ]
+  },
+  {
+   "narration": "I had not taken a single step. But the dot was still leaving, one level at a time.",
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "narration": "So tell me. Do you follow the dot, or stay put?",
+   "pre": 0.1,
+   "post": 1.0,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "FOLLOW  or  STAY",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.2,
+   "sfx": [],
+   "shots": [
+    {
+     "image_file": "d-parking.jpg",
+     "motion": "shake"
+    }
+   ]
+  }
+ ],
+ "post": {
+  "caption": "At 1:07 in the morning my parking app said my car had… 🚗 A: follow the dot or B: stay put? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The red dot was me 🚗",
+  "firstCommentText": "Would you follow the dot? 👇",
+  "cover_ms": 1500
+ }
+}
