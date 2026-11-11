@@ -15,7 +15,7 @@
    "post": 0.3,
    "shots": [
     {
-     "image_file": "03.jpg",
+     "image_file": "06.jpg",
      "motion": "shake"
     }
    ],
@@ -72,7 +72,7 @@
    "post": 0.5,
    "shots": [
     {
-     "image_file": "03.jpg",
+     "image_file": "06.jpg",
      "motion": "slow_zoom_in"
     }
    ],
@@ -188,7 +188,7 @@
    "post": 0.5,
    "shots": [
     {
-     "image_file": "03.jpg",
+     "image_file": "06.jpg",
      "motion": "zoom_in"
     }
    ],
@@ -224,7 +224,7 @@
    "post": 0.5,
    "shots": [
     {
-     "image_file": "03.jpg",
+     "image_file": "06.jpg",
      "motion": "zoom_in"
     }
    ],
