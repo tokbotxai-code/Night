@@ -102,25 +102,7 @@
    ]
   },
   {
-   "narration": "The second clip was from an hour later. The passenger seat was now occupied too.",
-   "pre": 0.1,
-   "post": 0.5,
-   "shots": [
-    {
-     "image_file": "24.jpg",
-     "motion": "zoom_in"
-    }
-   ],
-   "sfx": [
-    {
-     "type": "heartbeat",
-     "at": 0.0,
-     "until": "end"
-    }
-   ]
-  },
-  {
-   "narration": "The third clip was the back seat. Two shapes in front. One behind. Facing the camera.",
+   "narration": "The next clip showed two shapes in front. And a third, in the back seat, facing the camera.",
    "pre": 0.1,
    "post": 0.5,
    "shots": [
