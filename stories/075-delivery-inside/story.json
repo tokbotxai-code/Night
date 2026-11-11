@@ -1,0 +1,222 @@
+{
+ "id": "075-delivery-inside",
+ "title": "My delivery went to the person inside 🍕",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 12:34 in the morning, my food app said my order was handed to the person inside.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 12:34 in the morning, my food app said my order was handed to the person inside.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I had not ordered anything. I live alone. I was standing in my own kitchen, staring at my phone.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The photo showed a paper bag on my table. My table. The same chair pushed in the same way.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "06.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I looked up. The table was empty. No bag. No receipt. Just the cold light of the fridge.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "06.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The app buzzed. Delivered to, you. Signed, you. Tip, a thank you, from the one who lives here.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I scrolled through the order history. Every night, for a month. One bag. One table. One person, signed, you.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "In the newest photo, I was in the kitchen doorway. Holding the bag. Smiling into the camera.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "But the photo was timestamped for the morning. Not the night. A morning that had not happened yet.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "A knock at the door. Three. Soft. Polite. And through the wood, a cheerful voice. Delivery for you. Please open up, it is already inside.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "knock3",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you open the bag, or cancel?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "OPEN  or  CANCEL",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 12:34 in the morning, my food app said my order was handed to the person… 🍕 A: open the bag or B: cancel? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My delivery went to the person inside 🍕",
+  "firstCommentText": "Would you open the bag? 👇",
+  "cover_ms": 1500
+ }
+}

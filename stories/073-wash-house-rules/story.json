@@ -1,0 +1,238 @@
+{
+ "id": "073-wash-house-rules",
+ "title": "Rule one: never fold what you didn't wash 🧺",
+ "tts": "kokoro",
+ "voice": "bm_george",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "Rule one: never fold what you did not wash.",
+ "hook_scenes": 1,
+ "hook_type": "rules (2nd person)",
+ "scenes": [
+  {
+   "narration": "Rule one: never fold what you did not wash.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "You have been hired as the night attendant at Wash House Twenty-Four. One room. Ten machines. No customers after four.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-laundromat.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule two: if a customer stays past four, offer them a chair. Do not offer them conversation.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule three: the dryer on the left runs without coins. Let it finish. Never open it early.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-laundromat.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule four: if the lights begin to hum a tune, do not hum along.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "Rule five: lost property goes in the blue crate. If something in the crate moves, close the lid.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-laundromat.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule six: the last customer will always thank you before leaving. Say, you are welcome. Nothing else.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Tonight, the left dryer is running. The lights hum a tune you almost recognise. The crate lid is quivering.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-laundromat.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then you find a seventh rule, written at the bottom, in fresh ink. Rule seven: nobody has ever thanked you.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Behind you, a voice, soft and close, over your shoulder. Thank you. You were so kind to fold me.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-laundromat.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you turn around, or keep folding?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "TURN  or  FOLD",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "18.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Job alert: we're looking for a night attendant 🇺🇸🇬🇧 Rule one: never fold what you didn't… 🧺 A: turn around or B: keep folding? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Rule one: never fold what you didn't wash 🧺",
+  "firstCommentText": "Which rule would you break first? 👇",
+  "cover_ms": 1500
+ }
+}

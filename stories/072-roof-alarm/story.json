@@ -1,0 +1,240 @@
+{
+ "id": "072-roof-alarm",
+ "title": "My alarm rings for the roof 🌃",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 5:02 in the morning, my alarm said, wake up and go to the roof.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 5:02 in the morning, my alarm said, wake up and go to the roof.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I had never set it. The label said, roof. Repeat every day. Created six years ago.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "01.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I opened my camera roll to calm myself. The last photo was from 5:03 yesterday. The roof, at dawn.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "17.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The photo showed my feet, on the edge. The city below me. My shadow, stretched long.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "17.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I scrolled. Photo after photo. Every morning. Every dawn. Me, on the edge, facing out.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "17.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I do not remember any of it. I always wake up in bed. Warm. Rested. With cold feet.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Then I saw the newest photo. Taken minutes ago. Someone had been standing next to me on the roof.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "13.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The shape was thin. Tall. It held my hand. Its head tilted toward me, almost fondly.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "17.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I looked at my hands. They were cold. My slippers were wet with dew. And outside the window, the sky was just starting to turn grey.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "02.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "The alarm rang again. This time, the label had changed. Come back up. You left someone waiting.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you go up, or stay in bed?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "GO UP  or  STAY",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 5:02 in the morning, my alarm said wake up and go to the… 🌃 A: go up or B: stay in bed? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My alarm rings for the roof 🌃",
+  "firstCommentText": "Would you go up? 👇",
+  "cover_ms": 1500
+ }
+}

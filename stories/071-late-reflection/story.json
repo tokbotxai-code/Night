@@ -1,0 +1,219 @@
+{
+ "id": "071-late-reflection",
+ "title": "My reflection blinked late 🪞",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 2:31 in the morning, my reflection blinked after I did.",
+ "hook_scenes": 1,
+ "hook_type": "event (mirror)",
+ "scenes": [
+  {
+   "narration": "At 2:31 in the morning, my reflection blinked after I did.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "11.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Just a fraction of a second. I told myself I was tired. I raised my hand. The reflection raised its hand, a little late.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "11.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I stepped back into the hallway, to the tall mirror by the door. Same delay. Longer now.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "20.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "One second. Two. I waved, and counted. Three. Then the reflection waved back.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "20.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I ran my hand over the glass. The reflection did not. It simply stood there. Watching my hand.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "20.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My phone buzzed. A text from my own number. Stop moving. It is hard enough to copy you.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "02.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I froze. In the mirror, the reflection froze too. But its eyes were not on me. They were on the room behind me.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "20.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "Slowly, it lifted one finger to its lips. Be quiet. Something is walking down the hallway.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "11.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I heard slow footsteps. Behind me. Getting closer. And in the glass, the reflection was shaking its head. Slowly. Pleading.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "20.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you smash the mirror, or leave it?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "SMASH  or  LEAVE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "11.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 2:31 in the morning, my reflection blinked after I… 🪞 A: smash it or B: leave? Comment A or B 👇 Want Part 2? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My reflection blinked late 🪞",
+  "firstCommentText": "Would you stay and watch? 👇",
+  "cover_ms": 1500
+ }
+}

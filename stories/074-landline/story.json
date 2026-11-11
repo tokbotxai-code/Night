@@ -1,0 +1,219 @@
+{
+ "id": "074-landline",
+ "title": "My landline rang. I don't have one ☎️",
+ "tts": "kokoro",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 2:46 in the morning, my landline rang. I do not have a landline.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 2:46 in the morning, my landline rang. I do not have a landline.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The ringing came from inside the hallway wall. An old, trembling ring, like a bell under water.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I pressed my ear to the wallpaper. It was warm. The ringing was right under my cheek.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "It stopped after eight rings. Silence. Then my mobile lit up. Missed call. Home.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Home. The contact I have never saved. I called back. The wall began to ring again.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "heartbeat",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Someone picked up. Only breathing. Slow. Steady. And the faint hum of a fridge. My fridge.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "06.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I walked into the kitchen. The wall by the fridge was warm too. The breathing was in my phone, and in the room.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "creak",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "A voice whispered. Mine. Do not answer this number again. I already did.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "06.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 1.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "The call ended. My phone showed the duration. Four years, three months, twelve days. And a new missed call. Calling from inside.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you answer, or unplug it?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "ANSWER  or  UNPLUG",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 2:46 in the morning, my landline rang. I don't even have a… ☎️ A: answer or B: unplug it? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My landline rang. I don't have one ☎️",
+  "firstCommentText": "Would you answer? 👇",
+  "cover_ms": 1500
+ }
+}
