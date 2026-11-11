@@ -116,3 +116,26 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 074 | 074-landline | Samodzielny; hook z urządzeniem (telefon stacjonarny) 2:46; Kokoro | 72,9 s | 17.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3413415877388055680) |
 | 075 | 075-delivery-inside | Samodzielny; hook z urządzeniem (dostawa jedzenia) 12:34; Kokoro | 77,6 s | 17.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4185504637756657585) |
 | 076 | 076-smart-meter | Samodzielny (UK); hook z urządzeniem (licznik energii) 3:14; Kokoro bm_george | 86,2 s | 17.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-6356630478174662824) |
+
+
+## Kadry z `_bank` użyte w filmach 059–076 (11.11)
+| film | kadry |
+|---|---|
+| 059-window-across | 01, 02, 09, 10, 15, 25 |
+| 060-memory-tomorrow | 01, 02, 03, 07, 08, 10, 16 |
+| 061-harrow-court-rules | 04, 05, 07, 21, 28 |
+| 062-hallway-camera | 02, 04, 05, 07, 10, 16 |
+| 063-dash-cam | 12, 13, 14, 19, 24 |
+| 064-thermostat-guest | 04, 05, 06, 10, 16 |
+| 065-rideshare-waiting | 12, 14, 16, 19, 24 |
+| 066-smart-lock-log | 04, 05, 07, 10, 16 |
+| 067-voice-memo | 01, 02, 10, 16 |
+| 068-sticky-note | 04, 05, 06, 08 |
+| 069-neighbour-alert | 04, 05, 12, 13, 16, 19 |
+| 070-grandma-wifi | 01, 02, 05, 10, 16 |
+| 071-late-reflection | 02, 11, 20 |
+| 072-roof-alarm | 01, 02, 13, 16, 17 |
+| 073-wash-house-rules | 18, d-laundromat |
+| 074-landline | 04, 05, 06, 08, 16 |
+| 075-delivery-inside | 04, 05, 06, 08 |
+| 076-smart-meter | 01, 02, 05, 10, 16 |
