@@ -48,31 +48,13 @@
    ]
   },
   {
-   "narration": "A photo. A dark landing. A figure standing at my front door. Hand raised, ready to knock.",
+   "narration": "A photo. A dark landing. A figure at my front door. Hand raised, ready to knock.",
    "pre": 0.1,
    "post": 0.5,
    "shots": [
     {
      "image_file": "04.jpg",
      "motion": "zoom_in"
-    }
-   ],
-   "sfx": [
-    {
-     "type": "drone",
-     "at": 0.0,
-     "until": "end"
-    }
-   ]
-  },
-  {
-   "narration": "Posted by, anonymous neighbour. Four comments. One said, this person has been here every night this week.",
-   "pre": 0.1,
-   "post": 0.5,
-   "shots": [
-    {
-     "image_file": "04.jpg",
-     "motion": "slow_zoom_in"
     }
    ],
    "sfx": [
@@ -102,7 +84,7 @@
    ]
   },
   {
-   "narration": "Another comment appeared. He is still there. Another. Don't open it. Another. He knows you are reading this.",
+   "narration": "A comment appeared. Don't open the door. Another. He knows you are reading this.",
    "pre": 0.1,
    "post": 0.5,
    "shots": [
@@ -137,7 +119,7 @@
    ]
   },
   {
-   "narration": "I turned around. The window behind me was dark. A new notification. Posted by, anonymous neighbour. A second photo.",
+   "narration": "I turned around. A new notification. A second photo.",
    "pre": 0.1,
    "post": 0.5,
    "shots": [
