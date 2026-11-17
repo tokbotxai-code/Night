@@ -116,6 +116,9 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 074 | 074-landline | Samodzielny; hook z urządzeniem (telefon stacjonarny) 2:46; Kokoro | 72,9 s | 17.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3413415877388055680) |
 | 075 | 075-delivery-inside | Samodzielny; hook z urządzeniem (dostawa jedzenia) 12:34; Kokoro | 77,6 s | 17.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4185504637756657585) |
 | 076 | 076-smart-meter | Samodzielny (UK); hook z urządzeniem (licznik energii) 3:14; Kokoro bm_george | 86,2 s | 17.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-6356630478174662824) |
+| 077 | 077-elevator-ninth | Samodzielny; hook z urządzeniem (winda, dziewiąte piętro) 2:40; kadry z banku; Qwen am_michael; długi | 67,6 s | 18.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-2868938900292287114) |
+| 078 | 078-library-overdue | Samodzielny; hook z urządzeniem (aplikacja biblioteki) 1:12; kadry z banku; Qwen am_michael; długi | 63,9 s | 18.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=8975290804953303166) |
+| 079 | 079-bus-eleven-aboard | Samodzielny (UK); hook zdarzenie (kierowca liczy pasażerów) 11:48 wieczorem; kadry z banku; Qwen bm_george; długi | 64,3 s | 18.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5974504078372748424) |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
