@@ -123,6 +123,8 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 081 | 081-photos-of-me-sleeping | Samodzielny; hook z urządzeniem (zdjęcia telefonu) 4:44; kadry z banku; Qwen am_michael; długi | 67,4 s | 19.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4439877458670210177) |
 | 082 | 082-radio-route | Samodzielny (UK); hook z urządzeniem (radio w aucie) 12:20 w nocy; kadry z banku; Qwen bm_george; długi | 63,6 s | 19.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=138676244095651247) |
 | 083 | 083-pet-camera | Samodzielny; hook z urządzeniem (kamera dla zwierząt) 3:30; kadry z banku; Qwen am_michael; długi | 64,3 s | 20.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4655479473874749393) |
+| 084 | 084-two-heartbeats | Samodzielny; hook z urządzeniem (opaska fitness) 5:12; kadry z banku; Qwen am_michael; długi | 67,6 s | 20.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=6826577197642958746) |
+| 085 | 085-vacuum-new-room | Samodzielny (UK); hook z urządzeniem (robot sprzątający) 2:10; kadry z banku; Qwen bm_george; długi | 69,0 s | 20.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5697115122307676979) |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
