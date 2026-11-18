@@ -130,6 +130,7 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 087 | 087-sat-nav-arrived | Samodzielny (UK); hook z urządzeniem (nawigacja) 1:45; kadry z banku; Qwen bm_george; długi | 63,8 s | 21.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-7677674011252536716) |
 | 089 | 089-memory-from-tomorrow | Samodzielny; hook z urządzeniem (wspomnienie z jutra) 3:33; kadry z banku; Qwen am_michael; długi | 64,5 s | 22.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4253240296683684014) |
 | 091 | 091-tv-shows-my-room | Samodzielny; hook z urządzeniem (telewizor) 2:58; kadry z banku; Qwen am_michael; długi | 69,1 s | 22.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=7259121298359469731) |
+| 090 | 090-air-purifier-two | Samodzielny (UK); hook z urządzeniem (oczyszczacz powietrza) 4:05; kadry z banku; Qwen bm_george; długi | 71,9 s | 22.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-4522700726920590298) |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
