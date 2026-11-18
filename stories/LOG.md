@@ -135,6 +135,7 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 093 | 093-save-file-my-name | Samodzielny; hook z urządzeniem (konsola do gier) 1:36; kadry z banku; Qwen am_michael; długi | 71,7 s | 23.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-761700902909164391) |
 | 094 | 094-doorbell-inside | Samodzielny (UK); hook z urządzeniem (dzwonek do drzwi) 2:09; kadry z banku; Qwen bm_george; długi | 63,7 s | 23.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=3224097595656391129) |
 | 095 | 095-inspection-station-rules | Samodzielny; wariant „instrukcja pracy” (2. osoba, stacja kontroli pojazdów); kadry z banku (d-parking, 12, 13); Qwen am_michael; długi | 64,6 s | 24.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4789424210547917547) |
+| 096 | 096-lullaby | Samodzielny; hook zdarzenie (kołysanka siostrzenicy) 3:40; kadry z banku; Qwen am_michael; długi; po 1 poprawce (dopisane zdania, film miał 60,0 s) | 69,1 s | 24.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=2801923473437967762) |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
