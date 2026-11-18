@@ -66,6 +66,18 @@
    ]
   },
   {
+   "narration": "In my gran's flat the radiator hummed that tune every winter. I had forgotten it completely, until my niece, who has never met her, sang it note for note.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
    "narration": "I opened an old video on my phone. The only one I have of my gran. She was humming. The same notes. The same slow tune.",
    "pre": 0.1,
    "post": 0.5,
