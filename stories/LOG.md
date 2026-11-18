@@ -125,6 +125,8 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 083 | 083-pet-camera | Samodzielny; hook z urządzeniem (kamera dla zwierząt) 3:30; kadry z banku; Qwen am_michael; długi | 64,3 s | 20.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4655479473874749393) |
 | 084 | 084-two-heartbeats | Samodzielny; hook z urządzeniem (opaska fitness) 5:12; kadry z banku; Qwen am_michael; długi | 67,6 s | 20.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=6826577197642958746) |
 | 085 | 085-vacuum-new-room | Samodzielny (UK); hook z urządzeniem (robot sprzątający) 2:10; kadry z banku; Qwen bm_george; długi | 69,0 s | 20.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5697115122307676979) |
+| 086 | 086-stand-up-reminder | Samodzielny; hook z urządzeniem (smartwatch, wstań) 3:00; kadry z banku; Qwen am_michael; długi | 66,0 s | 21.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-3160262631242251122) |
+| 088 | 088-extra-participant | Samodzielny; hook z urządzeniem (wideorozmowa) 2:22; kadry z banku; Qwen am_michael; długi | 68,1 s | 21.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=-5622886101253141260) |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
