@@ -153,7 +153,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "TURN ROUND  or  STARE AHEAD",
+     "text": "TURN ROUND  or  STARE",
      "at_word": "turn",
      "until": "end"
     }
@@ -173,7 +173,7 @@
   }
  ],
  "post": {
-  "caption": "At 2:14 in the morning my smart speaker asked why I had moved the sofa… 🛋️ A: turn round or B: stare ahead? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "caption": "At 2:14 in the morning my smart speaker asked why I had moved the sofa… 🛋️ A: turn round or B: stare? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
   "tiktok_title": "My smart speaker asked why I moved the sofa 🛋️",
   "firstCommentText": "Would you turn round? 👇",
   "cover_ms": 1500

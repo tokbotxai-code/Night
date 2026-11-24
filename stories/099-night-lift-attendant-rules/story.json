@@ -145,7 +145,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "OPEN THE DOORS  or  RIDE UP",
+     "text": "OPEN UP  or  RIDE",
      "at_word": "open",
      "until": "end"
     }

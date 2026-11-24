@@ -149,7 +149,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "LOOK INSIDE  or  RUN",
+     "text": "LOOK  or  RUN",
      "at_word": "look",
      "until": "end"
     }

@@ -149,7 +149,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "RUN OUT  or  LOCK THE BATHROOM",
+     "text": "RUN OUT  or  HIDE",
      "at_word": "run",
      "until": "end"
     }

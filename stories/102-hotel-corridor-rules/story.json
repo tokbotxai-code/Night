@@ -145,7 +145,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "GO UP  or  HAND IN KEYS",
+     "text": "GO UP  or  QUIT",
      "at_word": "go",
      "until": "end"
     }
