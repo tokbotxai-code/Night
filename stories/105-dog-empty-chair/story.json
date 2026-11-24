@@ -1,0 +1,177 @@
+{
+ "id": "105-dog-empty-chair",
+ "title": "My dog wagged his tail at an empty chair 🐕",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 4:04 in the morning my dog barked at the empty chair, then started wagging his tail.",
+ "hook_scenes": 1,
+ "hook_type": "event (animal)",
+ "scenes": [
+  {
+   "narration": "At 4:04 in the morning my dog barked at the empty chair, then started wagging his tail.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "26.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "He is a nervous old dog. He barks at strangers and shakes at thunder. But he walked up to the chair, sat down in front of it, and put his paw up as if to shake hands.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "26.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I told him to come away. He did not look at me. His eyes followed something that rose from the seat, and stopped about a foot above his head.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I turned on the lamp. The chair was empty. The cushion, though, had a shallow dip in it, as if somebody had just stood up.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "26.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "My dog trotted to the hallway, looked back at me, and waited. He does that when he wants me to follow him. I followed him.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "He led me to the spare bedroom and sat down at the foot of the bed. It was made. It was dusty. Nobody had slept in it since my father died.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "On the pillow was a dent, still warm. On the wall my dog's shadow was there, and next to it a second, taller shadow, with a hand resting on his head.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "01.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "My dog wagged his tail and looked up at me, proud. And my father's voice said, from right behind my shoulder, he waited for you, son.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you turn round, or keep your eyes on the shadow?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "TURN ROUND  or  STARE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 4:04 in the morning my dog barked at the empty chair, then started wagging… 🐕 A: turn round or B: stare? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My dog wagged his tail at an empty chair 🐕",
+  "firstCommentText": "Would you turn round? 👇",
+  "cover_ms": 1500
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "id": "103-headphones-recording",
+ "title": "My headphones played a recording of me sleeping 🎧",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 3:02 in the morning my headphones started playing a recording of me sleeping.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 3:02 in the morning my headphones started playing a recording of me sleeping.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I had fallen asleep with them on the bedside table, not in my ears. The sound came out thin and small, like a voice in a tin can.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I listened. My breathing, slow and even. Then, under it, a second breath. A fraction of a second behind mine, like an echo that had learned to walk.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "01.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I pressed stop. The recording kept going. I pulled out the cable. It kept going. I put the headphones in the drawer and the sound followed me down the hall.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "In the kitchen I picked up the phone. The voice memo app was open, and a file was recording. Duration, four hours and nineteen minutes. Started at midnight.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "08.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I tapped the waveform to see where the second breath began. A tiny flag sat on the timeline. Added by you, three nights ago.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "03.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I did not add anything three nights ago. I did not know anyone else had the app open. I held the phone to my ear and heard my own voice whispering, he is awake now.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "The recording stopped. The kitchen light blinked once. And in the hallway, very softly, someone began to breathe in time with me.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "07.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you answer the voice, or wait for it to speak again?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "ANSWER  or  WAIT",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 3:02 in the morning my headphones started playing a recording of… 🎧 A: answer or B: wait? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My headphones played a recording of me sleeping 🎧",
+  "firstCommentText": "Would you answer? 👇",
+  "cover_ms": 1500
+ }
+}

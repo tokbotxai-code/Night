@@ -1,0 +1,177 @@
+{
+ "id": "104-neighbour-wall",
+ "title": "My neighbour asked me to stop pacing 🚪",
+ "tts": "qwen",
+ "voice": "bm_george",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 2:50 in the morning my neighbour knocked on the wall and asked me to stop pacing.",
+ "hook_scenes": 1,
+ "hook_type": "event (neighbour)",
+ "scenes": [
+  {
+   "narration": "At 2:50 in the morning my neighbour knocked on the wall and asked me to stop pacing.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I was lying in bed. I had not moved in an hour. I live in a block of flats, and the wall between us is so thin I can hear him turn the pages of his paper.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "01.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I called through the wall and said it was not me. He knocked again, three taps, and said, then who is walking round your flat in your slippers?",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I listened. At first there was nothing. Then I heard it. Slow steps in the hallway, the soft flap of a heel against a slipper, exactly the way I walk.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "The steps stopped outside my bedroom. The door handle dipped by a few millimetres, and rose again. Like somebody testing whether it was locked.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "My neighbour knocked a fourth time, quietly this time. He whispered, I have been listening to you walk every night for a month, and some nights there are two of you.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I asked which night was the first. He took a long time to answer. He said, the night you came home and told me you had lost your keys.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "16.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I have never lost my keys. And I have never spoken to the man next door. The handle dipped once more, and a voice outside my door said, in my voice, please let me in.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you open the door, or knock back on the wall?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "OPEN  or  KNOCK BACK",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 2:50 in the morning my neighbour knocked on the wall and asked me to… 🚪 A: open or B: knock back? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My neighbour asked me to stop pacing 🚪",
+  "firstCommentText": "Would you open it? 👇",
+  "cover_ms": 1500
+ }
+}
