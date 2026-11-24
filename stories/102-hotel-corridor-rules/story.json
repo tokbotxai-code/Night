@@ -146,7 +146,7 @@
     {
      "kind": "choice",
      "text": "GO UP  or  QUIT",
-     "at_word": "go",
+     "at_word": "take",
      "until": "end"
     }
    ]
