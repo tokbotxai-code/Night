@@ -243,3 +243,11 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Każdy zauważony błąd, usterkę lub niespójność naprawiasz od razu, w tej samej sesji. Nie zostawiaj niczego „na później”, nie pytaj. Wszystko ma być „tip top”.
 - Wynik audytu obsługujesz do końca: naprawa, wdrożenie, kontrola. W raporcie nie ma sekcji „niezrobione”, chyba że wymaga konta, PIN-u lub kliknięcia właściciela.
 - Modele sesji: `claude-sonnet-5-5`, effort low.
+
+## Render w tle: jak nie tracić filmów (decyzja właściciela 24.11, po dwóch przerwanych renderach)
+- Restart środowiska sesji (ponowne łączenie MCP, komunikaty o odłączeniu serwerów) zabija procesy odpalone ręcznie w tle (`&`, `nohup`, `setsid`): 24.11 render 101/102 padł dwa razy w środku klatek. **Nie uruchamiaj renderów przez `&`/`nohup`/`setsid`.**
+- Renderuj jako zadanie zarządzane przez narzędzie: Bash z `run_in_background: true` (wynik przychodzi jako powiadomienie), albo na pierwszym planie z długim `timeout`. Jeden film po drugim, nigdy dwa naraz (CPU).
+- Render jest wznawialny: lektor jest w `output/<id>/cache` (jedno zdanie = jeden plik), więc powtórka po awarii trwa kilka minut, nie 13. Po awarii po prostu uruchom `python3 tools/make_video.py stories/<id>/story.json` jeszcze raz. Niedokończony `final.mp4` (kilka bajtów lub brak „done ->” w logu) nigdy nie idzie do planu.
+- Przed planowaniem sprawdź: log kończy się „done ->”, `ffprobe` daje 61–90 s, arkusz klatek obejrzany, a `python3 tools/upload_media.py <id>` wypisał adres (przy błędzie `git fetch` na branch `media` ponów, nie uruchamiaj dwóch uploadów naraz).
+- Przy dłuższej kolejce ustaw `send_later` co ok. 20–30 min z poleceniem „sprawdź render, w razie awarii uruchom ponownie, potem zaplanuj”, żeby praca szła sama bez właściciela (zasada 5 h z CLAUDE.md Pepsafe).
+- Teksty wyboru na końcu (`overlays.choice`) max ok. 22 znaków w jednej linii (np. „TURN ROUND  or  STARE”), inaczej zawijają się na napisy.
