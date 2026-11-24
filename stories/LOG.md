@@ -142,6 +142,9 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 100 | 100-bus-stop-timetable | Samodzielny (UK); hook z przedmiotem (rozkład jazdy) 1:48; kadry z banku; Qwen bm_george; długi | 66,1 s | 26.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 |
 | 101 | 101-fridge-light-counting | Samodzielny; hook z urządzeniem (światło lodówki) 3:21; kadry z banku; Qwen am_michael; długi | 67,5 s | 26.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 |
 | 102 | 102-hotel-corridor-rules | Samodzielny; wariant „instrukcja pracy” (2. osoba, nocny portier hotelu); kadry z banku; Qwen am_michael; długi | 74,1 s | 26.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 |
+| 103 | 103-headphones-recording | Samodzielny; hook z urządzeniem (słuchawki) 3:02; kadry z banku; Qwen am_michael; długi | 76,7 s | 27.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 |
+| 105 | 105-dog-empty-chair | Samodzielny; hook ze zwierzęciem (pies, puste krzesło) 4:04; kadry z banku; Qwen am_michael; długi | 74,0 s | 27.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 |
+| 104 | 104-neighbour-wall | Samodzielny (UK); hook z sąsiadem (pukanie w ścianę) 2:50; kadry z banku; Qwen bm_george; długi | 78,1 s | 27.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
