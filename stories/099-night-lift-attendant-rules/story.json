@@ -1,0 +1,173 @@
+{
+ "id": "099-night-lift-attendant-rules",
+ "title": "Rules for the night lift attendant 🛗",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "You have been hired as the night lift attendant at an empty office tower.",
+ "hook_scenes": 1,
+ "hook_type": "rules (2nd person)",
+ "scenes": [
+  {
+   "narration": "You have been hired as the night lift attendant at an empty office tower. Read the rules before your first shift.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Rule one. The building is empty after ten. Your only job is to keep lift two in service. Lift one is out of order. Never ride it.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Rule two. If lift two stops on a floor you did not press, do not open the doors. Wait for it to move on.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "21.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule three. If you hear someone call your name from the shaft, answer once, quietly, and only with your first name.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Rule four. Lift buttons above the fortieth floor are painted over. If one is lit, you did not see it.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule five. A man in a grey coat may ask for the forty first floor. He is allowed to ride. He is the only one who is.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "21.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Tonight lift two stopped on forty one. The doors stayed shut. Through the gap I heard my own voice, calling me by my full name.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Rule six was missing from your sheet. I found it on the back, in my handwriting. Rule six. The attendant on duty is always the one in the grey coat.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you open the doors, or ride up alone?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "OPEN THE DOORS  or  RIDE UP",
+     "at_word": "open",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Job alert: we're looking for a night lift attendant at an empty office tower 🇺🇸🇬🇧 A: follow the rules or B: break rule two? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Rules for the night lift attendant 🛗",
+  "firstCommentText": "Would you take the job? 👇",
+  "cover_ms": 1500
+ }
+}

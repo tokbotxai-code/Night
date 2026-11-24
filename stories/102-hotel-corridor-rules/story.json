@@ -1,0 +1,173 @@
+{
+ "id": "102-hotel-corridor-rules",
+ "title": "Rules for the night porter at the Alder Court 🏨",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "You have been hired as the night porter at a hotel with one empty floor.",
+ "hook_scenes": 1,
+ "hook_type": "rules (2nd person)",
+ "scenes": [
+  {
+   "narration": "You have been hired as the night porter at a hotel with one empty floor. Read these rules before you start.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Rule one. The hotel has eight floors. Guests may only ask for floors one to seven. If someone asks for eight, say it is closed for cleaning.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Rule two. At two in the morning, the corridor lights on floor eight will switch on by themselves. Do not go and turn them off.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule three. If you hear a trolley on eight, it is the cleaner. You do not have a cleaner on nights. Do not speak to the cleaner.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Rule four. Room eight hundred and four has a guest. The guest has been in the room since before the hotel was built. Do not knock.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "Rule five. If room eight hundred and four rings the front desk, answer on the third ring, and only say, how can I help.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Tonight at two the phone rang. Three rings. I answered. A calm voice said, I would like my floor back. It was reading from the rulebook, in my voice.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "There is a sixth rule, written in pencil under the desk. Rule six. The night porter is the guest in eight hundred and four.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you take the lift to floor eight, or hand in your keys?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "GO UP  or  HAND IN KEYS",
+     "at_word": "go",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "Job alert: we're looking for a night porter at a hotel with one empty floor 🇺🇸🇬🇧 A: follow the rules or B: break rule four? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Rules for the night porter at the Alder Court 🏨",
+  "firstCommentText": "Would you take the job? 👇",
+  "cover_ms": 1500
+ }
+}
