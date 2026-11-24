@@ -136,6 +136,9 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 094 | 094-doorbell-inside | Samodzielny (UK); hook z urządzeniem (dzwonek do drzwi) 2:09; kadry z banku; Qwen bm_george; długi | 63,7 s | 23.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=3224097595656391129) |
 | 095 | 095-inspection-station-rules | Samodzielny; wariant „instrukcja pracy” (2. osoba, stacja kontroli pojazdów); kadry z banku (d-parking, 12, 13); Qwen am_michael; długi | 64,6 s | 24.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=4789424210547917547) |
 | 096 | 096-lullaby | Samodzielny; hook zdarzenie (kołysanka siostrzenicy) 3:40; kadry z banku; Qwen am_michael; długi; po 1 poprawce (dopisane zdania, film miał 60,0 s) | 69,1 s | 24.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 | [planner](https://app.metricool.com/planner/calendar?blogId=7593858&openWithPostUuid=2801923473437967762) |
+| 098 | 098-alarm-never-set | Samodzielny; hook z urządzeniem (alarm telefonu) 3:52; kadry z banku; Qwen am_michael; długi; po 1 poprawce (krótszy tekst wyboru) | 68,8 s | 25.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 |
+| 099 | 099-night-lift-attendant-rules | Samodzielny; wariant „instrukcja pracy” (2. osoba, nocny windziarz); kadry z banku; Qwen am_michael; długi; po 1 poprawce | 71,9 s | 25.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 |
+| 097 | 097-smart-speaker-sofa | Samodzielny (UK); hook z urządzeniem (głośnik) 2:14; kadry z banku; Qwen bm_george; długi; po 2 poprawkach (tekst wyboru) | 67,6 s | 25.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
