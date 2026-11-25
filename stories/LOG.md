@@ -150,6 +150,13 @@ Seria „The Quiet Floor”: Post 1 = 015 (urwana sprawa: ktoś odebrał telefon
 | 108 | 108-launderette-dryer | Samodzielny (UK); hook z miejscem (pralnia) 1:12; kadry z banku; Qwen bm_george; długi | 72,8 s | 28.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 |
 | 109 | 109-wedding-photo-extra | Samodzielny; hook ze zdjęciem (dodatkowy gość) 3:09; kadry z banku; Qwen am_michael; długi | 71,0 s | 29.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 |
 | 110 | 110-voicemail-from-me | Samodzielny; hook z urządzeniem (telefon, własny numer) 4:18; kadry z banku; Qwen am_michael; długi | 79,0 s | 29.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 |
+| 111 | 111-bus-driver-stop | Samodzielny (UK); hook z miejscem publicznym (nocny autobus) 1:55; kadry z banku; Qwen bm_george; długi | 78,6 s | 29.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 |
+| 112 | 112-smart-plug-counting | Samodzielny; hook z urządzeniem (inteligentna wtyczka) 3:27; kadry z banku; Qwen am_michael; długi | 79,9 s | 30.11 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 |
+| 113 | 113-library-return-slip | Samodzielny; hook z miejscem (biblioteka, wrzutnia) 2:08; kadry z banku; Qwen am_michael; długi | 85,0 s | 30.11 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 |
+| 114 | 114-allotment-shed-light | Samodzielny (UK); hook z miejscem (szopa na działce) 4:36; kadry z banku; Qwen bm_george; długi | 84,2 s | 30.11 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 |
+| 115 | 115-lift-music-eleven | Samodzielny; hook z miejscem (winda, piętro 11) 1:33; kadry z banku; Qwen am_michael; długi | 80,7 s | 1.12 00:00 UK TikTok + IG 00:01 | zaplanowany, ocena 8 |
+| 116 | 116-night-shift-radio-voice | Samodzielny; hook z urządzeniem (radio w pracy) 3:00; kadry z banku; Qwen am_michael; długi | 72,8 s | 1.12 03:00 UK TikTok + IG 03:01 | zaplanowany, ocena 8 |
+| 117 | 117-flat-below-knocking | Samodzielny (UK); hook z sąsiadem pod podłogą 2:42; kadry z banku; Qwen bm_george; długi | 82,8 s | 1.12 20:00 UK TikTok + IG 20:01 | zaplanowany, ocena 8 |
 
 
 ## Kadry z `_bank` użyte w filmach 059–076 (11.11)
