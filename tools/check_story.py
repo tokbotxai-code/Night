@@ -9,7 +9,7 @@ for path in sys.argv[1:]:
     sc = s['scenes']
     words = sum(len(x.get('narration', '').split()) for x in sc)
     if not 160 <= words <= 250: errs.append(f'words {words} (target 160-250)')
-    first = sc[0]['narration'].strip()
+    first = re.split(r'(?<=[.!?])\s+', sc[0]['narration'].strip())[0]
     if s.get('hook_text', '').strip() != first: errs.append('hook_text differs from first sentence')
     for i, x in enumerate(sc):
         nar = x.get('narration', '').lower()
