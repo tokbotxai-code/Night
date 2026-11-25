@@ -251,3 +251,8 @@ Znaczniki czasu: `at` to sekundy od początku sceny albo `"end"` (koniec lektora
 - Przed planowaniem sprawdź: log kończy się „done ->”, `ffprobe` daje 61–90 s, arkusz klatek obejrzany, a `python3 tools/upload_media.py <id>` wypisał adres (przy błędzie `git fetch` na branch `media` ponów, nie uruchamiaj dwóch uploadów naraz).
 - Przy dłuższej kolejce ustaw `send_later` co ok. 20–30 min z poleceniem „sprawdź render, w razie awarii uruchom ponownie, potem zaplanuj”, żeby praca szła sama bez właściciela (zasada 5 h z CLAUDE.md Pepsafe).
 - Teksty wyboru na końcu (`overlays.choice`) max ok. 22 znaków w jednej linii (np. „TURN ROUND  or  STARE”), inaczej zawijają się na napisy.
+
+## Kontrola przed renderem i zasady higieny (decyzja właściciela 25.11, po błędach z planu tygodniowego)
+- Przed każdym renderem uruchom `python3 tools/check_story.py stories/<id>/story.json` (kod 1 = popraw): sprawdza liczbę słów, zgodność hooka z pierwszym zdaniem, obecność `at_word` w narracji, tekst wyboru (jedna linia, max 24 znaki), brak „a.m./p.m.” i dokładnie 5 hashtagów.
+- Nie uruchamiaj skryptów repo „na próbę” bez czytania kodu (mogą zapisywać pliki). Niczego nie kasuj bez `git status`; dane tymczasowe trzymaj w nowym, pustym katalogu, nie w starym /tmp.
+- Raport najpierw podaje pokrycie dni (które dni mają komplet postów), dopiero potem „gotowe”.
