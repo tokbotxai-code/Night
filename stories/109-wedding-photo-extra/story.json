@@ -149,7 +149,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "OPEN ALBUM  or  WAKE HIM",
+     "text": "OPEN  or  WAKE HIM",
      "at_word": "tell",
      "until": "end"
     }

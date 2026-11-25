@@ -1,0 +1,177 @@
+{
+ "id": "113-library-return-slip",
+ "title": "Someone returned a book I never borrowed 📚",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 2:08 in the morning the library returns slot clicked, and the book that dropped out had my name in it.",
+ "hook_scenes": 1,
+ "hook_type": "event (place)",
+ "scenes": [
+  {
+   "narration": "At 2:08 in the morning the library returns slot clicked, and the book that dropped out had my name in it.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "d-library.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I work nights as the cleaner there. The building was locked. The returns box sits in the wall by the desk, and nobody can reach it from outside.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-library.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "The book was old, with a cloth cover and no title. On the inside page, in blue pen, my name and the date of my birth. And a stamp. Borrowed.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "23.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The borrowing card showed one line a day, going back thirty years. Same handwriting each time. Returned. Returned. Returned. Today the line was empty.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-library.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I walked the aisles with my torch. Every shelf had a gap, a book-sized gap at exactly my height, as if somebody had been pulling out pieces of me.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "23.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "At the end of the last aisle sat the desk lamp, switched on. In its light a tiny trolley stood waiting, loaded with books, each with my name.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-library.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "The returns slot clicked again. Another book. I opened the cover. The first line said, the cleaner was last seen locking up the library at two in the morning.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "23.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "I turned the page. The next line said, he is still locking up, and the one after said, he cannot find the door, and the last line was written in fresh, wet ink.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-library.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you read the last line, or close the book?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "READ IT  or  CLOSE IT",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "23.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 2:08 in the morning the library returns slot clicked, and the book that… 📚 A: read it or B: close it? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Someone returned a book I never borrowed 📚",
+  "firstCommentText": "Would you read it? 👇",
+  "cover_ms": 1500
+ }
+}

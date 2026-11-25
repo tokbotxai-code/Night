@@ -1,0 +1,177 @@
+{
+ "id": "115-lift-music-eleven",
+ "title": "The lift music played one floor too high 🛗",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 1:33 in the morning the lift in my building played music and stopped at floor eleven. We only have ten.",
+ "hook_scenes": 1,
+ "hook_type": "event (place)",
+ "scenes": [
+  {
+   "narration": "At 1:33 in the morning the lift in my building played music and stopped at floor eleven. We only have ten.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I pressed the button for my own floor. The display climbed past nine, past ten, and showed a number it should not be able to make. Eleven.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "The doors opened onto a corridor I had never seen. Warm light. Soft carpet. A smell of fresh paint. At the far end, a door standing ajar.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I did not get out. The doors stayed open and the music grew louder. A slow tune, the sort people hum while they wait for somebody.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "A man in a grey cardigan walked slowly down the corridor, holding a tray. He said, there you are, I was starting to worry. Your flat is ready.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I told him I lived on ten. He smiled. He said, nobody lives on ten. Ten is where we keep the people who are not ready yet to come upstairs.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I pressed the button for the ground floor, again and again. The doors began to close. The man put out his hand, gently, and held them open.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "28.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "He said, take your time, we have all night. And the lift floor tilted, very slightly, as if the whole building was leaning towards me.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you step out, or keep pressing the button?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "STEP OUT  or  PRESS",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "d-elevator.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 1:33 in the morning the lift in my building stopped at floor eleven… 🛗 A: step out or B: press the button? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "The lift music played one floor too high 🛗",
+  "firstCommentText": "Would you step out? 👇",
+  "cover_ms": 1500
+ }
+}

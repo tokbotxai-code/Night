@@ -1,0 +1,177 @@
+{
+ "id": "117-flat-below-knocking",
+ "title": "Someone below me knocked back 🔨",
+ "tts": "qwen",
+ "voice": "bm_george",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 2:42 in the morning I knocked on my floor, and somebody knocked back from underneath.",
+ "hook_scenes": 1,
+ "hook_type": "event (neighbour)",
+ "scenes": [
+  {
+   "narration": "At 2:42 in the morning I knocked on my floor, and somebody knocked back from underneath.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I live on the ground floor of a small block. Under my flat is the foundation and a crawl space the size of a coffin, sealed since the day I moved in.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I had been woken by a scratching noise, a patient little scrape, like a spoon on a tin. I rapped on the boards. Three knocks came back, perfectly timed.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "01.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "I knocked twice. They knocked twice. I knocked four. They knocked four, and a thin voice came up through the floor, saying, finally, you heard me.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I pulled up the rug. The old hatch to the crawl space was there, painted shut. Fresh scratches ran around its edge, dozens of them, from underneath.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The voice said, I have been knocking for eleven years. The woman who lived here before you always turned the telly up. You were the first to listen.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I asked who was down there. It laughed, softly. It said, nobody, anymore, only me, and the hatch, and the hall light that you leave on all night.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Then the paint around the hatch cracked, and the lid lifted by a finger's width, and cold air breathed out of it, smelling of damp earth and my own washing powder.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you pull the hatch open, or leave it shut?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "OPEN HATCH  or  LEAVE",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "10.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 2:42 in the morning I knocked on my floor, and somebody knocked back… 🔨 A: open the hatch or B: leave it? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "Someone below me knocked back 🔨",
+  "firstCommentText": "Would you open it? 👇",
+  "cover_ms": 1500
+ }
+}

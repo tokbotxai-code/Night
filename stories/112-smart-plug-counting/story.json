@@ -1,0 +1,177 @@
+{
+ "id": "112-smart-plug-counting",
+ "title": "My smart plug turned on by itself and counted down ⏱️",
+ "tts": "qwen",
+ "voice": "am_michael",
+ "speed": 0.9,
+ "style_prompt": "dark blue cinematic night, faceless silhouette, fog, minimal interior, no text, no watermark",
+ "hook_text": "At 3:27 in the morning a smart plug I never installed turned on in my hallway.",
+ "hook_scenes": 1,
+ "hook_type": "event (device)",
+ "scenes": [
+  {
+   "narration": "At 3:27 in the morning a smart plug I never installed turned on in my hallway.",
+   "pre": 0.1,
+   "post": 0.3,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "shake"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    },
+    {
+     "type": "vibrate",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "narration": "I found it glowing by the skirting board, a small white plug with a green light. The app on my phone had already found it and named it for me. Do not unplug.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "Nothing was connected to it. I wrote that down because the whole thing felt like a mistake. Then the green light began to pulse, slowly, like a heartbeat.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "drone",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The app showed a timer. Fourteen minutes and counting. I tried to cancel it. A new message came up. You have a visitor, please prepare the door.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "I checked the front door. Locked, chained, my coat hanging on the hook. Through the spy hole there was only the empty landing and its yellow light.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": 0.0,
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "The timer reached five minutes. The plug began to hum. And the landing light, outside my door, went out, as if something had stepped in front of it.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "slow_zoom_in"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "narration": "One minute. I held the plug in my hand and felt it was warm like skin. The app said, thank you for being home, we have missed you very much.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "05.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "hit",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "Zero. The plug clicked off. Silence. And on the other side of the door a small, polite voice said, hello, I am your plug. I have come to see where the power goes.",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "vibrate",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "narration": "So tell me. Do you open the door, or unplug everything?",
+   "pre": 0.1,
+   "post": 0.6,
+   "shots": [
+    {
+     "black": true
+    }
+   ],
+   "sfx": [],
+   "overlays": [
+    {
+     "kind": "choice",
+     "text": "OPEN  or  UNPLUG",
+     "at_word": "tell",
+     "until": "end"
+    }
+   ]
+  },
+  {
+   "narration": "",
+   "pre": 0.1,
+   "post": 0.5,
+   "shots": [
+    {
+     "image_file": "04.jpg",
+     "motion": "zoom_in"
+    }
+   ],
+   "sfx": []
+  }
+ ],
+ "post": {
+  "caption": "At 3:27 in the morning a smart plug I never installed turned on in my… ⏱️ A: open or B: unplug? Comment A or B 👇 Should I tell you what happened next? Comment YES #horrortok #storytime #horrorstoriestok #scarystories #fyp",
+  "tiktok_title": "My smart plug turned on by itself and counted down ⏱️",
+  "firstCommentText": "Would you open it? 👇",
+  "cover_ms": 1500
+ }
+}

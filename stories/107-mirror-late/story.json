@@ -149,7 +149,7 @@
    "overlays": [
     {
      "kind": "choice",
-     "text": "SMASH IT  or  LIGHTS OFF",
+     "text": "SMASH  or  LIGHTS OFF",
      "at_word": "tell",
      "until": "end"
     }
